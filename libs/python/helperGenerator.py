@@ -59,7 +59,7 @@ class BTPUSECASE_GEN:
         renderTemplateWithJson(templateFile, targetFilename, serviceList)
         log.success("applied SAP BTP service list on template file >" + templateFile + "< and created the target file >" + targetFilename + "<")
 
-    def createBtpServiceTests(self):
+    def createBtpServiceTests(self, region):
         btpservicelist = self.entitledServices.get("btpservicelist")
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
@@ -76,21 +76,29 @@ class BTPUSECASE_GEN:
                         item["category"] = category.get("name")
                         item["service"] = service.get("name")
                         item["plan"] = plan.get("name")
-                        serviceList.append(item)
-                    usecasefile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-usecase.json"
-                    templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
-                    renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList})
+                        supportedInRegion = False
+                        for datacenter in plan.get("dataCenters"):
+                            thisRegion = datacenter.get("region")
+                            if thisRegion == region:
+                                supportedInRegion = True
+                        if supportedInRegion:
+                            serviceList.append(item)
 
-                    parametersfile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-parameters.json"
-                    templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
-                    subaccountname = "BTPSA int test " + category.get("name")
-                    usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-usecase.json"
-                    thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
-                    renderTemplateWithJson(templateFilename, parametersfile, thisItem)
+                    if serviceList and len(serviceList) > 0:
+                        usecasefile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-usecase.json"
+                        templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
+                        renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList})
 
-                    testname = "Entitlement test for " + category.get("name") + " " + service.get("name")
-                    urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-parameters.json"
-                    listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile, "parameterfile": urlParameterFile})
+                        parametersfile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-parameters.json"
+                        templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
+                        subaccountname = "BTPSA int test " + category.get("name")
+                        usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-usecase.json"
+                        thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
+                        renderTemplateWithJson(templateFilename, parametersfile, thisItem)
+
+                        testname = "Entitlement test for " + category.get("name") + " " + service.get("name")
+                        urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-parameters.json"
+                        listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile, "parameterfile": urlParameterFile})
 
                 templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
                 targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-services-test-" + category.get("name").lower() + ".yml"

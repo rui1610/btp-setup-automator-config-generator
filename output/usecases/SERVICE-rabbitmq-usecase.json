@@ -9,22 +9,7 @@
         {
             "category": "SERVICE",
             "name": "rabbitmq",
-            "plan" : "large"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "rabbitmq",
             "plan" : "xsmall"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "rabbitmq",
-            "plan" : "medium"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "rabbitmq",
-            "plan" : "small"
         }
         ]
 }

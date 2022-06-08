@@ -10,21 +10,6 @@
             "category": "SERVICE",
             "name": "postgresql",
             "plan" : "xxsmall"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "postgresql",
-            "plan" : "xsmall"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "postgresql",
-            "plan" : "small"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "postgresql",
-            "plan" : "medium"
         }
         ]
 }

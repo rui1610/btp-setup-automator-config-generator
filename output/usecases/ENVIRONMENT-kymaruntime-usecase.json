@@ -4,17 +4,7 @@
         {
             "category": "ENVIRONMENT",
             "name": "kymaruntime",
-            "plan" : "azure"
-        }, 
-        {
-            "category": "ENVIRONMENT",
-            "name": "kymaruntime",
             "plan" : "aws"
-        }, 
-        {
-            "category": "ENVIRONMENT",
-            "name": "kymaruntime",
-            "plan" : "gcp"
         }, 
         {
             "category": "ENVIRONMENT",

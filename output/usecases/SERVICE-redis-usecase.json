@@ -4,21 +4,6 @@
         {
             "category": "SERVICE",
             "name": "redis",
-            "plan" : "xsmall"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "redis",
-            "plan" : "medium"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "redis",
-            "plan" : "large"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "redis",
             "plan" : "small"
         }
         ]

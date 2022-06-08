@@ -4,11 +4,6 @@
         {
             "category": "SERVICE",
             "name": "spatialservices",
-            "plan" : "standard"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "spatialservices",
             "plan" : "lite"
         }
         ]

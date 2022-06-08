@@ -9,11 +9,6 @@
         {
             "category": "SERVICE",
             "name": "hana-cloud",
-            "plan" : "adaptive-server-enterprise-replication"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "hana-cloud",
             "plan" : "hana-cloud-connection-free"
         }, 
         {
@@ -30,11 +25,6 @@
             "category": "SERVICE",
             "name": "hana-cloud",
             "plan" : "hana-cloud-connection"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "hana-cloud",
-            "plan" : "adaptive-server-enterprise"
         }, 
         {
             "category": "SERVICE",

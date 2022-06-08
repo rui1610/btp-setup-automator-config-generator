@@ -4,16 +4,6 @@
         {
             "category": "SERVICE",
             "name": "enterprise-messaging",
-            "plan" : "event-mesh-connectivity"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "enterprise-messaging",
-            "plan" : "event-mesh-connectivity-beta"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "enterprise-messaging",
             "plan" : "default"
         }
         ]

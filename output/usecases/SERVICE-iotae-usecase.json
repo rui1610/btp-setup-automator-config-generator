@@ -4,11 +4,6 @@
         {
             "category": "SERVICE",
             "name": "iotae",
-            "plan" : "standard"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "iotae",
             "plan" : "default"
         }
         ]

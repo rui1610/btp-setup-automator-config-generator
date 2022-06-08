@@ -92,7 +92,7 @@ class BTPUSECASE_GEN:
 
                 templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
                 targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-services-test-" + category.get("name").lower() + ".yml"
-                renderTemplateWithJson(templateFilename, targetFilename, {"workflowname": "BTPSA integration test for all services of type " + category.get("name"), "usecasetestlist": listUsecaseFiles})
+                renderTemplateWithJson(templateFilename, targetFilename, {"workflowname": "BTPSA tests " + category.get("name"), "usecasetestlist": listUsecaseFiles})
 
 
 def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):

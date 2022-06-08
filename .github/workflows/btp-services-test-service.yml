@@ -1,4 +1,4 @@
-name: BTPSA integration test for all services of type SERVICE
+name: BTPSA tests SERVICE
 # This file represents a complete version of the "BTP Setup Automator" integration tests
 # All tests are executed in sequence on one BTP account to avoid entitlement limits
 # This is why not matrix strategy is used
@@ -18,6 +18,16 @@ jobs:
       BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
       BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
     steps: 
+      - name: 'Entitlement test for SERVICE abap'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/SERVICE-abap-usecase.json'
+      - name: 'Entitlement test for SERVICE abap-solution'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/SERVICE-abap-solution-usecase.json'
       - name: 'Entitlement test for SERVICE ads'
         if: ${{ always() }}
         working-directory: /home/user

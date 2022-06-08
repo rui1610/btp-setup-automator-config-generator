@@ -22,9 +22,9 @@ jobs:
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ENVIRONMENT-cloudfoundry-usecase.json'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ENVIRONMENT-cloudfoundry-parameters.json'
       - name: 'Entitlement test for ENVIRONMENT kymaruntime'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ENVIRONMENT-kymaruntime-usecase.json'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ENVIRONMENT-kymaruntime-parameters.json'

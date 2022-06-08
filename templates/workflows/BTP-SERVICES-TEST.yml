@@ -22,5 +22,5 @@ jobs:
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile '{{ item.usecasefile }}'
+        run: ./btpsa -parameterfile '{{ item.parameterfile }}'
  {%- endfor %}

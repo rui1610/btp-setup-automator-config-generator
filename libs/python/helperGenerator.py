@@ -83,7 +83,7 @@ class BTPUSECASE_GEN:
 
                     parametersfile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-parameters.json"
                     templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
-                    subaccountname = "BTPSA int test " + service.get("name")
+                    subaccountname = "BTPSA int test " + category.get("name")
                     thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
                     renderTemplateWithJson(templateFilename, parametersfile, thisItem)
 

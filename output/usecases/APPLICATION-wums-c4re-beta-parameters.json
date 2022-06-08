@@ -2,6 +2,6 @@
     "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-parameters.json",
     "usecasefile": "./output/usecases/APPLICATION-wums-c4re-beta-usecase.json",
     "loginmethod": "envVariables",
-    "prunesubaccount": true,
-    "subaccountname": "BTPSA int test wums-c4re-beta"
+    "pruneusecase": true,
+    "subaccountname": "BTPSA int test APPLICATION"
 }

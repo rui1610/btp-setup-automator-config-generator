@@ -3,6 +3,11 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "abapcp-web-router",
+            "plan" : "default"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "ads-configui",
             "plan" : "default"
         }

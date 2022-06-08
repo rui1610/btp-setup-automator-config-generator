@@ -3,6 +3,91 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "api-management-apiportal",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "api-management-devportal",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "auditlog-viewer",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "enterprise-messaging-hub",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "extension-center",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "feature-flags-dashboard",
+            "plan" : "dashboard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "it-prod",
+            "plan" : "enterprise"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "ocnselfserviceagent",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "PortalApplication",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "sap-identity-services-onboarding",
+            "plan" : "default"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "sap-identity-services-onboarding",
+            "plan" : "additional-tenant"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "sap-identity-services-onboarding",
+            "plan" : "connectivity"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "sapappstudio",
+            "plan" : "standard-edition"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "SAPLaunchpad",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "SAPLaunchpad",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "SAPWorkZone",
             "plan" : "standard"
         }

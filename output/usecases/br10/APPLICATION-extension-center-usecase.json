@@ -3,6 +3,36 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "api-management-apiportal",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "api-management-devportal",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "auditlog-viewer",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "enterprise-messaging-hub",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "extension-center",
             "plan" : "standard"
         }

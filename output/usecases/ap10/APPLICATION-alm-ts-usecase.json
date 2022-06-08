@@ -3,6 +3,11 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "ai-launchpad",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "alm-ts",
             "plan" : "standard"
         }, 

@@ -3,6 +3,221 @@
     "services": [
         {
             "category": "SERVICE",
+            "name": "abap",
+            "plan" : "abap_compute_unit"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "hana_compute_unit"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "16_abap_64_db"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap-solution",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ads",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "adsrestapi",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "aicore",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "api-management",
+            "plan" : "preview"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apiportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "on-premise-connectivity"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apim-as-route-service"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-devportal",
+            "plan" : "devportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "large"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "auditlog-api",
+            "plan" : "default"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "auditlog-management",
+            "plan" : "default"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "autoscaler",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-proof-of-state"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-proof-of-history"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-timestamp"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-hana-integration"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "business-entity-recognition",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "business-entity-recognition",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "business-rules",
+            "plan" : "basic"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "business-rules",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "cias",
+            "plan" : "oauth2"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "cicd-service",
+            "plan" : "default"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "cis",
+            "plan" : "local"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "cis",
+            "plan" : "central"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "connectivity",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "connectivity",
+            "plan" : "connectivity_proxy"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "content-agent",
+            "plan" : "application"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "content-agent",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "proxy"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "data-attribute-recommendation",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "data-attribute-recommendation",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
             "name": "data-intelligence",
             "plan" : "enterprise"
         }, 

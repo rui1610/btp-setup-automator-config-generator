@@ -3,6 +3,51 @@
     "services": [
         {
             "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apiportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "on-premise-connectivity"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apim-as-route-service"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-devportal",
+            "plan" : "devportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "large"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
             "name": "auditlog-api",
             "plan" : "default"
         }

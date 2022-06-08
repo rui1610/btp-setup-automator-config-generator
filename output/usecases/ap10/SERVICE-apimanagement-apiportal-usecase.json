@@ -3,6 +3,21 @@
     "services": [
         {
             "category": "SERVICE",
+            "name": "aicore",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
             "name": "apimanagement-apiportal",
             "plan" : "apiportal-apiaccess"
         }, 

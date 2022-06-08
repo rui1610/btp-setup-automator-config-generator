@@ -1,0 +1,875 @@
+name: Tests-btp-services-eu10
+# This file represents a complete version of the "BTP Setup Automator" integration tests
+# All tests are executed in sequence on one BTP account to avoid entitlement limits
+# This is why not matrix strategy is used
+# The steps of a job must execute in any case, so we use always()
+
+on:
+  workflow_dispatch:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sap-samples/btp-setup-automator:main
+      options: --user root
+    env:
+      BTPSA_PARAM_MYEMAIL: ${{ secrets.BTPSA_PARAM_MYEMAIL }}
+      BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
+      BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
+    steps: 
+      - name: 'Entitlement test for SERVICE abap in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-abap-parameters.json'
+      - name: 'Entitlement test for SERVICE abap-solution in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-abap-solution-parameters.json'
+      - name: 'Entitlement test for SERVICE ads in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ads-parameters.json'
+      - name: 'Entitlement test for SERVICE adsrestapi in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-adsrestapi-parameters.json'
+      - name: 'Entitlement test for SERVICE aicore in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-aicore-parameters.json'
+      - name: 'Entitlement test for SERVICE alert-notification in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-alert-notification-parameters.json'
+      - name: 'Entitlement test for SERVICE api-management in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-api-management-parameters.json'
+      - name: 'Entitlement test for SERVICE apimanagement-apiportal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-apimanagement-apiportal-parameters.json'
+      - name: 'Entitlement test for SERVICE apimanagement-devportal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-apimanagement-devportal-parameters.json'
+      - name: 'Entitlement test for SERVICE application-logs in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-application-logs-parameters.json'
+      - name: 'Entitlement test for SERVICE ASE_PROVISIONING in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ASE_PROVISIONING-parameters.json'
+      - name: 'Entitlement test for SERVICE auditlog-api in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-auditlog-api-parameters.json'
+      - name: 'Entitlement test for SERVICE auditlog-management in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-auditlog-management-parameters.json'
+      - name: 'Entitlement test for SERVICE autoscaler in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-autoscaler-parameters.json'
+      - name: 'Entitlement test for SERVICE blockchain-services in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-blockchain-services-parameters.json'
+      - name: 'Entitlement test for SERVICE business-entity-recognition in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-business-entity-recognition-parameters.json'
+      - name: 'Entitlement test for SERVICE business-rules in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-business-rules-parameters.json'
+      - name: 'Entitlement test for SERVICE c4-distributed-order-management in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-c4-distributed-order-management-parameters.json'
+      - name: 'Entitlement test for SERVICE cias in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-cias-parameters.json'
+      - name: 'Entitlement test for SERVICE cicd-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-cicd-service-parameters.json'
+      - name: 'Entitlement test for SERVICE cis in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-cis-parameters.json'
+      - name: 'Entitlement test for SERVICE COMPUTE_UNIT in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-COMPUTE_UNIT-parameters.json'
+      - name: 'Entitlement test for SERVICE connectivity in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-connectivity-parameters.json'
+      - name: 'Entitlement test for SERVICE content-agent in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-content-agent-parameters.json'
+      - name: 'Entitlement test for SERVICE conversational-ai in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-conversational-ai-parameters.json'
+      - name: 'Entitlement test for SERVICE credstore in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-credstore-parameters.json'
+      - name: 'Entitlement test for SERVICE data-attribute-recommendation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-data-attribute-recommendation-parameters.json'
+      - name: 'Entitlement test for SERVICE data-intelligence in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-data-intelligence-parameters.json'
+      - name: 'Entitlement test for SERVICE data-privacy-integration-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-data-privacy-integration-service-parameters.json'
+      - name: 'Entitlement test for SERVICE dataenrichment-business-partner in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-dataenrichment-business-partner-parameters.json'
+      - name: 'Entitlement test for SERVICE dateandtime in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-dateandtime-parameters.json'
+      - name: 'Entitlement test for SERVICE destination in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-destination-parameters.json'
+      - name: 'Entitlement test for SERVICE document-classification in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-document-classification-parameters.json'
+      - name: 'Entitlement test for SERVICE document-translation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-document-translation-parameters.json'
+      - name: 'Entitlement test for SERVICE dq-services in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-dq-services-parameters.json'
+      - name: 'Entitlement test for SERVICE enterprise-messaging in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-enterprise-messaging-parameters.json'
+      - name: 'Entitlement test for SERVICE feature-flags in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-feature-flags-parameters.json'
+      - name: 'Entitlement test for SERVICE hana in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-parameters.json'
+      - name: 'Entitlement test for SERVICE hana-cloud in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-cloud-parameters.json'
+      - name: 'Entitlement test for SERVICE hana-db in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-db-parameters.json'
+      - name: 'Entitlement test for SERVICE hana-tenant-db in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-tenant-db-parameters.json'
+      - name: 'Entitlement test for SERVICE html5-apps-repo in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-html5-apps-repo-parameters.json'
+      - name: 'Entitlement test for SERVICE hyperledger-fabric in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hyperledger-fabric-parameters.json'
+      - name: 'Entitlement test for SERVICE ibanservice in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ibanservice-parameters.json'
+      - name: 'Entitlement test for SERVICE identity in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-identity-parameters.json'
+      - name: 'Entitlement test for SERVICE INFRA in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-INFRA-parameters.json'
+      - name: 'Entitlement test for SERVICE integrationsuite in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-integrationsuite-parameters.json'
+      - name: 'Entitlement test for SERVICE intercompany-reconciliation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-intercompany-reconciliation-parameters.json'
+      - name: 'Entitlement test for SERVICE invoice-object-recommendation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-invoice-object-recommendation-parameters.json'
+      - name: 'Entitlement test for SERVICE iot in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-iot-parameters.json'
+      - name: 'Entitlement test for SERVICE iotae in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-iotae-parameters.json'
+      - name: 'Entitlement test for SERVICE IRPA in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-IRPA-parameters.json'
+      - name: 'Entitlement test for SERVICE irpa-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-irpa-service-parameters.json'
+      - name: 'Entitlement test for SERVICE it-rt in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-it-rt-parameters.json'
+      - name: 'Entitlement test for SERVICE jobscheduler in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-jobscheduler-parameters.json'
+      - name: 'Entitlement test for SERVICE malware-scanner in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-malware-scanner-parameters.json'
+      - name: 'Entitlement test for SERVICE market-rates-byor in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-market-rates-byor-parameters.json'
+      - name: 'Entitlement test for SERVICE market-rates-thr in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-market-rates-thr-parameters.json'
+      - name: 'Entitlement test for SERVICE MDMBusinessPartnerService in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-MDMBusinessPartnerService-parameters.json'
+      - name: 'Entitlement test for SERVICE ml-foundation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ml-foundation-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-app-catalog in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-app-catalog-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-app-update in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-app-update-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-c2g in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-c2g-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-cbms in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-cbms-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-client-log-upload in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-client-log-upload-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-client-resource in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-client-resource-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-client-usage in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-client-usage-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-discovery in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-discovery-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-network-trace in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-network-trace-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-offline in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-offline-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-proxy in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-proxy-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-push in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-push-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-sample-odata-v2-espm in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-sample-odata-v2-espm-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-services in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-services-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-services-preview in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-services-preview-parameters.json'
+      - name: 'Entitlement test for SERVICE mobile-settings-exchange in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-mobile-settings-exchange-parameters.json'
+      - name: 'Entitlement test for SERVICE multichain in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-multichain-parameters.json'
+      - name: 'Entitlement test for SERVICE objectstore in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-objectstore-parameters.json'
+      - name: 'Entitlement test for SERVICE one-inbox-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-one-inbox-service-parameters.json'
+      - name: 'Entitlement test for SERVICE one-mds in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-one-mds-parameters.json'
+      - name: 'Entitlement test for SERVICE personal-data-manager-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-personal-data-manager-service-parameters.json'
+      - name: 'Entitlement test for SERVICE portal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-portal-parameters.json'
+      - name: 'Entitlement test for SERVICE postgresql in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-postgresql-parameters.json'
+      - name: 'Entitlement test for SERVICE postgresql-db in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-postgresql-db-parameters.json'
+      - name: 'Entitlement test for SERVICE print in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-print-parameters.json'
+      - name: 'Entitlement test for SERVICE privatelink in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-privatelink-parameters.json'
+      - name: 'Entitlement test for SERVICE process-automation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-process-automation-parameters.json'
+      - name: 'Entitlement test for SERVICE process-automation-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-process-automation-service-parameters.json'
+      - name: 'Entitlement test for SERVICE processvisibility in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-processvisibility-parameters.json'
+      - name: 'Entitlement test for SERVICE quorum in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-quorum-parameters.json'
+      - name: 'Entitlement test for SERVICE rabbitmq in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-rabbitmq-parameters.json'
+      - name: 'Entitlement test for SERVICE recommendation-systems-production in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-recommendation-systems-production-parameters.json'
+      - name: 'Entitlement test for SERVICE redis in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-redis-parameters.json'
+      - name: 'Entitlement test for SERVICE redis-cache in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-redis-cache-parameters.json'
+      - name: 'Entitlement test for SERVICE responsibility-management-service-beta in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-responsibility-management-service-beta-parameters.json'
+      - name: 'Entitlement test for SERVICE responsibilitymanagement-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-responsibilitymanagement-service-parameters.json'
+      - name: 'Entitlement test for SERVICE retention-manager in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-retention-manager-parameters.json'
+      - name: 'Entitlement test for SERVICE saas-registry in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-saas-registry-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-analytics-cloud-embedded-edition in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-analytics-cloud-embedded-edition-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-bigdataservices in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-bigdataservices-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-calm in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-calm-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-document-information-extraction in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-document-information-extraction-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-graph in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-graph-parameters.json'
+      - name: 'Entitlement test for SERVICE sap-workzone in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sap-workzone-parameters.json'
+      - name: 'Entitlement test for SERVICE scp-launchpad in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-scp-launchpad-parameters.json'
+      - name: 'Entitlement test for SERVICE sdm in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sdm-parameters.json'
+      - name: 'Entitlement test for SERVICE sdm-repository in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-sdm-repository-parameters.json'
+      - name: 'Entitlement test for SERVICE service-manager in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-service-manager-parameters.json'
+      - name: 'Entitlement test for SERVICE service-ticket-intelligence in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-service-ticket-intelligence-parameters.json'
+      - name: 'Entitlement test for SERVICE spatialservices in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-spatialservices-parameters.json'
+      - name: 'Entitlement test for SERVICE theming in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-theming-parameters.json'
+      - name: 'Entitlement test for SERVICE transport in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-transport-parameters.json'
+      - name: 'Entitlement test for SERVICE uas in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-uas-parameters.json'
+      - name: 'Entitlement test for SERVICE ui5-flexibility-keyuser in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ui5-flexibility-keyuser-parameters.json'
+      - name: 'Entitlement test for SERVICE workcalendar in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-workcalendar-parameters.json'
+      - name: 'Entitlement test for SERVICE workflow in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-workflow-parameters.json'
+      - name: 'Entitlement test for SERVICE workflowmanagement in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-workflowmanagement-parameters.json'
+      - name: 'Entitlement test for SERVICE wums-partner-api-beta in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-wums-partner-api-beta-parameters.json'
+      - name: 'Entitlement test for SERVICE xfs-runtime in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-xfs-runtime-parameters.json'
+      - name: 'Entitlement test for SERVICE xsuaa in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-xsuaa-parameters.json'
+      - name: 'Entitlement test for APPLICATION abapcp-web-router in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-abapcp-web-router-parameters.json'
+      - name: 'Entitlement test for APPLICATION ads-configui in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ads-configui-parameters.json'
+      - name: 'Entitlement test for APPLICATION ai-launchpad in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ai-launchpad-parameters.json'
+      - name: 'Entitlement test for APPLICATION alm-ts in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-parameters.json'
+      - name: 'Entitlement test for APPLICATION api-management-apiportal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-apiportal-parameters.json'
+      - name: 'Entitlement test for APPLICATION api-management-devportal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-devportal-parameters.json'
+      - name: 'Entitlement test for APPLICATION auditlog-viewer in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-auditlog-viewer-parameters.json'
+      - name: 'Entitlement test for APPLICATION automationpilot in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-automationpilot-parameters.json'
+      - name: 'Entitlement test for APPLICATION Backend-service in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-Backend-service-parameters.json'
+      - name: 'Entitlement test for APPLICATION c4-distributed-order-management-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-c4-distributed-order-management-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION cias in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cias-parameters.json'
+      - name: 'Entitlement test for APPLICATION cicd-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cicd-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION data-privacy-integration-application in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-data-privacy-integration-application-parameters.json'
+      - name: 'Entitlement test for APPLICATION document-information-extraction-application in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-document-information-extraction-application-parameters.json'
+      - name: 'Entitlement test for APPLICATION dqmmicroui in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-dqmmicroui-parameters.json'
+      - name: 'Entitlement test for APPLICATION eadesigner in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-eadesigner-parameters.json'
+      - name: 'Entitlement test for APPLICATION edge-services in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-edge-services-parameters.json'
+      - name: 'Entitlement test for APPLICATION enterprise-messaging-hub in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-enterprise-messaging-hub-parameters.json'
+      - name: 'Entitlement test for APPLICATION extension-center in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-extension-center-parameters.json'
+      - name: 'Entitlement test for APPLICATION feature-flags-dashboard in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-feature-flags-dashboard-parameters.json'
+      - name: 'Entitlement test for APPLICATION ibx-connection-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ibx-connection-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION intelligent-situation-automation-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-intelligent-situation-automation-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION iotas in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-iotas-parameters.json'
+      - name: 'Entitlement test for APPLICATION IRPA in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-parameters.json'
+      - name: 'Entitlement test for APPLICATION it-prod in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-it-prod-parameters.json'
+      - name: 'Entitlement test for APPLICATION LandscapePortal in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-LandscapePortal-parameters.json'
+      - name: 'Entitlement test for APPLICATION market-rates-ux in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-market-rates-ux-parameters.json'
+      - name: 'Entitlement test for APPLICATION MDMBusinessPartnerApplication in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDMBusinessPartnerApplication-parameters.json'
+      - name: 'Entitlement test for APPLICATION mdo-one-mds-master in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-mdo-one-mds-master-parameters.json'
+      - name: 'Entitlement test for APPLICATION MDOrchestrationApplication in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDOrchestrationApplication-parameters.json'
+      - name: 'Entitlement test for APPLICATION ocnselfserviceagent in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ocnselfserviceagent-parameters.json'
+      - name: 'Entitlement test for APPLICATION PersonalDataManagerApp in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PersonalDataManagerApp-parameters.json'
+      - name: 'Entitlement test for APPLICATION PortalApplication in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PortalApplication-parameters.json'
+      - name: 'Entitlement test for APPLICATION print-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-print-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION process-automation in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-process-automation-parameters.json'
+      - name: 'Entitlement test for APPLICATION responsibility-management-application-beta in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibility-management-application-beta-parameters.json'
+      - name: 'Entitlement test for APPLICATION responsibilitymanagement-application in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibilitymanagement-application-parameters.json'
+      - name: 'Entitlement test for APPLICATION retention-manager-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-retention-manager-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION sap-cai-onboarding in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-cai-onboarding-parameters.json'
+      - name: 'Entitlement test for APPLICATION sap-identity-services-onboarding in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-parameters.json'
+      - name: 'Entitlement test for APPLICATION sapappgyver in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappgyver-parameters.json'
+      - name: 'Entitlement test for APPLICATION sapappstudio in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappstudio-parameters.json'
+      - name: 'Entitlement test for APPLICATION SAPLaunchpad in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPLaunchpad-parameters.json'
+      - name: 'Entitlement test for APPLICATION SAPWebAnalytics in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWebAnalytics-parameters.json'
+      - name: 'Entitlement test for APPLICATION SAPWorkZone in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWorkZone-parameters.json'
+      - name: 'Entitlement test for APPLICATION sdm-web in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sdm-web-parameters.json'
+      - name: 'Entitlement test for APPLICATION spatialservices-app in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-spatialservices-app-parameters.json'
+      - name: 'Entitlement test for APPLICATION tnt-onboard-dataenrichment-dcp in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-tnt-onboard-dataenrichment-dcp-parameters.json'
+      - name: 'Entitlement test for APPLICATION WorkflowManagementSaaS in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-WorkflowManagementSaaS-parameters.json'
+      - name: 'Entitlement test for APPLICATION wums-c4re-beta in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-wums-c4re-beta-parameters.json'
+      - name: 'Entitlement test for ENVIRONMENT kymaruntime in region eu10'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-parameters.json'

@@ -3,6 +3,36 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "abapcp-web-router",
+            "plan" : "default"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "ads-configui",
+            "plan" : "default"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "ai-launchpad",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "api-management-apiportal",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "api-management-devportal",
             "plan" : "standard"
         }

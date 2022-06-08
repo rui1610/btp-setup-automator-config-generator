@@ -3,6 +3,16 @@
     "services": [
         {
             "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
             "name": "api-management-apiportal",
             "plan" : "standard"
         }

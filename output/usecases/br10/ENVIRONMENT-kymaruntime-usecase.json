@@ -3,6 +3,11 @@
     "services": [
         {
             "category": "ENVIRONMENT",
+            "name": "cloudfoundry",
+            "plan" : "free"
+        }, 
+        {
+            "category": "ENVIRONMENT",
             "name": "kymaruntime",
             "plan" : "aws"
         }, 

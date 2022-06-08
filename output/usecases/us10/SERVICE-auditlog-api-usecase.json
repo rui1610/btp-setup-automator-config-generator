@@ -3,6 +3,101 @@
     "services": [
         {
             "category": "SERVICE",
+            "name": "abap",
+            "plan" : "abap_compute_unit"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "hana_compute_unit"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "16_abap_64_db"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "abap-solution",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ads",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "adsrestapi",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "aicore",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "alert-notification",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "api-management",
+            "plan" : "preview"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apiportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "on-premise-connectivity"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apim-as-route-service"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-devportal",
+            "plan" : "devportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "large"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
             "name": "auditlog-api",
             "plan" : "default"
         }

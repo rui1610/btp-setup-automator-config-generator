@@ -64,13 +64,13 @@ class BTPUSECASE_GEN:
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
 
+        listUsecaseFiles = []
         for category in btpservicelist:
             if category.get("name") in serviceCategoryFilter:
-                listUsecaseFiles = []
                 print("CHECKING " + category.get("name"))
+                serviceList = []
                 for service in category.get("list"):
                     print(" - now service " + service.get("name"))
-                    serviceList = []
                     for plan in service.get("servicePlans"):
                         item = {}
                         item["category"] = category.get("name")
@@ -95,16 +95,16 @@ class BTPUSECASE_GEN:
                         templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
                         subaccountname = "BTPSA int test " + category.get("name")
                         usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-usecase.json"
-                        thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
+                        thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname, "region": region}
                         renderTemplateWithJson(templateFilename, parametersfile, thisItem)
 
                         testname = "Entitlement test for " + category.get("name") + " " + service.get("name") + " in region " + region
                         urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-parameters.json"
                         listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile, "parameterfile": urlParameterFile})
 
-                templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
-                targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + category.get("name").lower() + "-" + region + ".yml"
-                renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name"), "usecasetestlist": listUsecaseFiles})
+        templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
+        targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + region + ".yml"
+        renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "usecasetestlist": listUsecaseFiles})
 
 
 def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "xsuaa",
+            "plan" : "application"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "xsuaa",
+            "plan" : "broker"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "xsuaa",
+            "plan" : "apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "xsuaa",
+            "plan" : "space"
+        }
+        ]
+}

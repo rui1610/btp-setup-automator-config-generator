@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "redis",
+            "plan" : "xsmall"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "redis",
+            "plan" : "medium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "redis",
+            "plan" : "large"
+        }
+        ]
+}

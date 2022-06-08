@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "process-automation",
+            "plan" : "automation-unattended"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "process-automation",
+            "plan" : "standard-user"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "process-automation",
+            "plan" : "automation-attended"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "process-automation",
+            "plan" : "advanced-user"
+        }
+        ]
+}

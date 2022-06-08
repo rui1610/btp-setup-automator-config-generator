@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "large"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "application-logs",
+            "plan" : "standard"
+        }
+        ]
+}

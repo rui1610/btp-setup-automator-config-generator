@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "one-mds",
+            "plan" : "sap-integration"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "one-mds",
+            "plan" : "s4hana-onpremise"
+        }
+        ]
+}

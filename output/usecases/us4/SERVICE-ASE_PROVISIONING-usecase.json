@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "ASE_PROVISIONING",
+            "plan" : "XLARGE"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ASE_PROVISIONING",
+            "plan" : "MEDIUM"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ASE_PROVISIONING",
+            "plan" : "SMALL"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ASE_PROVISIONING",
+            "plan" : "XSMALL"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "ASE_PROVISIONING",
+            "plan" : "LARGE"
+        }
+        ]
+}

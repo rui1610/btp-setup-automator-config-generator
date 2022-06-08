@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "alm-ts",
+            "plan" : "free"
+        }
+        ]
+}

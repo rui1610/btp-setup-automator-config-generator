@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apiportal-apiaccess"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "on-premise-connectivity"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "apimanagement-apiportal",
+            "plan" : "apim-as-route-service"
+        }
+        ]
+}

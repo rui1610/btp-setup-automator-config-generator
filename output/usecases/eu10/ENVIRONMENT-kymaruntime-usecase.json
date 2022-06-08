@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "ENVIRONMENT",
+            "name": "kymaruntime",
+            "plan" : "aws"
+        }, 
+        {
+            "category": "ENVIRONMENT",
+            "name": "kymaruntime",
+            "plan" : "free"
+        }
+        ]
+}

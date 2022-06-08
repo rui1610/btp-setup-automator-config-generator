@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "sdm-repository",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "sdm-repository",
+            "plan" : "free"
+        }
+        ]
+}

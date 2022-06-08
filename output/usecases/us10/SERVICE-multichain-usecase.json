@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "multichain",
+            "plan" : "small"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "multichain",
+            "plan" : "large"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "multichain",
+            "plan" : "medium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "multichain",
+            "plan" : "cyon"
+        }
+        ]
+}

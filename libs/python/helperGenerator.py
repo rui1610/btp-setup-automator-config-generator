@@ -85,23 +85,25 @@ class BTPUSECASE_GEN:
                             serviceList.append(item)
 
                     if serviceList and len(serviceList) > 0:
-                        usecasefile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-usecase.json"
+                        filePatternName = region + "/" + category.get("name") + "-" + service.get("name")
+
+                        usecasefile = FOLDER_OUTPUT_USECASES + filePatternName + "-usecase.json"
                         templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
                         renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList})
 
-                        parametersfile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-parameters.json"
+                        parametersfile = FOLDER_OUTPUT_USECASES + filePatternName + "-parameters.json"
                         templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
                         subaccountname = "BTPSA int test " + category.get("name")
-                        usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-usecase.json"
+                        usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-usecase.json"
                         thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
                         renderTemplateWithJson(templateFilename, parametersfile, thisItem)
 
-                        testname = "Entitlement test for " + category.get("name") + " " + service.get("name")
-                        urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-parameters.json"
+                        testname = "Entitlement test for " + category.get("name") + " " + service.get("name") + " in region " + region
+                        urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-parameters.json"
                         listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile, "parameterfile": urlParameterFile})
 
                 templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
-                targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-services-test-" + category.get("name").lower() + ".yml"
+                targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-services-test-" + region + "-" + category.get("name").lower() + ".yml"
                 renderTemplateWithJson(templateFilename, targetFilename, {"workflowname": "BTPSA tests " + category.get("name"), "usecasetestlist": listUsecaseFiles})
 
 

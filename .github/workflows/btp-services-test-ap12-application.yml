@@ -1,0 +1,80 @@
+name: BTPSA tests APPLICATION
+# This file represents a complete version of the "BTP Setup Automator" integration tests
+# All tests are executed in sequence on one BTP account to avoid entitlement limits
+# This is why not matrix strategy is used
+# The steps of a job must execute in any case, so we use always()
+
+on:
+  workflow_dispatch:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sap-samples/btp-setup-automator:main
+      options: --user root
+    env:
+      BTPSA_PARAM_MYEMAIL: ${{ secrets.BTPSA_PARAM_MYEMAIL }}
+      BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
+      BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
+    steps: 
+      - name: 'Entitlement test for APPLICATION alm-ts in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-alm-ts-parameters.json'
+      - name: 'Entitlement test for APPLICATION auditlog-viewer in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-auditlog-viewer-parameters.json'
+      - name: 'Entitlement test for APPLICATION enterprise-messaging-hub in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-enterprise-messaging-hub-parameters.json'
+      - name: 'Entitlement test for APPLICATION extension-center in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-extension-center-parameters.json'
+      - name: 'Entitlement test for APPLICATION feature-flags-dashboard in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-feature-flags-dashboard-parameters.json'
+      - name: 'Entitlement test for APPLICATION ocnselfserviceagent in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-ocnselfserviceagent-parameters.json'
+      - name: 'Entitlement test for APPLICATION PortalApplication in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-PortalApplication-parameters.json'
+      - name: 'Entitlement test for APPLICATION sap-identity-services-onboarding in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-sap-identity-services-onboarding-parameters.json'
+      - name: 'Entitlement test for APPLICATION sapappstudio in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-sapappstudio-parameters.json'
+      - name: 'Entitlement test for APPLICATION SAPLaunchpad in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-SAPLaunchpad-parameters.json'
+      - name: 'Entitlement test for APPLICATION sdm-web in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-sdm-web-parameters.json'
+      - name: 'Entitlement test for APPLICATION WorkflowManagementSaaS in region ap12'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/ap12/APPLICATION-WorkflowManagementSaaS-parameters.json'

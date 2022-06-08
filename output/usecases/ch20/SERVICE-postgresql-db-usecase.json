@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "postgresql-db",
+            "plan" : "storage_ha"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "postgresql-db",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "postgresql-db",
+            "plan" : "premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "postgresql-db",
+            "plan" : "storage"
+        }
+        ]
+}

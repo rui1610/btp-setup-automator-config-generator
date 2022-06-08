@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "connectivity",
+            "plan" : "lite"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "connectivity",
+            "plan" : "connectivity_proxy"
+        }
+        ]
+}

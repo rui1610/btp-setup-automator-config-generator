@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "free"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "credstore",
+            "plan" : "proxy"
+        }
+        ]
+}

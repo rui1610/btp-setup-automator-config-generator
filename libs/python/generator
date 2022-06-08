@@ -12,4 +12,7 @@ generator.fetchEntitledServiceList(mainDataJsoFile)
 # Generate all files
 #######################################################################################
 
-generator.createBtpServiceTests()
+regions = generator.entitledServices.get("btpenums").get("regions")
+
+for region in regions:
+    generator.createBtpServiceTests(region)

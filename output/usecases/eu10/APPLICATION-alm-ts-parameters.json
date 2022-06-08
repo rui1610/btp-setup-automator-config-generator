@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-parameters.json",
+    "usecasefile": "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-usecase.json",
+    "loginmethod": "envVariables",
+    "pruneusecase": true,
+    "subaccountname": "BTPSA int test APPLICATION"
+}

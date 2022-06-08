@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+
+thisname="btpsa-config-generator"
+
+echo -e "${GREEN}Cleaning up containers and images (if existing)${NOCOLOR}"
+docker container stop   "${thisname}"
+docker container rm  -f "${thisname}"
+docker image     rmi -f "${thisname}"
+
+echo -e "${GREEN}Building the container image ...${NOCOLOR}"
+docker image build -t ${thisname}:latest -f "Dockerfile"  .
+
+echo -e "${GREEN}Start the container as '${thisname}' - Access possible e.g. via VSCode${NOCOLOR}"
+docker container run --rm  -it -d --name "${thisname}" "${thisname}" 
+

@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {% for item in serviceList -%}
+        {
+            "category": "{{ item.category }}",
+            "name": "{{ item.service }}",
+            "plan" : "{{ item.plan }}"
+        }{% if not loop.last %}, {% endif %}
+        {% endfor -%}
+    ]
+}

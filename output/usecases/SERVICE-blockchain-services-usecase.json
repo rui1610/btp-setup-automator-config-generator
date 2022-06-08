@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-proof-of-state"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-proof-of-history"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-timestamp"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "blockchain-services",
+            "plan" : "blockchain-hana-integration"
+        }
+        ]
+}

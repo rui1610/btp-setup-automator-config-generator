@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "APPLICATION",
+            "name": "IRPA",
+            "plan" : "default"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "IRPA",
+            "plan" : "free"
+        }, 
+        {
+            "category": "APPLICATION",
+            "name": "IRPA",
+            "plan" : "concurrent"
+        }
+        ]
+}

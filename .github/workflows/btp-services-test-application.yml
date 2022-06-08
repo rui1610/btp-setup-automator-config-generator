@@ -1,0 +1,270 @@
+name: BTPSA integration test for all services of type APPLICATION
+# This file represents a complete version of the "BTP Setup Automator" integration tests
+# All tests are executed in sequence on one BTP account to avoid entitlement limits
+# This is why not matrix strategy is used
+# The steps of a job must execute in any case, so we use always()
+
+on:
+  workflow_dispatch:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sap-samples/btp-setup-automator:main
+      options: --user root
+    env:
+      BTPSA_PARAM_MYEMAIL: ${{ secrets.BTPSA_PARAM_MYEMAIL }}
+      BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
+      BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
+    steps: 
+      - name: 'Entitlement test for APPLICATION abapcp-web-router'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-abapcp-web-router-usecase.json'
+      - name: 'Entitlement test for APPLICATION ads-configui'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-ads-configui-usecase.json'
+      - name: 'Entitlement test for APPLICATION ai-launchpad'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-ai-launchpad-usecase.json'
+      - name: 'Entitlement test for APPLICATION alm-ts'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-alm-ts-usecase.json'
+      - name: 'Entitlement test for APPLICATION api-management-apiportal'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-api-management-apiportal-usecase.json'
+      - name: 'Entitlement test for APPLICATION api-management-devportal'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-api-management-devportal-usecase.json'
+      - name: 'Entitlement test for APPLICATION auditlog-viewer'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-auditlog-viewer-usecase.json'
+      - name: 'Entitlement test for APPLICATION automationpilot'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-automationpilot-usecase.json'
+      - name: 'Entitlement test for APPLICATION Backend-service'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-Backend-service-usecase.json'
+      - name: 'Entitlement test for APPLICATION c4-distributed-order-management-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-c4-distributed-order-management-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION cias'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-cias-usecase.json'
+      - name: 'Entitlement test for APPLICATION cicd-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-cicd-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION data-privacy-integration-application'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-data-privacy-integration-application-usecase.json'
+      - name: 'Entitlement test for APPLICATION document-information-extraction-application'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-document-information-extraction-application-usecase.json'
+      - name: 'Entitlement test for APPLICATION dqmmicroui'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-dqmmicroui-usecase.json'
+      - name: 'Entitlement test for APPLICATION eadesigner'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-eadesigner-usecase.json'
+      - name: 'Entitlement test for APPLICATION edge-services'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-edge-services-usecase.json'
+      - name: 'Entitlement test for APPLICATION enterprise-messaging-hub'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-enterprise-messaging-hub-usecase.json'
+      - name: 'Entitlement test for APPLICATION extension-center'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-extension-center-usecase.json'
+      - name: 'Entitlement test for APPLICATION feature-flags-dashboard'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-feature-flags-dashboard-usecase.json'
+      - name: 'Entitlement test for APPLICATION ibx-connection-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-ibx-connection-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION intelligent-situation-automation-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-intelligent-situation-automation-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION iotas'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-iotas-usecase.json'
+      - name: 'Entitlement test for APPLICATION IRPA'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-IRPA-usecase.json'
+      - name: 'Entitlement test for APPLICATION it-prod'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-it-prod-usecase.json'
+      - name: 'Entitlement test for APPLICATION LandscapePortal'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-LandscapePortal-usecase.json'
+      - name: 'Entitlement test for APPLICATION market-rates-ux'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-market-rates-ux-usecase.json'
+      - name: 'Entitlement test for APPLICATION MDMBusinessPartnerApplication'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-MDMBusinessPartnerApplication-usecase.json'
+      - name: 'Entitlement test for APPLICATION mdo-one-mds-master'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-mdo-one-mds-master-usecase.json'
+      - name: 'Entitlement test for APPLICATION MDOrchestrationApplication'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-MDOrchestrationApplication-usecase.json'
+      - name: 'Entitlement test for APPLICATION ocnselfserviceagent'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-ocnselfserviceagent-usecase.json'
+      - name: 'Entitlement test for APPLICATION PersonalDataManagerApp'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-PersonalDataManagerApp-usecase.json'
+      - name: 'Entitlement test for APPLICATION PortalApplication'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-PortalApplication-usecase.json'
+      - name: 'Entitlement test for APPLICATION print-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-print-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION process-automation'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-process-automation-usecase.json'
+      - name: 'Entitlement test for APPLICATION responsibility-management-application-beta'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-responsibility-management-application-beta-usecase.json'
+      - name: 'Entitlement test for APPLICATION responsibilitymanagement-application'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-responsibilitymanagement-application-usecase.json'
+      - name: 'Entitlement test for APPLICATION retention-manager-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-retention-manager-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION sap-cai-onboarding'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-sap-cai-onboarding-usecase.json'
+      - name: 'Entitlement test for APPLICATION sap-identity-services-onboarding'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-sap-identity-services-onboarding-usecase.json'
+      - name: 'Entitlement test for APPLICATION sapappgyver'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-sapappgyver-usecase.json'
+      - name: 'Entitlement test for APPLICATION sapappstudio'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-sapappstudio-usecase.json'
+      - name: 'Entitlement test for APPLICATION SAPLaunchpad'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-SAPLaunchpad-usecase.json'
+      - name: 'Entitlement test for APPLICATION SAPWebAnalytics'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-SAPWebAnalytics-usecase.json'
+      - name: 'Entitlement test for APPLICATION SAPWorkZone'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-SAPWorkZone-usecase.json'
+      - name: 'Entitlement test for APPLICATION sdm-web'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-sdm-web-usecase.json'
+      - name: 'Entitlement test for APPLICATION spatialservices-app'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-spatialservices-app-usecase.json'
+      - name: 'Entitlement test for APPLICATION tnt-onboard-dataenrichment-dcp'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-tnt-onboard-dataenrichment-dcp-usecase.json'
+      - name: 'Entitlement test for APPLICATION WorkflowManagementSaaS'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-WorkflowManagementSaaS-usecase.json'
+      - name: 'Entitlement test for APPLICATION wums-c4re-beta'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile './output/usecases/APPLICATION-wums-c4re-beta-usecase.json'

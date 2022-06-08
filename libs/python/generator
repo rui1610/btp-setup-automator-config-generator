@@ -1,0 +1,15 @@
+#! /usr/bin/env python
+from libs.python.helperGenerator import BTPUSECASE_GEN
+
+mainDataJsoFile = "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/config/btp-base/entitledServices.json"
+#######################################################################################
+# Initialize the tool and fetch the BTP service list
+#######################################################################################
+generator = BTPUSECASE_GEN()
+generator.fetchEntitledServiceList(mainDataJsoFile)
+
+#######################################################################################
+# Generate all files
+#######################################################################################
+
+generator.createBtpServiceTests()

@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "COMPUTE_UNIT",
+            "plan" : "PRO"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "COMPUTE_UNIT",
+            "plan" : "PREMIUM_PLUS"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "COMPUTE_UNIT",
+            "plan" : "PREMIUM"
+        }
+        ]
+}

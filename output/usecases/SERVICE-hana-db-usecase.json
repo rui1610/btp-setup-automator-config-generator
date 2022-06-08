@@ -1,0 +1,75 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "512standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "256premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "128standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "enterprise"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "64premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "1024standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "1024premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "2048standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "256standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "512premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "2048premium"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "64standard"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hana-db",
+            "plan" : "128premium"
+        }
+        ]
+}

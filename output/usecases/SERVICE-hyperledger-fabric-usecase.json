@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
+    "services": [
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "testnet"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "dev"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "backbone"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "cyon"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "node"
+        }, 
+        {
+            "category": "SERVICE",
+            "name": "hyperledger-fabric",
+            "plan" : "channel"
+        }
+        ]
+}

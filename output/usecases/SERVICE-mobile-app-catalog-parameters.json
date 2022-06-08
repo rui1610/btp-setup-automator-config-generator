@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-parameters.json",
+    "usecasefile": "./output/usecases/SERVICE-mobile-app-catalog-usecase.json",
+    "loginmethod": "envVariables",
+    "prunesubaccount": true,
+    "subaccountname": "BTPSA int test mobile-app-catalog"
+}

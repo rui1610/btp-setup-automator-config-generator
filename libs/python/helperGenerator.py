@@ -84,11 +84,13 @@ class BTPUSECASE_GEN:
                     parametersfile = FOLDER_OUTPUT_USECASES + category.get("name") + "-" + service.get("name") + "-parameters.json"
                     templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
                     subaccountname = "BTPSA int test " + category.get("name")
+                    usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-usecase.json"
                     thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname}
                     renderTemplateWithJson(templateFilename, parametersfile, thisItem)
 
                     testname = "Entitlement test for " + category.get("name") + " " + service.get("name")
-                    listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile})
+                    urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + category.get("name") + "-" + service.get("name") + "-parameters.json"
+                    listUsecaseFiles.append({"testname": testname, "usecasefile": usecasefile, "parameterfile": urlParameterFile})
 
                 templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
                 targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-services-test-" + category.get("name").lower() + ".yml"

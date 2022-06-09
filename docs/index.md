@@ -2,7 +2,7 @@
 
 ## Services with a free service plan
 
-This page lists all SAP BTP services with a free service plan.
+This lists shows all SAP BTP services with a free service plan:
 
 - [abap](services/abap.md) has the service plan **free**
 - [alert-notification](services/alert-notification.md) has the service plan **free**

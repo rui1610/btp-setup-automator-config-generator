@@ -32,7 +32,7 @@ You can setup a service instance for **SAPLaunchpad** by configuring your `useca
 }
 ```
 
-### Using the service plan **standard** (standard)
+### Using the service plan **standard**
 
 ```json
 {

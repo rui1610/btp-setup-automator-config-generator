@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **print** by configuring your `usecase.json` file.
 
-### Using the service plan **sender** (sender)
+### Using the service plan **sender**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **print** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **receiver** (receiver)
+### Using the service plan **receiver**
 
 ```json
 {

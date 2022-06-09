@@ -34,7 +34,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
 }
 ```
 
-### Using the service plan **event-mesh-connectivity-beta** (event-mesh-connectivity-beta)
+### Using the service plan **event-mesh-connectivity-beta**
 
 ```json
 {
@@ -47,7 +47,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
 }
 ```
 
-### Using the service plan **default** (default)
+### Using the service plan **default**
 
 ```json
 {

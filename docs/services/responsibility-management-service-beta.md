@@ -17,7 +17,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **responsibility-management-service-beta** by configuring your `usecase.json` file.
 
-### Using the service plan **beta** (beta)
+### Using the service plan **beta**
 
 ```json
 {

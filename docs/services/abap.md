@@ -49,7 +49,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **16_abap_64_db** (16_abap_64_db)
+### Using the service plan **16_abap_64_db**
 
 ```json
 {
@@ -62,7 +62,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **free** (free)
+### Using the service plan **free**
 
 ```json
 {
@@ -75,7 +75,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **standard** (standard)
+### Using the service plan **standard**
 
 ```json
 {

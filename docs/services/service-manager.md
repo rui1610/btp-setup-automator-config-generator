@@ -23,7 +23,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **service-manager** by configuring your `usecase.json` file.
 
-### Using the service plan **subaccount-admin** (subaccount-admin)
+### Using the service plan **subaccount-admin**
 
 ```json
 {
@@ -36,7 +36,7 @@ You can setup a service instance for **service-manager** by configuring your `us
 }
 ```
 
-### Using the service plan **service-operator-access** (service-operator-access)
+### Using the service plan **service-operator-access**
 
 ```json
 {
@@ -49,7 +49,7 @@ You can setup a service instance for **service-manager** by configuring your `us
 }
 ```
 
-### Using the service plan **container** (container)
+### Using the service plan **container**
 
 ```json
 {
@@ -62,7 +62,7 @@ You can setup a service instance for **service-manager** by configuring your `us
 }
 ```
 
-### Using the service plan **subaccount-audit** (subaccount-audit)
+### Using the service plan **subaccount-audit**
 
 ```json
 {

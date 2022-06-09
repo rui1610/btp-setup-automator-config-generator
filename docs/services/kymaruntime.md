@@ -60,7 +60,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
 }
 ```
 
-### Using the service plan **free** (free)
+### Using the service plan **free**
 
 ```json
 {

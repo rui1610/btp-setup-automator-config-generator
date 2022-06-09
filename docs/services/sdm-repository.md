@@ -19,7 +19,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **sdm-repository** by configuring your `usecase.json` file.
 
-### Using the service plan **standard** (standard)
+### Using the service plan **standard**
 
 ```json
 {
@@ -32,7 +32,7 @@ You can setup a service instance for **sdm-repository** by configuring your `use
 }
 ```
 
-### Using the service plan **free** (free)
+### Using the service plan **free**
 
 ```json
 {

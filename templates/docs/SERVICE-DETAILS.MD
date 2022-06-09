@@ -21,7 +21,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **{{ service.name }}** by configuring your `usecase.json` file.
 {% for plan in service.servicePlans %}
-### Using the service plan **{{ plan.name }}** ({{ plan.displayName }})
+### Using the service plan **{{ plan.name }}**{% if plan.name != plan.displayName %} ({{ plan.displayName }}){% endif %}
 
 ```json
 {

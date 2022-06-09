@@ -32,7 +32,7 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
 }
 ```
 
-### Using the service plan **free** (free)
+### Using the service plan **free**
 
 ```json
 {

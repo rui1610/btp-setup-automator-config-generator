@@ -18,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **sapappstudio** by configuring your `usecase.json` file.
 
-### Using the service plan **standard-edition** (standard-edition)
+### Using the service plan **standard-edition**
 
 ```json
 {

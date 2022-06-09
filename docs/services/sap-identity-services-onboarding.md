@@ -19,7 +19,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **sap-identity-services-onboarding** by configuring your `usecase.json` file.
 
-### Using the service plan **default** (default)
+### Using the service plan **default**
 
 ```json
 {
@@ -32,7 +32,7 @@ You can setup a service instance for **sap-identity-services-onboarding** by con
 }
 ```
 
-### Using the service plan **additional-tenant** (additional-tenant)
+### Using the service plan **additional-tenant**
 
 ```json
 {
@@ -45,7 +45,7 @@ You can setup a service instance for **sap-identity-services-onboarding** by con
 }
 ```
 
-### Using the service plan **connectivity** (connectivity)
+### Using the service plan **connectivity**
 
 ```json
 {

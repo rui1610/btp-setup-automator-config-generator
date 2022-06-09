@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **quorum** by configuring your `usecase.json` file.
 
-### Using the service plan **cyon** (cyon)
+### Using the service plan **cyon**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
 }
 ```
 
-### Using the service plan **testnet** (testnet)
+### Using the service plan **testnet**
 
 ```json
 {
@@ -46,7 +46,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
 }
 ```
 
-### Using the service plan **dev** (dev)
+### Using the service plan **dev**
 
 ```json
 {

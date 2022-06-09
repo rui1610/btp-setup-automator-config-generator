@@ -21,7 +21,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **objectstore** by configuring your `usecase.json` file.
 
-### Using the service plan **azure-standard** (azure-standard)
+### Using the service plan **azure-standard**
 
 ```json
 {
@@ -34,7 +34,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 }
 ```
 
-### Using the service plan **s3-standard** (s3-standard)
+### Using the service plan **s3-standard**
 
 ```json
 {
@@ -47,7 +47,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 }
 ```
 
-### Using the service plan **gcs-standard** (gcs-standard)
+### Using the service plan **gcs-standard**
 
 ```json
 {

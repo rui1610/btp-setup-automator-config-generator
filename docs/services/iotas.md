@@ -31,7 +31,7 @@ You can setup a service instance for **iotas** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **oneproduct** (oneproduct)
+### Using the service plan **oneproduct**
 
 ```json
 {

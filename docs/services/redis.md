@@ -22,7 +22,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **redis** by configuring your `usecase.json` file.
 
-### Using the service plan **xsmall** (xsmall)
+### Using the service plan **xsmall**
 
 ```json
 {
@@ -35,7 +35,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **medium** (medium)
+### Using the service plan **medium**
 
 ```json
 {
@@ -48,7 +48,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **large** (large)
+### Using the service plan **large**
 
 ```json
 {
@@ -61,7 +61,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **small** (small)
+### Using the service plan **small**
 
 ```json
 {

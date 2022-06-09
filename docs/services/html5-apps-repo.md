@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **html5-apps-repo** by configuring your `usecase.json` file.
 
-### Using the service plan **app-host** (app-host)
+### Using the service plan **app-host**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
 }
 ```
 
-### Using the service plan **app-runtime** (app-runtime)
+### Using the service plan **app-runtime**
 
 ```json
 {

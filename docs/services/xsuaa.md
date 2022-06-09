@@ -22,7 +22,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **xsuaa** by configuring your `usecase.json` file.
 
-### Using the service plan **application** (application)
+### Using the service plan **application**
 
 ```json
 {
@@ -35,7 +35,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **broker** (broker)
+### Using the service plan **broker**
 
 ```json
 {
@@ -48,7 +48,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **apiaccess** (apiaccess)
+### Using the service plan **apiaccess**
 
 ```json
 {
@@ -61,7 +61,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **space** (space)
+### Using the service plan **space**
 
 ```json
 {

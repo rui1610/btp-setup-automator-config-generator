@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **hana** by configuring your `usecase.json` file.
 
-### Using the service plan **hdi-shared** (hdi-shared)
+### Using the service plan **hdi-shared**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **schema** (schema)
+### Using the service plan **schema**
 
 ```json
 {
@@ -46,7 +46,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **sbss** (sbss)
+### Using the service plan **sbss**
 
 ```json
 {
@@ -59,7 +59,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
 }
 ```
 
-### Using the service plan **securestore** (securestore)
+### Using the service plan **securestore**
 
 ```json
 {

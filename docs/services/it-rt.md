@@ -19,7 +19,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **it-rt** by configuring your `usecase.json` file.
 
-### Using the service plan **api** (api)
+### Using the service plan **api**
 
 ```json
 {
@@ -32,7 +32,7 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
 }
 ```
 
-### Using the service plan **integration-flow** (integration-flow)
+### Using the service plan **integration-flow**
 
 ```json
 {

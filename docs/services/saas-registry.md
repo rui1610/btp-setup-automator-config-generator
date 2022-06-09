@@ -18,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **saas-registry** by configuring your `usecase.json` file.
 
-### Using the service plan **application** (application)
+### Using the service plan **application**
 
 ```json
 {

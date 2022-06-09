@@ -18,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **WorkflowManagementSaaS** by configuring your `usecase.json` file.
 
-### Using the service plan **saas-application** (saas-application)
+### Using the service plan **saas-application**
 
 ```json
 {

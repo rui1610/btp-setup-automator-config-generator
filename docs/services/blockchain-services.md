@@ -21,7 +21,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **blockchain-services** by configuring your `usecase.json` file.
 
-### Using the service plan **blockchain-proof-of-state** (blockchain-proof-of-state)
+### Using the service plan **blockchain-proof-of-state**
 
 ```json
 {
@@ -34,7 +34,7 @@ You can setup a service instance for **blockchain-services** by configuring your
 }
 ```
 
-### Using the service plan **blockchain-proof-of-history** (blockchain-proof-of-history)
+### Using the service plan **blockchain-proof-of-history**
 
 ```json
 {
@@ -47,7 +47,7 @@ You can setup a service instance for **blockchain-services** by configuring your
 }
 ```
 
-### Using the service plan **blockchain-timestamp** (blockchain-timestamp)
+### Using the service plan **blockchain-timestamp**
 
 ```json
 {

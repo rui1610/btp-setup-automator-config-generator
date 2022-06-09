@@ -19,7 +19,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **cis** by configuring your `usecase.json` file.
 
-### Using the service plan **local** (local)
+### Using the service plan **local**
 
 ```json
 {
@@ -32,7 +32,7 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
 }
 ```
 
-### Using the service plan **central** (central)
+### Using the service plan **central**
 
 ```json
 {

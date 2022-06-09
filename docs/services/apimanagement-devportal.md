@@ -17,7 +17,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **apimanagement-devportal** by configuring your `usecase.json` file.
 
-### Using the service plan **devportal-apiaccess** (devportal-apiaccess)
+### Using the service plan **devportal-apiaccess**
 
 ```json
 {

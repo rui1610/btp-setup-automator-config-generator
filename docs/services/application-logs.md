@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **application-logs** by configuring your `usecase.json` file.
 
-### Using the service plan **large** (large)
+### Using the service plan **large**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **application-logs** by configuring your `u
 }
 ```
 
-### Using the service plan **lite** (lite)
+### Using the service plan **lite**
 
 ```json
 {
@@ -46,7 +46,7 @@ You can setup a service instance for **application-logs** by configuring your `u
 }
 ```
 
-### Using the service plan **standard** (standard)
+### Using the service plan **standard**
 
 ```json
 {

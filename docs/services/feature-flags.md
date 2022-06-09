@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **feature-flags** by configuring your `usecase.json` file.
 
-### Using the service plan **standard** (standard)
+### Using the service plan **standard**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **feature-flags** by configuring your `usec
 }
 ```
 
-### Using the service plan **lite** (lite)
+### Using the service plan **lite**
 
 ```json
 {

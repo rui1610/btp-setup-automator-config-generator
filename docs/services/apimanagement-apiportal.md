@@ -19,7 +19,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **apimanagement-apiportal** by configuring your `usecase.json` file.
 
-### Using the service plan **apiportal-apiaccess** (apiportal-apiaccess)
+### Using the service plan **apiportal-apiaccess**
 
 ```json
 {
@@ -32,7 +32,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
 }
 ```
 
-### Using the service plan **on-premise-connectivity** (on-premise-connectivity)
+### Using the service plan **on-premise-connectivity**
 
 ```json
 {
@@ -45,7 +45,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
 }
 ```
 
-### Using the service plan **apim-as-route-service** (apim-as-route-service)
+### Using the service plan **apim-as-route-service**
 
 ```json
 {

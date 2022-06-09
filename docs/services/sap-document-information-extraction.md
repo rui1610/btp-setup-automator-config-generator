@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **sap-document-information-extraction** by configuring your `usecase.json` file.
 
-### Using the service plan **default** (default)
+### Using the service plan **default**
 
 ```json
 {
@@ -33,7 +33,7 @@ You can setup a service instance for **sap-document-information-extraction** by 
 }
 ```
 
-### Using the service plan **blocks_of_100** (blocks_of_100)
+### Using the service plan **blocks_of_100**
 
 ```json
 {

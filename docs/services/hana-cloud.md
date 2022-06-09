@@ -27,7 +27,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **hana-cloud** by configuring your `usecase.json` file.
 
-### Using the service plan **relational-data-lake-free** (relational-data-lake-free)
+### Using the service plan **relational-data-lake-free**
 
 ```json
 {
@@ -40,7 +40,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **adaptive-server-enterprise-replication** (adaptive-server-enterprise-replication)
+### Using the service plan **adaptive-server-enterprise-replication**
 
 ```json
 {
@@ -53,7 +53,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **hana-cloud-connection-free** (hana-cloud-connection-free)
+### Using the service plan **hana-cloud-connection-free**
 
 ```json
 {
@@ -66,7 +66,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **hana** (hana)
+### Using the service plan **hana**
 
 ```json
 {
@@ -79,7 +79,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **hana-free** (hana-free)
+### Using the service plan **hana-free**
 
 ```json
 {
@@ -92,7 +92,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **hana-cloud-connection** (hana-cloud-connection)
+### Using the service plan **hana-cloud-connection**
 
 ```json
 {
@@ -105,7 +105,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **adaptive-server-enterprise** (adaptive-server-enterprise)
+### Using the service plan **adaptive-server-enterprise**
 
 ```json
 {
@@ -118,7 +118,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 }
 ```
 
-### Using the service plan **relational-data-lake** (relational-data-lake)
+### Using the service plan **relational-data-lake**
 
 ```json
 {

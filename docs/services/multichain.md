@@ -21,7 +21,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **multichain** by configuring your `usecase.json` file.
 
-### Using the service plan **small** (small)
+### Using the service plan **small**
 
 ```json
 {
@@ -34,7 +34,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
 }
 ```
 
-### Using the service plan **large** (large)
+### Using the service plan **large**
 
 ```json
 {
@@ -47,7 +47,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
 }
 ```
 
-### Using the service plan **medium** (medium)
+### Using the service plan **medium**
 
 ```json
 {
@@ -60,7 +60,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
 }
 ```
 
-### Using the service plan **cyon** (cyon)
+### Using the service plan **cyon**
 
 ```json
 {

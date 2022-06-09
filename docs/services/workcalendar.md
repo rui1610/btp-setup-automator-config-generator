@@ -18,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **workcalendar** by configuring your `usecase.json` file.
 
-### Using the service plan **default** (default)
+### Using the service plan **default**
 
 ```json
 {

@@ -20,7 +20,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **data-intelligence** by configuring your `usecase.json` file.
 
-### Using the service plan **enterprise** (enterprise)
+### Using the service plan **enterprise**
 
 ```json
 {

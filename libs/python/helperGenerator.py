@@ -113,9 +113,9 @@ class BTPUSECASE_GEN:
         renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
         # Create the the file with all free service plans
-        targetFilename = FOLDER_OUTPUT_DOCS + "free-tier.md"
-        templateFilename = FOLDER_TEMPLATES + "docs/FREE-TIER.MD"
-        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+        # targetFilename = FOLDER_OUTPUT_DOCS + "free-tier.md"
+        # templateFilename = FOLDER_TEMPLATES + "docs/FREE-TIER.MD"
+        # renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 
 def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):

@@ -29,7 +29,7 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "it-rt",
-      "plan": "api"
+      "plan": "api"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "it-rt",
-      "plan": "integration-flow"
+      "plan": "integration-flow"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **workflowmanagement** by configuring your 
     {
       "category": "SERVICE",
       "name": "workflowmanagement",
-      "plan": "workflow"
+      "plan": "workflow"      
     }
   ]
 }

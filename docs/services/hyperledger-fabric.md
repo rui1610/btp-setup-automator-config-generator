@@ -33,7 +33,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "testnet"
+      "plan": "testnet"      
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "dev"
+      "plan": "dev"      
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "backbone"
+      "plan": "backbone"      
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "cyon"
+      "plan": "cyon"      
     }
   ]
 }
@@ -93,7 +93,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "node"
+      "plan": "node"      
     }
   ]
 }
@@ -108,7 +108,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
     {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan": "channel"
+      "plan": "channel"      
     }
   ]
 }

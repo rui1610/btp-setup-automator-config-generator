@@ -27,7 +27,7 @@ You can setup a service instance for **privatelink** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "privatelink",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

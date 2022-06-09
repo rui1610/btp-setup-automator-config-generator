@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-client-resource** by configuring y
     {
       "category": "SERVICE",
       "name": "mobile-client-resource",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -30,7 +30,7 @@ You can setup a service instance for **cloudfoundry** by configuring your `useca
     {
       "category": "ENVIRONMENT",
       "name": "cloudfoundry",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **integrationsuite** by configuring your `u
     {
       "category": "SERVICE",
       "name": "integrationsuite",
-      "plan": "messages"
+      "plan": "messages"      
     }
   ]
 }

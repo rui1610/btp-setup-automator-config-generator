@@ -28,7 +28,7 @@ You can setup a service instance for **auditlog-viewer** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "auditlog-viewer",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

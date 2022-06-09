@@ -28,7 +28,7 @@ You can setup a service instance for **irpa-service** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "irpa-service",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

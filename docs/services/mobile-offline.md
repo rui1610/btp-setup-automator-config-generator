@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-offline** by configuring your `use
     {
       "category": "SERVICE",
       "name": "mobile-offline",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

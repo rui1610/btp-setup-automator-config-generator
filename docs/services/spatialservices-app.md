@@ -27,7 +27,7 @@ You can setup a service instance for **spatialservices-app** by configuring your
     {
       "category": "APPLICATION",
       "name": "spatialservices-app",
-      "plan": "professional"
+      "plan": "professional"      
     }
   ]
 }
@@ -42,7 +42,7 @@ You can setup a service instance for **spatialservices-app** by configuring your
     {
       "category": "APPLICATION",
       "name": "spatialservices-app",
-      "plan": "starter"
+      "plan": "starter"      
     }
   ]
 }

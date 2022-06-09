@@ -28,7 +28,7 @@ You can setup a service instance for **intercompany-reconciliation** by configur
     {
       "category": "SERVICE",
       "name": "intercompany-reconciliation",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -32,7 +32,7 @@ You can setup a service instance for **mobile-services** by configuring your `us
     {
       "category": "SERVICE",
       "name": "mobile-services",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **mobile-services** by configuring your `us
     {
       "category": "SERVICE",
       "name": "mobile-services",
-      "plan": "b2c"
+      "plan": "b2c"      
     }
   ]
 }
@@ -62,7 +62,7 @@ You can setup a service instance for **mobile-services** by configuring your `us
     {
       "category": "SERVICE",
       "name": "mobile-services",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

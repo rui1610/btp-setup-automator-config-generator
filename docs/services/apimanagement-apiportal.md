@@ -29,7 +29,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
     {
       "category": "SERVICE",
       "name": "apimanagement-apiportal",
-      "plan": "apiportal-apiaccess"
+      "plan": "apiportal-apiaccess"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
     {
       "category": "SERVICE",
       "name": "apimanagement-apiportal",
-      "plan": "on-premise-connectivity"
+      "plan": "on-premise-connectivity"      
     }
   ]
 }
@@ -59,7 +59,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
     {
       "category": "SERVICE",
       "name": "apimanagement-apiportal",
-      "plan": "apim-as-route-service"
+      "plan": "apim-as-route-service"      
     }
   ]
 }

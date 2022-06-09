@@ -31,7 +31,7 @@ You can setup a service instance for **service-ticket-intelligence** by configur
     {
       "category": "SERVICE",
       "name": "service-ticket-intelligence",
-      "plan": "blocks_of_100"
+      "plan": "blocks_of_100"      
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **service-ticket-intelligence** by configur
     {
       "category": "SERVICE",
       "name": "service-ticket-intelligence",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **service-ticket-intelligence** by configur
     {
       "category": "SERVICE",
       "name": "service-ticket-intelligence",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

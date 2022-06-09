@@ -29,7 +29,7 @@ You can setup a service instance for **document-translation** by configuring you
     {
       "category": "SERVICE",
       "name": "document-translation",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **document-translation** by configuring you
     {
       "category": "SERVICE",
       "name": "document-translation",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

@@ -32,7 +32,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "redis",
-      "plan": "xsmall"
+      "plan": "xsmall"      
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "redis",
-      "plan": "medium"
+      "plan": "medium"      
     }
   ]
 }
@@ -62,7 +62,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "redis",
-      "plan": "large"
+      "plan": "large"      
     }
   ]
 }
@@ -77,7 +77,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "redis",
-      "plan": "small"
+      "plan": "small"      
     }
   ]
 }

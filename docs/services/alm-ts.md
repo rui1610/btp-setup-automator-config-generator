@@ -29,7 +29,7 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
     {
       "category": "APPLICATION",
       "name": "alm-ts",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
     {
       "category": "APPLICATION",
       "name": "alm-ts",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

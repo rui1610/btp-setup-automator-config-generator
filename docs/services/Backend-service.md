@@ -27,7 +27,7 @@ You can setup a service instance for **Backend-service** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "Backend-service",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

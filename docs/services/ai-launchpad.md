@@ -27,7 +27,7 @@ You can setup a service instance for **ai-launchpad** by configuring your `useca
     {
       "category": "APPLICATION",
       "name": "ai-launchpad",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

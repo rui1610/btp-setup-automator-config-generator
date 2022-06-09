@@ -29,7 +29,7 @@ You can setup a service instance for **market-rates-ux** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "market-rates-ux",
-      "plan": "mrtr"
+      "plan": "mrtr"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **market-rates-ux** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "market-rates-ux",
-      "plan": "mror"
+      "plan": "mror"      
     }
   ]
 }

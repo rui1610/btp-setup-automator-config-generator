@@ -29,7 +29,7 @@ You can setup a service instance for **SAPLaunchpad** by configuring your `useca
     {
       "category": "APPLICATION",
       "name": "SAPLaunchpad",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **SAPLaunchpad** by configuring your `useca
     {
       "category": "APPLICATION",
       "name": "SAPLaunchpad",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **sap-analytics-cloud-embedded-edition** by
     {
       "category": "SERVICE",
       "name": "sap-analytics-cloud-embedded-edition",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

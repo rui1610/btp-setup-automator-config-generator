@@ -28,7 +28,7 @@ You can setup a service instance for **xfs-runtime** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "xfs-runtime",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

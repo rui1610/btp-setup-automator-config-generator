@@ -27,7 +27,7 @@ You can setup a service instance for **responsibilitymanagement-application** by
     {
       "category": "APPLICATION",
       "name": "responsibilitymanagement-application",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

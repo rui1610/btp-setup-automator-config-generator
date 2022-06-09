@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-sample-odata-v2-espm** by configur
     {
       "category": "SERVICE",
       "name": "mobile-sample-odata-v2-espm",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -32,7 +32,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "xsuaa",
-      "plan": "application"
+      "plan": "application"      
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "xsuaa",
-      "plan": "broker"
+      "plan": "broker"      
     }
   ]
 }
@@ -62,7 +62,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "xsuaa",
-      "plan": "apiaccess"
+      "plan": "apiaccess"      
     }
   ]
 }
@@ -77,7 +77,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "xsuaa",
-      "plan": "space"
+      "plan": "space"      
     }
   ]
 }

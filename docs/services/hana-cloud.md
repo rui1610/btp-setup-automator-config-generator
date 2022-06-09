@@ -37,7 +37,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "relational-data-lake-free"
+      "plan": "relational-data-lake-free"      
     }
   ]
 }
@@ -52,7 +52,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "adaptive-server-enterprise-replication"
+      "plan": "adaptive-server-enterprise-replication"      
     }
   ]
 }
@@ -67,7 +67,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "hana-cloud-connection-free"
+      "plan": "hana-cloud-connection-free"      
     }
   ]
 }
@@ -82,7 +82,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "hana"
+      "plan": "hana"      
     }
   ]
 }
@@ -97,7 +97,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "hana-free"
+      "plan": "hana-free"      
     }
   ]
 }
@@ -112,7 +112,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "hana-cloud-connection"
+      "plan": "hana-cloud-connection"      
     }
   ]
 }
@@ -127,7 +127,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "adaptive-server-enterprise"
+      "plan": "adaptive-server-enterprise"      
     }
   ]
 }
@@ -142,7 +142,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "hana-cloud",
-      "plan": "relational-data-lake"
+      "plan": "relational-data-lake"      
     }
   ]
 }

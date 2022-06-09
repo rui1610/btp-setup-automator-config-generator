@@ -30,7 +30,7 @@ You can setup a service instance for **ui5-flexibility-keyuser** by configuring 
     {
       "category": "SERVICE",
       "name": "ui5-flexibility-keyuser",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **ui5-flexibility-keyuser** by configuring 
     {
       "category": "SERVICE",
       "name": "ui5-flexibility-keyuser",
-      "plan": "keyuser"
+      "plan": "keyuser"      
     }
   ]
 }

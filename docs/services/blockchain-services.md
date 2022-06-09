@@ -31,7 +31,7 @@ You can setup a service instance for **blockchain-services** by configuring your
     {
       "category": "SERVICE",
       "name": "blockchain-services",
-      "plan": "blockchain-proof-of-state"
+      "plan": "blockchain-proof-of-state"      
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **blockchain-services** by configuring your
     {
       "category": "SERVICE",
       "name": "blockchain-services",
-      "plan": "blockchain-proof-of-history"
+      "plan": "blockchain-proof-of-history"      
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **blockchain-services** by configuring your
     {
       "category": "SERVICE",
       "name": "blockchain-services",
-      "plan": "blockchain-timestamp"
+      "plan": "blockchain-timestamp"      
     }
   ]
 }
@@ -76,7 +76,7 @@ You can setup a service instance for **blockchain-services** by configuring your
     {
       "category": "SERVICE",
       "name": "blockchain-services",
-      "plan": "blockchain-hana-integration"
+      "plan": "blockchain-hana-integration"      
     }
   ]
 }

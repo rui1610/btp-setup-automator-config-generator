@@ -27,7 +27,7 @@ You can setup a service instance for **wums-c4re-beta** by configuring your `use
     {
       "category": "APPLICATION",
       "name": "wums-c4re-beta",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

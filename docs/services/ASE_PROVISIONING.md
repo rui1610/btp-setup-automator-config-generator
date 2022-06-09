@@ -32,7 +32,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
     {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan": "XLARGE"
+      "plan": "XLARGE"      
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
     {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan": "MEDIUM"
+      "plan": "MEDIUM"      
     }
   ]
 }
@@ -62,7 +62,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
     {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan": "SMALL"
+      "plan": "SMALL"      
     }
   ]
 }
@@ -77,7 +77,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
     {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan": "XSMALL"
+      "plan": "XSMALL"      
     }
   ]
 }
@@ -92,7 +92,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
     {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan": "LARGE"
+      "plan": "LARGE"      
     }
   ]
 }

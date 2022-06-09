@@ -27,7 +27,7 @@ You can setup a service instance for **MDOrchestrationApplication** by configuri
     {
       "category": "APPLICATION",
       "name": "MDOrchestrationApplication",
-      "plan": "saas-application"
+      "plan": "saas-application"      
     }
   ]
 }

@@ -26,7 +26,7 @@ You can setup a service instance for **MDMBusinessPartnerService** by configurin
     {
       "category": "SERVICE",
       "name": "MDMBusinessPartnerService",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

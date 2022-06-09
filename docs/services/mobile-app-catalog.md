@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-app-catalog** by configuring your 
     {
       "category": "SERVICE",
       "name": "mobile-app-catalog",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

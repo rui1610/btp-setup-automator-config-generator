@@ -28,7 +28,7 @@ You can setup a service instance for **iotas** by configuring your `usecase.json
     {
       "category": "APPLICATION",
       "name": "iotas",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -43,7 +43,7 @@ You can setup a service instance for **iotas** by configuring your `usecase.json
     {
       "category": "APPLICATION",
       "name": "iotas",
-      "plan": "oneproduct"
+      "plan": "oneproduct"      
     }
   ]
 }

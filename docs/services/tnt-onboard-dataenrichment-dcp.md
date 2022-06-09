@@ -27,7 +27,7 @@ You can setup a service instance for **tnt-onboard-dataenrichment-dcp** by confi
     {
       "category": "APPLICATION",
       "name": "tnt-onboard-dataenrichment-dcp",
-      "plan": "saas-application"
+      "plan": "saas-application"      
     }
   ]
 }

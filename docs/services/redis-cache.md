@@ -31,7 +31,7 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "redis-cache",
-      "plan": "premium"
+      "plan": "premium"      
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "redis-cache",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "redis-cache",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

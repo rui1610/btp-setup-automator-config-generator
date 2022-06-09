@@ -31,7 +31,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "azure"
+      "plan": "azure"      
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "aws"
+      "plan": "aws"      
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "gcp"
+      "plan": "gcp"      
     }
   ]
 }
@@ -76,7 +76,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

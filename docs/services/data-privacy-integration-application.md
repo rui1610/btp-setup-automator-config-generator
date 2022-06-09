@@ -29,7 +29,7 @@ You can setup a service instance for **data-privacy-integration-application** by
     {
       "category": "APPLICATION",
       "name": "data-privacy-integration-application",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

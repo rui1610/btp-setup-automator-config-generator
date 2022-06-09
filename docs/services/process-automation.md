@@ -29,7 +29,7 @@ You can setup a service instance for **process-automation** by configuring your 
     {
       "category": "APPLICATION",
       "name": "process-automation",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **process-automation** by configuring your 
     {
       "category": "APPLICATION",
       "name": "process-automation",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

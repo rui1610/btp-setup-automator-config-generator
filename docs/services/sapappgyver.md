@@ -28,7 +28,7 @@ You can setup a service instance for **sapappgyver** by configuring your `usecas
     {
       "category": "APPLICATION",
       "name": "sapappgyver",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

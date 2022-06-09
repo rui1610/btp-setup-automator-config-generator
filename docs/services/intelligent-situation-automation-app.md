@@ -29,7 +29,7 @@ You can setup a service instance for **intelligent-situation-automation-app** by
     {
       "category": "APPLICATION",
       "name": "intelligent-situation-automation-app",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **intelligent-situation-automation-app** by
     {
       "category": "APPLICATION",
       "name": "intelligent-situation-automation-app",
-      "plan": "beta"
+      "plan": "beta"      
     }
   ]
 }

@@ -26,7 +26,7 @@ You can setup a service instance for **MDMBusinessPartnerApplication** by config
     {
       "category": "APPLICATION",
       "name": "MDMBusinessPartnerApplication",
-      "plan": "saas-application"
+      "plan": "saas-application"      
     }
   ]
 }

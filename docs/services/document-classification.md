@@ -29,7 +29,7 @@ You can setup a service instance for **document-classification** by configuring 
     {
       "category": "SERVICE",
       "name": "document-classification",
-      "plan": "blocks_of_100"
+      "plan": "blocks_of_100"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **document-classification** by configuring 
     {
       "category": "SERVICE",
       "name": "document-classification",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **auditlog-management** by configuring your
     {
       "category": "SERVICE",
       "name": "auditlog-management",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

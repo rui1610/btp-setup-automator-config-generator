@@ -28,7 +28,7 @@ You can setup a service instance for **cias** by configuring your `usecase.json`
     {
       "category": "APPLICATION",
       "name": "cias",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

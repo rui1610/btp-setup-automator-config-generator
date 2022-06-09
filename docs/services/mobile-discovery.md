@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-discovery** by configuring your `u
     {
       "category": "SERVICE",
       "name": "mobile-discovery",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

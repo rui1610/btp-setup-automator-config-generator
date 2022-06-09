@@ -27,7 +27,7 @@ You can setup a service instance for **abapcp-web-router** by configuring your `
     {
       "category": "APPLICATION",
       "name": "abapcp-web-router",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

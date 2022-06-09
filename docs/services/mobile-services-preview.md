@@ -29,7 +29,7 @@ You can setup a service instance for **mobile-services-preview** by configuring 
     {
       "category": "SERVICE",
       "name": "mobile-services-preview",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -30,7 +30,7 @@ You can setup a service instance for **connectivity** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "connectivity",
-      "plan": "lite"
+      "plan": "lite"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **connectivity** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "connectivity",
-      "plan": "connectivity_proxy"
+      "plan": "connectivity_proxy"      
     }
   ]
 }

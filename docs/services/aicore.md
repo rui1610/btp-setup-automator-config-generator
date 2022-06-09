@@ -27,7 +27,7 @@ You can setup a service instance for **aicore** by configuring your `usecase.jso
     {
       "category": "SERVICE",
       "name": "aicore",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **destination** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "destination",
-      "plan": "lite"
+      "plan": "lite"      
     }
   ]
 }

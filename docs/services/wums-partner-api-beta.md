@@ -27,7 +27,7 @@ You can setup a service instance for **wums-partner-api-beta** by configuring yo
     {
       "category": "SERVICE",
       "name": "wums-partner-api-beta",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

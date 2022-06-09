@@ -27,7 +27,7 @@ You can setup a service instance for **market-rates-thr** by configuring your `u
     {
       "category": "SERVICE",
       "name": "market-rates-thr",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

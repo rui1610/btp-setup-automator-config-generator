@@ -28,7 +28,7 @@ You can setup a service instance for **PersonalDataManagerApp** by configuring y
     {
       "category": "APPLICATION",
       "name": "PersonalDataManagerApp",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

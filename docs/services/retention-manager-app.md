@@ -28,7 +28,7 @@ You can setup a service instance for **retention-manager-app** by configuring yo
     {
       "category": "APPLICATION",
       "name": "retention-manager-app",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

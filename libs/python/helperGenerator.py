@@ -62,6 +62,7 @@ class BTPUSECASE_GEN:
                         item["category"] = category.get("name")
                         item["service"] = service.get("name")
                         item["plan"] = plan.get("name")
+                        item["jsonschemarefs"] = plan.get("jsonschemarefs")
                         supportedInRegion = False
                         for datacenter in plan.get("dataCenters"):
                             thisRegion = datacenter.get("region")
@@ -108,8 +109,18 @@ class BTPUSECASE_GEN:
                 renderTemplateWithJson(templateFilename, targetFilename, {"service": service, "category": category})
 
         # Create the root file with links to the detailed pages
-        targetFilename = FOLDER_OUTPUT_DOCS + "index.md"
+        targetFilename = FOLDER_OUTPUT_DOCS + "free-tier.md"
+        templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-FREE-TIER.MD"
+        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+
+        # Create the root file with links to the detailed pages
+        targetFilename = FOLDER_OUTPUT_DOCS + "service-overview.md"
         templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-OVERVIEW.MD"
+        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+
+        # Create the root file with links to the detailed pages
+        targetFilename = FOLDER_OUTPUT_DOCS + "index.md"
+        templateFilename = FOLDER_TEMPLATES + "docs/INDEX.MD"
         renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 

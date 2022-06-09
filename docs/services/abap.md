@@ -33,7 +33,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "abap",
-      "plan": "abap_compute_unit"
+      "plan": "abap_compute_unit"      
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "abap",
-      "plan": "hana_compute_unit"
+      "plan": "hana_compute_unit"      
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "abap",
-      "plan": "16_abap_64_db"
+      "plan": "16_abap_64_db"      
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "abap",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -93,7 +93,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "abap",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

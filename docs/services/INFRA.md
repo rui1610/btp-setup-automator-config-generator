@@ -29,7 +29,7 @@ You can setup a service instance for **INFRA** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "INFRA",
-      "plan": "custom_domains"
+      "plan": "custom_domains"      
     }
   ]
 }

@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-push** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "mobile-push",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

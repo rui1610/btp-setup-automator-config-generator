@@ -28,7 +28,7 @@ You can setup a service instance for **theming** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "theming",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

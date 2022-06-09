@@ -30,7 +30,7 @@ You can setup a service instance for **application-logs** by configuring your `u
     {
       "category": "SERVICE",
       "name": "application-logs",
-      "plan": "large"
+      "plan": "large"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **application-logs** by configuring your `u
     {
       "category": "SERVICE",
       "name": "application-logs",
-      "plan": "lite"
+      "plan": "lite"      
     }
   ]
 }
@@ -60,7 +60,7 @@ You can setup a service instance for **application-logs** by configuring your `u
     {
       "category": "SERVICE",
       "name": "application-logs",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

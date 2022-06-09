@@ -27,7 +27,7 @@ You can setup a service instance for **c4-distributed-order-management-app** by 
     {
       "category": "APPLICATION",
       "name": "c4-distributed-order-management-app",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

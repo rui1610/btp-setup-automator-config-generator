@@ -30,7 +30,7 @@ You can setup a service instance for **business-entity-recognition** by configur
     {
       "category": "SERVICE",
       "name": "business-entity-recognition",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **business-entity-recognition** by configur
     {
       "category": "SERVICE",
       "name": "business-entity-recognition",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -29,7 +29,7 @@ You can setup a service instance for **sdm-repository** by configuring your `use
     {
       "category": "SERVICE",
       "name": "sdm-repository",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **sdm-repository** by configuring your `use
     {
       "category": "SERVICE",
       "name": "sdm-repository",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

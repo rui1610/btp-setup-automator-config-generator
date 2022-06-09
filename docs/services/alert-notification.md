@@ -32,7 +32,7 @@ You can setup a service instance for **alert-notification** by configuring your 
     {
       "category": "SERVICE",
       "name": "alert-notification",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **alert-notification** by configuring your 
     {
       "category": "SERVICE",
       "name": "alert-notification",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }

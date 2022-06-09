@@ -30,7 +30,7 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
     {
       "category": "SERVICE",
       "name": "html5-apps-repo",
-      "plan": "app-host"
+      "plan": "app-host"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
     {
       "category": "SERVICE",
       "name": "html5-apps-repo",
-      "plan": "app-runtime"
+      "plan": "app-runtime"      
     }
   ]
 }

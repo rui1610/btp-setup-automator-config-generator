@@ -27,7 +27,7 @@ You can setup a service instance for **invoice-object-recommendation** by config
     {
       "category": "SERVICE",
       "name": "invoice-object-recommendation",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

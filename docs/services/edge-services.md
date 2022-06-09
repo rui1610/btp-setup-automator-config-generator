@@ -27,7 +27,7 @@ You can setup a service instance for **edge-services** by configuring your `usec
     {
       "category": "APPLICATION",
       "name": "edge-services",
-      "plan": "Enterprise"
+      "plan": "Enterprise"      
     }
   ]
 }
@@ -42,7 +42,7 @@ You can setup a service instance for **edge-services** by configuring your `usec
     {
       "category": "APPLICATION",
       "name": "edge-services",
-      "plan": "Standard"
+      "plan": "Standard"      
     }
   ]
 }

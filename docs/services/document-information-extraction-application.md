@@ -27,7 +27,7 @@ You can setup a service instance for **document-information-extraction-applicati
     {
       "category": "APPLICATION",
       "name": "document-information-extraction-application",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

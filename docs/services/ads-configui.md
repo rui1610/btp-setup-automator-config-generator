@@ -28,7 +28,7 @@ You can setup a service instance for **ads-configui** by configuring your `useca
     {
       "category": "APPLICATION",
       "name": "ads-configui",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

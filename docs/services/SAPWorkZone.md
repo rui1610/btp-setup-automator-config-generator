@@ -27,7 +27,7 @@ You can setup a service instance for **SAPWorkZone** by configuring your `usecas
     {
       "category": "APPLICATION",
       "name": "SAPWorkZone",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **dateandtime** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "dateandtime",
-      "plan": "default"
+      "plan": "default"      
     }
   ]
 }

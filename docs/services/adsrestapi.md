@@ -28,7 +28,7 @@ You can setup a service instance for **adsrestapi** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "adsrestapi",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

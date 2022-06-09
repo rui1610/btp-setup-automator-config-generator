@@ -27,7 +27,7 @@ You can setup a service instance for **api-management** by configuring your `use
     {
       "category": "SERVICE",
       "name": "api-management",
-      "plan": "preview"
+      "plan": "preview"      
     }
   ]
 }

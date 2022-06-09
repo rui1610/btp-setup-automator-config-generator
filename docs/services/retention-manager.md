@@ -30,7 +30,7 @@ You can setup a service instance for **retention-manager** by configuring your `
     {
       "category": "SERVICE",
       "name": "retention-manager",
-      "plan": "free"
+      "plan": "free"      
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **retention-manager** by configuring your `
     {
       "category": "SERVICE",
       "name": "retention-manager",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

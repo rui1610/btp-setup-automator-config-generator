@@ -31,7 +31,7 @@ You can setup a service instance for **sap-cai-onboarding** by configuring your 
     {
       "category": "APPLICATION",
       "name": "sap-cai-onboarding",
-      "plan": "standard"
+      "plan": "standard"      
     }
   ]
 }

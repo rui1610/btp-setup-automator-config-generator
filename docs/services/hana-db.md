@@ -32,7 +32,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 
 ### Using the service plan **512standard** (HANA 512GB Standard edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -41,11 +41,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "512standard"
   ]
 }
-````
+```
 
 ### Using the service plan **256premium** (HANA 256GB Premium edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -54,11 +54,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "256premium"
   ]
 }
-````
+```
 
 ### Using the service plan **128standard** (HANA 128GB Standard edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -67,11 +67,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "128standard"
   ]
 }
-````
+```
 
 ### Using the service plan **enterprise** (SAP HANA Service)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -80,11 +80,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "enterprise"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (SAP HANA Service)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -93,11 +93,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **64premium** (HANA 64GB Premium edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -106,11 +106,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "64premium"
   ]
 }
-````
+```
 
 ### Using the service plan **1024standard** (HANA 1TB Standard edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -119,11 +119,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "1024standard"
   ]
 }
-````
+```
 
 ### Using the service plan **1024premium** (HANA 1TB Premium edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -132,11 +132,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "1024premium"
   ]
 }
-````
+```
 
 ### Using the service plan **2048standard** (SAP Cloud Platform, SAP HANA service (SAP DC), standard edition (2 TB) for Microsoft Azure EU-West)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -145,11 +145,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "2048standard"
   ]
 }
-````
+```
 
 ### Using the service plan **256standard** (SAP Cloud Platform, SAP HANA service (SAP DC), standard edition (256 GB) for Microsoft Azure EU-West)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -158,11 +158,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "256standard"
   ]
 }
-````
+```
 
 ### Using the service plan **512premium** (SAP Cloud Platform, SAP HANA service (SAP DC), enterprise edition (512 GB) for Microsoft Azure EU-West)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -171,11 +171,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "512premium"
   ]
 }
-````
+```
 
 ### Using the service plan **2048premium** (SAP Cloud Platform, SAP HANA service (SAP DC), enterprise edition (2 TB) for Microsoft Azure EU-West)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -184,11 +184,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "2048premium"
   ]
 }
-````
+```
 
 ### Using the service plan **64standard** (HANA 64GB Standard edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -197,11 +197,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "64standard"
   ]
 }
-````
+```
 
 ### Using the service plan **128premium** (HANA 128GB Premium edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -210,7 +210,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
       "plan: "128premium"
   ]
 }
-````
+```
 
 
 ## Related categories

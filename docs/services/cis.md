@@ -21,7 +21,7 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
 
 ### Using the service plan **local** (local)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
       "plan: "local"
   ]
 }
-````
+```
 
 ### Using the service plan **central** (central)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
       "plan: "central"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -20,7 +20,7 @@ You can setup a service instance for **destination** by configuring your `usecas
 
 ### Using the service plan **lite** (lite)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **destination** by configuring your `usecas
       "plan: "lite"
   ]
 }
-````
+```
 
 
 ## Related categories

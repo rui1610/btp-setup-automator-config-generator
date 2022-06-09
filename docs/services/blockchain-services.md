@@ -23,7 +23,7 @@ You can setup a service instance for **blockchain-services** by configuring your
 
 ### Using the service plan **blockchain-proof-of-state** (blockchain-proof-of-state)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **blockchain-services** by configuring your
       "plan: "blockchain-proof-of-state"
   ]
 }
-````
+```
 
 ### Using the service plan **blockchain-proof-of-history** (blockchain-proof-of-history)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **blockchain-services** by configuring your
       "plan: "blockchain-proof-of-history"
   ]
 }
-````
+```
 
 ### Using the service plan **blockchain-timestamp** (blockchain-timestamp)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,11 +58,11 @@ You can setup a service instance for **blockchain-services** by configuring your
       "plan: "blockchain-timestamp"
   ]
 }
-````
+```
 
 ### Using the service plan **blockchain-hana-integration** (Blockchain Services)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -71,7 +71,7 @@ You can setup a service instance for **blockchain-services** by configuring your
       "plan: "blockchain-hana-integration"
   ]
 }
-````
+```
 
 
 ## Related categories

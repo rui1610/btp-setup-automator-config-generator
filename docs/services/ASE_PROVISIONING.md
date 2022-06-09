@@ -24,7 +24,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 
 ### Using the service plan **XLARGE** (ASE 640GB)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -33,11 +33,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
       "plan: "XLARGE"
   ]
 }
-````
+```
 
 ### Using the service plan **MEDIUM** (ASE 160GB)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -46,11 +46,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
       "plan: "MEDIUM"
   ]
 }
-````
+```
 
 ### Using the service plan **SMALL** (ASE 80GB)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -59,11 +59,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
       "plan: "SMALL"
   ]
 }
-````
+```
 
 ### Using the service plan **XSMALL** (ASE 40GB)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -72,11 +72,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
       "plan: "XSMALL"
   ]
 }
-````
+```
 
 ### Using the service plan **LARGE** (ASE 320GB)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -85,7 +85,7 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
       "plan: "LARGE"
   ]
 }
-````
+```
 
 
 ## Related categories

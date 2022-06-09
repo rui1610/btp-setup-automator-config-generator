@@ -21,7 +21,7 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
 
 ### Using the service plan **PRO** (Professional Edition for VMs: 2 CPUs, 4096 MB Memory)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
       "plan: "PRO"
   ]
 }
-````
+```
 
 ### Using the service plan **PREMIUM_PLUS** (Premium Plus Edition for VMs: 8 CPUs, 16384 MB Memory)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,11 +43,11 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
       "plan: "PREMIUM_PLUS"
   ]
 }
-````
+```
 
 ### Using the service plan **PREMIUM** (Premium Edition for VMs: 4 CPUs, 8192 MB Memory)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -56,7 +56,7 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
       "plan: "PREMIUM"
   ]
 }
-````
+```
 
 
 ## Related categories

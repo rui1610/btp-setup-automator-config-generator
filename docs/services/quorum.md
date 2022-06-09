@@ -22,7 +22,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
 
 ### Using the service plan **cyon** (cyon)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
       "plan: "cyon"
   ]
 }
-````
+```
 
 ### Using the service plan **testnet** (testnet)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,11 +44,11 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
       "plan: "testnet"
   ]
 }
-````
+```
 
 ### Using the service plan **dev** (dev)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -57,7 +57,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
       "plan: "dev"
   ]
 }
-````
+```
 
 
 ## Related categories

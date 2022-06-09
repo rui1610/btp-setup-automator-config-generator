@@ -19,7 +19,7 @@ You can setup a service instance for **api-management-apiportal** by configuring
 
 ### Using the service plan **standard** (API Management-API Portal)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **api-management-apiportal** by configuring
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

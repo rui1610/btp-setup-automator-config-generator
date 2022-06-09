@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-app-update** by configuring your `
 
 ### Using the service plan **standard** (Mobile App Update Service is used to update new versions of an App Modeler application)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-app-update** by configuring your `
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

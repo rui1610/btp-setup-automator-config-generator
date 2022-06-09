@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-client-usage** by configuring your
 
 ### Using the service plan **standard** (Mobile Client Usage Service allows mobile application to upload client usage information and to analyze them on the server)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-client-usage** by configuring your
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

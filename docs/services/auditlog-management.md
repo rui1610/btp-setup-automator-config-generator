@@ -20,7 +20,7 @@ You can setup a service instance for **auditlog-management** by configuring your
 
 ### Using the service plan **default** (default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **auditlog-management** by configuring your
       "plan: "default"
   ]
 }
-````
+```
 
 
 ## Related categories

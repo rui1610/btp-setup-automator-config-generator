@@ -22,7 +22,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
 
 ### Using the service plan **hdi-shared** (hdi-shared)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
       "plan: "hdi-shared"
   ]
 }
-````
+```
 
 ### Using the service plan **schema** (schema)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,11 +44,11 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
       "plan: "schema"
   ]
 }
-````
+```
 
 ### Using the service plan **sbss** (sbss)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -57,11 +57,11 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
       "plan: "sbss"
   ]
 }
-````
+```
 
 ### Using the service plan **securestore** (securestore)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -70,7 +70,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
       "plan: "securestore"
   ]
 }
-````
+```
 
 
 ## Related categories

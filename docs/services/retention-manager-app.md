@@ -20,7 +20,7 @@ You can setup a service instance for **retention-manager-app** by configuring yo
 
 ### Using the service plan **standard** (Standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **retention-manager-app** by configuring yo
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

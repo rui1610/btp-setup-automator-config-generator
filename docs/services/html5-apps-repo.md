@@ -22,7 +22,7 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
 
 ### Using the service plan **app-host** (app-host)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
       "plan: "app-host"
   ]
 }
-````
+```
 
 ### Using the service plan **app-runtime** (app-runtime)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **html5-apps-repo** by configuring your `us
       "plan: "app-runtime"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -23,7 +23,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
 
 ### Using the service plan **event-mesh-connectivity** (Event Mesh Connectivity)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **enterprise-messaging** by configuring you
       "plan: "event-mesh-connectivity"
   ]
 }
-````
+```
 
 ### Using the service plan **event-mesh-connectivity-beta** (event-mesh-connectivity-beta)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **enterprise-messaging** by configuring you
       "plan: "event-mesh-connectivity-beta"
   ]
 }
-````
+```
 
 ### Using the service plan **default** (default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,7 +58,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
       "plan: "default"
   ]
 }
-````
+```
 
 
 ## Related categories

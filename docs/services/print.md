@@ -22,7 +22,7 @@ You can setup a service instance for **print** by configuring your `usecase.json
 
 ### Using the service plan **sender** (sender)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **print** by configuring your `usecase.json
       "plan: "sender"
   ]
 }
-````
+```
 
 ### Using the service plan **receiver** (receiver)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **print** by configuring your `usecase.json
       "plan: "receiver"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -29,7 +29,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
 
 ### Using the service plan **relational-data-lake-free** (relational-data-lake-free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -38,11 +38,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "relational-data-lake-free"
   ]
 }
-````
+```
 
 ### Using the service plan **adaptive-server-enterprise-replication** (adaptive-server-enterprise-replication)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -51,11 +51,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "adaptive-server-enterprise-replication"
   ]
 }
-````
+```
 
 ### Using the service plan **hana-cloud-connection-free** (hana-cloud-connection-free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -64,11 +64,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "hana-cloud-connection-free"
   ]
 }
-````
+```
 
 ### Using the service plan **hana** (hana)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -77,11 +77,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "hana"
   ]
 }
-````
+```
 
 ### Using the service plan **hana-free** (hana-free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -90,11 +90,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "hana-free"
   ]
 }
-````
+```
 
 ### Using the service plan **hana-cloud-connection** (hana-cloud-connection)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -103,11 +103,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "hana-cloud-connection"
   ]
 }
-````
+```
 
 ### Using the service plan **adaptive-server-enterprise** (adaptive-server-enterprise)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -116,11 +116,11 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "adaptive-server-enterprise"
   ]
 }
-````
+```
 
 ### Using the service plan **relational-data-lake** (relational-data-lake)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -129,7 +129,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan: "relational-data-lake"
   ]
 }
-````
+```
 
 
 ## Related categories

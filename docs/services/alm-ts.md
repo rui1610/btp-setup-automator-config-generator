@@ -21,7 +21,7 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
 
 ### Using the service plan **standard** (Standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **alm-ts** by configuring your `usecase.jso
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

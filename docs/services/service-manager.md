@@ -25,7 +25,7 @@ You can setup a service instance for **service-manager** by configuring your `us
 
 ### Using the service plan **subaccount-admin** (subaccount-admin)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -34,11 +34,11 @@ You can setup a service instance for **service-manager** by configuring your `us
       "plan: "subaccount-admin"
   ]
 }
-````
+```
 
 ### Using the service plan **service-operator-access** (service-operator-access)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -47,11 +47,11 @@ You can setup a service instance for **service-manager** by configuring your `us
       "plan: "service-operator-access"
   ]
 }
-````
+```
 
 ### Using the service plan **container** (container)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -60,11 +60,11 @@ You can setup a service instance for **service-manager** by configuring your `us
       "plan: "container"
   ]
 }
-````
+```
 
 ### Using the service plan **subaccount-audit** (subaccount-audit)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -73,7 +73,7 @@ You can setup a service instance for **service-manager** by configuring your `us
       "plan: "subaccount-audit"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-client-resource** by configuring y
 
 ### Using the service plan **standard** (Mobile Client Resource Service allows to manage resources that can be accessed from mobile applications)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-client-resource** by configuring y
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

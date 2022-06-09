@@ -19,7 +19,7 @@ You can setup a service instance for **MDOrchestrationApplication** by configuri
 
 ### Using the service plan **saas-application** (Master data application that allows master data replication according to predetermined master data distribution models)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **MDOrchestrationApplication** by configuri
       "plan: "saas-application"
   ]
 }
-````
+```
 
 
 ## Related categories

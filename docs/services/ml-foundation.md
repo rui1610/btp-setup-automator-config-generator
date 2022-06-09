@@ -20,7 +20,7 @@ You can setup a service instance for **ml-foundation** by configuring your `usec
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **ml-foundation** by configuring your `usec
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
 
 ### Using the service plan **api** (api)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
       "plan: "api"
   ]
 }
-````
+```
 
 ### Using the service plan **integration-flow** (integration-flow)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **it-rt** by configuring your `usecase.json
       "plan: "integration-flow"
   ]
 }
-````
+```
 
 
 ## Related categories

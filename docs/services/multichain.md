@@ -23,7 +23,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
 
 ### Using the service plan **small** (small)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **multichain** by configuring your `usecase
       "plan: "small"
   ]
 }
-````
+```
 
 ### Using the service plan **large** (large)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **multichain** by configuring your `usecase
       "plan: "large"
   ]
 }
-````
+```
 
 ### Using the service plan **medium** (medium)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,11 +58,11 @@ You can setup a service instance for **multichain** by configuring your `usecase
       "plan: "medium"
   ]
 }
-````
+```
 
 ### Using the service plan **cyon** (cyon)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -71,7 +71,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
       "plan: "cyon"
   ]
 }
-````
+```
 
 
 ## Related categories

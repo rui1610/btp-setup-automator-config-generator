@@ -19,7 +19,7 @@ You can setup a service instance for **eadesigner** by configuring your `usecase
 
 ### Using the service plan **eadesigner** (SAP Enterprise Architecture Designer, cloud edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **eadesigner** by configuring your `usecase
       "plan: "eadesigner"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-sample-odata-v2-espm** by configur
 
 ### Using the service plan **standard** (Mobile Sample OData v2 ESPM Service is a sample OData service used for development and testing)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-sample-odata-v2-espm** by configur
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -20,7 +20,7 @@ You can setup a service instance for **sap-analytics-cloud-embedded-edition** by
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **sap-analytics-cloud-embedded-edition** by
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **SAPWebAnalytics** by configuring your `us
 
 ### Using the service plan **standard** (SAP Web Analytics)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,7 +30,7 @@ You can setup a service instance for **SAPWebAnalytics** by configuring your `us
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

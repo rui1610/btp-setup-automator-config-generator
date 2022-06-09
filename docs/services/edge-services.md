@@ -19,7 +19,7 @@ You can setup a service instance for **edge-services** by configuring your `usec
 
 ### Using the service plan **Enterprise** (SAP Edge Services)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,11 +28,11 @@ You can setup a service instance for **edge-services** by configuring your `usec
       "plan: "Enterprise"
   ]
 }
-````
+```
 
 ### Using the service plan **Standard** (SAP Edge Services Cloud Standard Edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -41,7 +41,7 @@ You can setup a service instance for **edge-services** by configuring your `usec
       "plan: "Standard"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -20,7 +20,7 @@ You can setup a service instance for **WorkflowManagementSaaS** by configuring y
 
 ### Using the service plan **saas-application** (saas-application)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **WorkflowManagementSaaS** by configuring y
       "plan: "saas-application"
   ]
 }
-````
+```
 
 
 ## Related categories

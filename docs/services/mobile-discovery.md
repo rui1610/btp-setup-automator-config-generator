@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-discovery** by configuring your `u
 
 ### Using the service plan **standard** (Mobile Discovery service stores and facilitates retrieval of application configuration data)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-discovery** by configuring your `u
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

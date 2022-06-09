@@ -19,7 +19,7 @@ You can setup a service instance for **mobile-settings-exchange** by configuring
 
 ### Using the service plan **standard** (Mobile Settings Exchange Service is used for device registrations and general access to JSON data)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,11 +28,11 @@ You can setup a service instance for **mobile-settings-exchange** by configuring
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **b2c** (Mobile Settings Exchange Service is used for device registrations and general access to JSON data)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -41,7 +41,7 @@ You can setup a service instance for **mobile-settings-exchange** by configuring
       "plan: "b2c"
   ]
 }
-````
+```
 
 
 ## Related categories

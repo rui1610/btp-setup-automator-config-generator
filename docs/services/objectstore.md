@@ -23,7 +23,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 
 ### Using the service plan **azure-standard** (azure-standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **objectstore** by configuring your `usecas
       "plan: "azure-standard"
   ]
 }
-````
+```
 
 ### Using the service plan **s3-standard** (s3-standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **objectstore** by configuring your `usecas
       "plan: "s3-standard"
   ]
 }
-````
+```
 
 ### Using the service plan **gcs-standard** (gcs-standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,7 +58,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
       "plan: "gcs-standard"
   ]
 }
-````
+```
 
 
 ## Related categories

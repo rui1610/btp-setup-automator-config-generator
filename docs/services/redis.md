@@ -24,7 +24,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
 
 ### Using the service plan **xsmall** (xsmall)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -33,11 +33,11 @@ You can setup a service instance for **redis** by configuring your `usecase.json
       "plan: "xsmall"
   ]
 }
-````
+```
 
 ### Using the service plan **medium** (medium)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -46,11 +46,11 @@ You can setup a service instance for **redis** by configuring your `usecase.json
       "plan: "medium"
   ]
 }
-````
+```
 
 ### Using the service plan **large** (large)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -59,11 +59,11 @@ You can setup a service instance for **redis** by configuring your `usecase.json
       "plan: "large"
   ]
 }
-````
+```
 
 ### Using the service plan **small** (small)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -72,7 +72,7 @@ You can setup a service instance for **redis** by configuring your `usecase.json
       "plan: "small"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **INFRA** by configuring your `usecase.json
 
 ### Using the service plan **custom_domains** (Quota for Custom Domains)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,7 +30,7 @@ You can setup a service instance for **INFRA** by configuring your `usecase.json
       "plan: "custom_domains"
   ]
 }
-````
+```
 
 
 ## Related categories

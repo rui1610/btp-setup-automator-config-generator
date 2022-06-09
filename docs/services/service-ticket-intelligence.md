@@ -23,7 +23,7 @@ You can setup a service instance for **service-ticket-intelligence** by configur
 
 ### Using the service plan **blocks_of_100** (blocks_of_100)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **service-ticket-intelligence** by configur
       "plan: "blocks_of_100"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **service-ticket-intelligence** by configur
       "plan: "free"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,7 +58,7 @@ You can setup a service instance for **service-ticket-intelligence** by configur
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

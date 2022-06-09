@@ -20,7 +20,7 @@ You can setup a service instance for **content-agent** by configuring your `usec
 
 ### Using the service plan **application** (application)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,11 +29,11 @@ You can setup a service instance for **content-agent** by configuring your `usec
       "plan: "application"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -42,7 +42,7 @@ You can setup a service instance for **content-agent** by configuring your `usec
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

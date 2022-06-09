@@ -18,7 +18,7 @@ You can setup a service instance for **feature-flags-dashboard** by configuring 
 
 ### Using the service plan **dashboard** (Dashboard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **feature-flags-dashboard** by configuring 
       "plan: "dashboard"
   ]
 }
-````
+```
 
 
 ## Related categories

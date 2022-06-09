@@ -22,7 +22,7 @@ You can setup a service instance for **automationpilot** by configuring your `us
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **automationpilot** by configuring your `us
       "plan: "free"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (Standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **automationpilot** by configuring your `us
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

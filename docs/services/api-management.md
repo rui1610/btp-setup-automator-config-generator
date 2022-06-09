@@ -19,7 +19,7 @@ You can setup a service instance for **api-management** by configuring your `use
 
 ### Using the service plan **preview** (Expose your data and processes as APIs for omni-channel consumption and manage the lifecycle of those APIs)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **api-management** by configuring your `use
       "plan: "preview"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -23,7 +23,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
 
 ### Using the service plan **azure** (Kyma Runtime Azure)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
       "plan: "azure"
   ]
 }
-````
+```
 
 ### Using the service plan **aws** (Kyma Runtime AWS)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
       "plan: "aws"
   ]
 }
-````
+```
 
 ### Using the service plan **gcp** (Kyma Runtime GCP)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,11 +58,11 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
       "plan: "gcp"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -71,7 +71,7 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

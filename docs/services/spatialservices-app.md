@@ -19,7 +19,7 @@ You can setup a service instance for **spatialservices-app** by configuring your
 
 ### Using the service plan **professional** (HANA Spatial Services)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,11 +28,11 @@ You can setup a service instance for **spatialservices-app** by configuring your
       "plan: "professional"
   ]
 }
-````
+```
 
 ### Using the service plan **starter** (HANA Spatial Services)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -41,7 +41,7 @@ You can setup a service instance for **spatialservices-app** by configuring your
       "plan: "starter"
   ]
 }
-````
+```
 
 
 ## Related categories

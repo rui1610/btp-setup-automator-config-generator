@@ -20,7 +20,7 @@ You can setup a service instance for **sapappstudio** by configuring your `useca
 
 ### Using the service plan **standard-edition** (standard-edition)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **sapappstudio** by configuring your `useca
       "plan: "standard-edition"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -22,7 +22,7 @@ You can setup a service instance for **connectivity** by configuring your `useca
 
 ### Using the service plan **lite** (lite)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **connectivity** by configuring your `useca
       "plan: "lite"
   ]
 }
-````
+```
 
 ### Using the service plan **connectivity_proxy** (connectivity_proxy)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **connectivity** by configuring your `useca
       "plan: "connectivity_proxy"
   ]
 }
-````
+```
 
 
 ## Related categories

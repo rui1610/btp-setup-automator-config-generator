@@ -22,7 +22,7 @@ You can setup a service instance for **sap-document-information-extraction** by 
 
 ### Using the service plan **default** (default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **sap-document-information-extraction** by 
       "plan: "default"
   ]
 }
-````
+```
 
 ### Using the service plan **blocks_of_100** (blocks_of_100)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **sap-document-information-extraction** by 
       "plan: "blocks_of_100"
   ]
 }
-````
+```
 
 
 ## Related categories

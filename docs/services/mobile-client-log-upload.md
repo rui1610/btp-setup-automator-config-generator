@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-client-log-upload** by configuring
 
 ### Using the service plan **standard** (Mobile Client Log Upload Service is used by mobile applications to upload technical log files)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-client-log-upload** by configuring
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

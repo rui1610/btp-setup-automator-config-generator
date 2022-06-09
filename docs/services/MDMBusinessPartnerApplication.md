@@ -18,7 +18,7 @@ You can setup a service instance for **MDMBusinessPartnerApplication** by config
 
 ### Using the service plan **saas-application** (SAP Cloud Platform Master Data Management for business partners)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **MDMBusinessPartnerApplication** by config
       "plan: "saas-application"
   ]
 }
-````
+```
 
 
 ## Related categories

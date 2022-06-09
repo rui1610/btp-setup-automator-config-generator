@@ -20,7 +20,7 @@ You can setup a service instance for **business-rules** by configuring your `use
 
 ### Using the service plan **basic** (basic)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,11 +29,11 @@ You can setup a service instance for **business-rules** by configuring your `use
       "plan: "basic"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -42,7 +42,7 @@ You can setup a service instance for **business-rules** by configuring your `use
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

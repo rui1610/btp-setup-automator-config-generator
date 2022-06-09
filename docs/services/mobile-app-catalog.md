@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-app-catalog** by configuring your 
 
 ### Using the service plan **standard** (Mobile App Lab Service provides access to mobile applications uploaded from Mobile Services cockpit)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-app-catalog** by configuring your 
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

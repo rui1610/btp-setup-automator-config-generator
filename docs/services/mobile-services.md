@@ -24,7 +24,7 @@ You can setup a service instance for **mobile-services** by configuring your `us
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -33,11 +33,11 @@ You can setup a service instance for **mobile-services** by configuring your `us
       "plan: "free"
   ]
 }
-````
+```
 
 ### Using the service plan **b2c** (b2c)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -46,11 +46,11 @@ You can setup a service instance for **mobile-services** by configuring your `us
       "plan: "b2c"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -59,7 +59,7 @@ You can setup a service instance for **mobile-services** by configuring your `us
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

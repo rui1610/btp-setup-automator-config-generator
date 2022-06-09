@@ -25,7 +25,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
 
 ### Using the service plan **abap_compute_unit** (16 GB ABAP Compute Unit)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -34,11 +34,11 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan: "abap_compute_unit"
   ]
 }
-````
+```
 
 ### Using the service plan **hana_compute_unit** (16 GB HANA Compute Unit)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -47,11 +47,11 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan: "hana_compute_unit"
   ]
 }
-````
+```
 
 ### Using the service plan **16_abap_64_db** (16_abap_64_db)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -60,11 +60,11 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan: "16_abap_64_db"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -73,11 +73,11 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan: "free"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -86,7 +86,7 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

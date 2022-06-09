@@ -21,7 +21,7 @@ You can setup a service instance for **one-mds** by configuring your `usecase.js
 
 ### Using the service plan **sap-integration** (sap-integration)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **one-mds** by configuring your `usecase.js
       "plan: "sap-integration"
   ]
 }
-````
+```
 
 ### Using the service plan **s4hana-onpremise** (s4hana-onpremise)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **one-mds** by configuring your `usecase.js
       "plan: "s4hana-onpremise"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **uas** by configuring your `usecase.json` 
 
 ### Using the service plan **reporting-ga-admin** (reporting-ga-admin)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **uas** by configuring your `usecase.json` 
       "plan: "reporting-ga-admin"
   ]
 }
-````
+```
 
 ### Using the service plan **reporting-directory** (reporting-directory)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **uas** by configuring your `usecase.json` 
       "plan: "reporting-directory"
   ]
 }
-````
+```
 
 
 ## Related categories

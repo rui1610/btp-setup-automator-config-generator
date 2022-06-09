@@ -25,7 +25,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 
 ### Using the service plan **testnet** (testnet)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -34,11 +34,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "testnet"
   ]
 }
-````
+```
 
 ### Using the service plan **dev** (dev)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -47,11 +47,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "dev"
   ]
 }
-````
+```
 
 ### Using the service plan **backbone** (backbone)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -60,11 +60,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "backbone"
   ]
 }
-````
+```
 
 ### Using the service plan **cyon** (cyon)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -73,11 +73,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "cyon"
   ]
 }
-````
+```
 
 ### Using the service plan **node** (node)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -86,11 +86,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "node"
   ]
 }
-````
+```
 
 ### Using the service plan **channel** (channel)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -99,7 +99,7 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
       "plan: "channel"
   ]
 }
-````
+```
 
 
 ## Related categories

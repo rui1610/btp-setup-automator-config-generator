@@ -22,7 +22,7 @@ You can setup a service instance for **application-logs** by configuring your `u
 
 ### Using the service plan **large** (large)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **application-logs** by configuring your `u
       "plan: "large"
   ]
 }
-````
+```
 
 ### Using the service plan **lite** (lite)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,11 +44,11 @@ You can setup a service instance for **application-logs** by configuring your `u
       "plan: "lite"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -57,7 +57,7 @@ You can setup a service instance for **application-logs** by configuring your `u
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

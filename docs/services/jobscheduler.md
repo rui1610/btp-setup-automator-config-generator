@@ -21,7 +21,7 @@ You can setup a service instance for **jobscheduler** by configuring your `useca
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,7 +30,7 @@ You can setup a service instance for **jobscheduler** by configuring your `useca
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

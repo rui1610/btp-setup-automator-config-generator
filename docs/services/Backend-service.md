@@ -19,7 +19,7 @@ You can setup a service instance for **Backend-service** by configuring your `us
 
 ### Using the service plan **standard** (SAP Cloud Platform Backend service)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **Backend-service** by configuring your `us
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **dataenrichment-business-partner** by conf
 
 ### Using the service plan **default** (default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,7 +30,7 @@ You can setup a service instance for **dataenrichment-business-partner** by conf
       "plan: "default"
   ]
 }
-````
+```
 
 
 ## Related categories

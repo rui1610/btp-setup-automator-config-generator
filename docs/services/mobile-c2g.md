@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-c2g** by configuring your `usecase
 
 ### Using the service plan **standard** (Mobile Content to Go Service, the back-end for the corresponding iPhone application)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-c2g** by configuring your `usecase
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

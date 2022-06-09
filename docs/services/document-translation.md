@@ -21,7 +21,7 @@ You can setup a service instance for **document-translation** by configuring you
 
 ### Using the service plan **default** (Default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **document-translation** by configuring you
       "plan: "default"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **document-translation** by configuring you
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -22,7 +22,7 @@ You can setup a service instance for **data-intelligence** by configuring your `
 
 ### Using the service plan **enterprise** (enterprise)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **data-intelligence** by configuring your `
       "plan: "enterprise"
   ]
 }
-````
+```
 
 ### Using the service plan **dedicated** (Dedicated)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,11 +44,11 @@ You can setup a service instance for **data-intelligence** by configuring your `
       "plan: "dedicated"
   ]
 }
-````
+```
 
 ### Using the service plan **tenant** (Tenant)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -57,7 +57,7 @@ You can setup a service instance for **data-intelligence** by configuring your `
       "plan: "tenant"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
 
 ### Using the service plan **apiportal-apiaccess** (apiportal-apiaccess)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
       "plan: "apiportal-apiaccess"
   ]
 }
-````
+```
 
 ### Using the service plan **on-premise-connectivity** (on-premise-connectivity)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,11 +43,11 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
       "plan: "on-premise-connectivity"
   ]
 }
-````
+```
 
 ### Using the service plan **apim-as-route-service** (apim-as-route-service)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -56,7 +56,7 @@ You can setup a service instance for **apimanagement-apiportal** by configuring 
       "plan: "apim-as-route-service"
   ]
 }
-````
+```
 
 
 ## Related categories

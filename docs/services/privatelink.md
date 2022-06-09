@@ -19,7 +19,7 @@ You can setup a service instance for **privatelink** by configuring your `usecas
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **privatelink** by configuring your `usecas
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

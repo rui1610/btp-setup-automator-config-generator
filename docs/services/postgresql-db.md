@@ -25,7 +25,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
 
 ### Using the service plan **storage_ha** (storage_ha)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -34,11 +34,11 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
       "plan: "storage_ha"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -47,11 +47,11 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **premium** (premium)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -60,11 +60,11 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
       "plan: "premium"
   ]
 }
-````
+```
 
 ### Using the service plan **storage** (storage)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -73,11 +73,11 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
       "plan: "storage"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -86,7 +86,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

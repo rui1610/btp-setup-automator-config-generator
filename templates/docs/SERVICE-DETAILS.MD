@@ -23,7 +23,7 @@ You can setup a service instance for **{{ service.name }}** by configuring your 
 {% for plan in service.servicePlans %}
 ### Using the service plan **{{ plan.name }}** ({{ plan.displayName }})
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,7 +32,7 @@ You can setup a service instance for **{{ service.name }}** by configuring your 
       "plan: "{{ plan.name }}"
   ]
 }
-````
+```
 {% endfor %}
 
 ## Related categories

@@ -21,7 +21,7 @@ You can setup a service instance for **market-rates-byor** by configuring your `
 
 ### Using the service plan **default** (default)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **market-rates-byor** by configuring your `
       "plan: "default"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **market-rates-byor** by configuring your `
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

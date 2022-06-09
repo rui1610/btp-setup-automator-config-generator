@@ -20,7 +20,7 @@ You can setup a service instance for **extension-center** by configuring your `u
 
 ### Using the service plan **standard** (Extension Center)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **extension-center** by configuring your `u
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

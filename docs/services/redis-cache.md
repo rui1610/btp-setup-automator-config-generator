@@ -23,7 +23,7 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
 
 ### Using the service plan **premium** (premium)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -32,11 +32,11 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
       "plan: "premium"
   ]
 }
-````
+```
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -45,11 +45,11 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -58,7 +58,7 @@ You can setup a service instance for **redis-cache** by configuring your `usecas
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

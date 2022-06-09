@@ -21,7 +21,7 @@ You can setup a service instance for **market-rates-ux** by configuring your `us
 
 ### Using the service plan **mrtr** (SAP Market Rates Management)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,11 +30,11 @@ You can setup a service instance for **market-rates-ux** by configuring your `us
       "plan: "mrtr"
   ]
 }
-````
+```
 
 ### Using the service plan **mror** (SAP Market Rates Management)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -43,7 +43,7 @@ You can setup a service instance for **market-rates-ux** by configuring your `us
       "plan: "mror"
   ]
 }
-````
+```
 
 
 ## Related categories

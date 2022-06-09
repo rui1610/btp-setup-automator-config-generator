@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-network-trace** by configuring you
 
 ### Using the service plan **standard** (Mobile Network Trace collects network trace information from mobile applications for debugging)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-network-trace** by configuring you
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

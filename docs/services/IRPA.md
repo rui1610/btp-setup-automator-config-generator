@@ -22,7 +22,7 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
 
 ### Using the service plan **default** (SAP Intelligent Robotic Process Automation)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
       "plan: "default"
   ]
 }
-````
+```
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,11 +44,11 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
       "plan: "free"
   ]
 }
-````
+```
 
 ### Using the service plan **concurrent** (Concurrent)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -57,7 +57,7 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
       "plan: "concurrent"
   ]
 }
-````
+```
 
 
 ## Related categories

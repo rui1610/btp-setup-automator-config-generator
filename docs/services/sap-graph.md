@@ -21,7 +21,7 @@ You can setup a service instance for **sap-graph** by configuring your `usecase.
 
 ### Using the service plan **free** (Free)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -30,7 +30,7 @@ You can setup a service instance for **sap-graph** by configuring your `usecase.
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

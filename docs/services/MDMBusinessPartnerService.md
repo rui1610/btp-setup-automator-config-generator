@@ -18,7 +18,7 @@ You can setup a service instance for **MDMBusinessPartnerService** by configurin
 
 ### Using the service plan **default** (SAP Cloud Platform Master Data Management for business partners)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **MDMBusinessPartnerService** by configurin
       "plan: "default"
   ]
 }
-````
+```
 
 
 ## Related categories

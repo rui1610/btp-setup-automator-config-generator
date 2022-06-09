@@ -25,7 +25,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
 
 ### Using the service plan **virtualhost** (virtualhost)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -34,11 +34,11 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
       "plan: "virtualhost"
   ]
 }
-````
+```
 
 ### Using the service plan **large** (large)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -47,11 +47,11 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
       "plan: "large"
   ]
 }
-````
+```
 
 ### Using the service plan **xsmall** (xsmall)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -60,11 +60,11 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
       "plan: "xsmall"
   ]
 }
-````
+```
 
 ### Using the service plan **medium** (medium)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -73,11 +73,11 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
       "plan: "medium"
   ]
 }
-````
+```
 
 ### Using the service plan **small** (small)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -86,7 +86,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
       "plan: "small"
   ]
 }
-````
+```
 
 
 ## Related categories

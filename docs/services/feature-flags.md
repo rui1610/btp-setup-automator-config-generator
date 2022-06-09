@@ -22,7 +22,7 @@ You can setup a service instance for **feature-flags** by configuring your `usec
 
 ### Using the service plan **standard** (standard)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -31,11 +31,11 @@ You can setup a service instance for **feature-flags** by configuring your `usec
       "plan: "standard"
   ]
 }
-````
+```
 
 ### Using the service plan **lite** (lite)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -44,7 +44,7 @@ You can setup a service instance for **feature-flags** by configuring your `usec
       "plan: "lite"
   ]
 }
-````
+```
 
 
 ## Related categories

@@ -24,7 +24,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
 
 ### Using the service plan **application** (application)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -33,11 +33,11 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
       "plan: "application"
   ]
 }
-````
+```
 
 ### Using the service plan **broker** (broker)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -46,11 +46,11 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
       "plan: "broker"
   ]
 }
-````
+```
 
 ### Using the service plan **apiaccess** (apiaccess)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -59,11 +59,11 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
       "plan: "apiaccess"
   ]
 }
-````
+```
 
 ### Using the service plan **space** (space)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -72,7 +72,7 @@ You can setup a service instance for **xsuaa** by configuring your `usecase.json
       "plan: "space"
   ]
 }
-````
+```
 
 
 ## Related categories

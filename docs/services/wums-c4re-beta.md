@@ -19,7 +19,7 @@ You can setup a service instance for **wums-c4re-beta** by configuring your `use
 
 ### Using the service plan **default** (SAP Cloud for Real Estate Workspace Utilization Management (BETA))
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -28,7 +28,7 @@ You can setup a service instance for **wums-c4re-beta** by configuring your `use
       "plan: "default"
   ]
 }
-````
+```
 
 
 ## Related categories

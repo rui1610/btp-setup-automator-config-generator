@@ -20,7 +20,7 @@ You can setup a service instance for **auditlog-viewer** by configuring your `us
 
 ### Using the service plan **free** (Audit Log Viewer)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **auditlog-viewer** by configuring your `us
       "plan: "free"
   ]
 }
-````
+```
 
 
 ## Related categories

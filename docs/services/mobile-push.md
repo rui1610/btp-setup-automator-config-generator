@@ -18,7 +18,7 @@ You can setup a service instance for **mobile-push** by configuring your `usecas
 
 ### Using the service plan **standard** (Mobile Push Notification Service is used to send out push messages to mobile devices)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-push** by configuring your `usecas
       "plan: "standard"
   ]
 }
-````
+```
 
 
 ## Related categories

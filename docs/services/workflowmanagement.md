@@ -20,7 +20,7 @@ You can setup a service instance for **workflowmanagement** by configuring your 
 
 ### Using the service plan **workflow** (workflow)
 
-````
+```json
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
@@ -29,7 +29,7 @@ You can setup a service instance for **workflowmanagement** by configuring your 
       "plan: "workflow"
   ]
 }
-````
+```
 
 
 ## Related categories

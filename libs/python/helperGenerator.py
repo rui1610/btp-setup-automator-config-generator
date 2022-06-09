@@ -54,8 +54,8 @@ class BTPUSECASE_GEN:
         for category in btpservicelist:
             if category.get("name") in serviceCategoryFilter:
                 print("CHECKING " + category.get("name"))
-                serviceList = []
                 for service in category.get("list"):
+                    serviceList = []
                     print(" - now service " + service.get("name"))
                     for plan in service.get("servicePlans"):
                         item = {}
@@ -111,11 +111,6 @@ class BTPUSECASE_GEN:
         targetFilename = FOLDER_OUTPUT_DOCS + "index.md"
         templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-OVERVIEW.MD"
         renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
-
-        # Create the the file with all free service plans
-        # targetFilename = FOLDER_OUTPUT_DOCS + "free-tier.md"
-        # templateFilename = FOLDER_TEMPLATES + "docs/FREE-TIER.MD"
-        # renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 
 def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):

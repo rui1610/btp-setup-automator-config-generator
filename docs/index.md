@@ -1,5 +1,7 @@
 # Overview
 
+This page shows how to re-use data that was extracted by the [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) using the BTP CLI. All information is extracted from the [central json file of the btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator/blob/main/config/btp-base/entitledServices.json).
+
 ## Services with a free service plan
 
 This lists shows all SAP BTP services with a free service plan:
@@ -36,7 +38,7 @@ This lists shows all SAP BTP services with a free service plan:
 - [cloudfoundry](services/cloudfoundry.md) has the service plan **free**
 - [kymaruntime](services/kymaruntime.md) has the service plan **free**
 
-## SERVICE
+## All services of category SERVICE
 
 Services are listed and sorted by their technical name. The display name is added in parentheses.
 
@@ -160,7 +162,7 @@ Services are listed and sorted by their technical name. The display name is adde
 - [wums-partner-api-beta](services/wums-partner-api-beta.md)
 - [xfs-runtime](services/xfs-runtime.md)
 - [xsuaa](services/xsuaa.md)
-## APPLICATION
+## All services of category APPLICATION
 
 Services are listed and sorted by their technical name. The display name is added in parentheses.
 
@@ -214,7 +216,7 @@ Services are listed and sorted by their technical name. The display name is adde
 - [tnt-onboard-dataenrichment-dcp](services/tnt-onboard-dataenrichment-dcp.md)
 - [WorkflowManagementSaaS](services/WorkflowManagementSaaS.md)
 - [wums-c4re-beta](services/wums-c4re-beta.md)
-## ENVIRONMENT
+## All services of category ENVIRONMENT
 
 Services are listed and sorted by their technical name. The display name is added in parentheses.
 

@@ -3,41 +3,6 @@
     "services": [
         {
             "category": "SERVICE",
-            "name": "abap",
-            "plan" : "abap_compute_unit"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "abap",
-            "plan" : "hana_compute_unit"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "abap",
-            "plan" : "16_abap_64_db"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "abap",
-            "plan" : "free"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "abap",
-            "plan" : "standard"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "abap-solution",
-            "plan" : "standard"
-        }, 
-        {
-            "category": "SERVICE",
-            "name": "ads",
-            "plan" : "standard"
-        }, 
-        {
-            "category": "SERVICE",
             "name": "adsrestapi",
             "plan" : "standard"
         }

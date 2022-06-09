@@ -68,11 +68,6 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-application-logs-parameters.json'
-      - name: 'Entitlement test in eu10 for SERVICE ASE_PROVISIONING'
-        if: ${{ always() }}
-        working-directory: /home/user
-        shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-ASE_PROVISIONING-parameters.json'
       - name: 'Entitlement test in eu10 for SERVICE auditlog-api'
         if: ${{ always() }}
         working-directory: /home/user
@@ -123,11 +118,6 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-cis-parameters.json'
-      - name: 'Entitlement test in eu10 for SERVICE COMPUTE_UNIT'
-        if: ${{ always() }}
-        working-directory: /home/user
-        shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-COMPUTE_UNIT-parameters.json'
       - name: 'Entitlement test in eu10 for SERVICE connectivity'
         if: ${{ always() }}
         working-directory: /home/user
@@ -218,11 +208,6 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-db-parameters.json'
-      - name: 'Entitlement test in eu10 for SERVICE hana-tenant-db'
-        if: ${{ always() }}
-        working-directory: /home/user
-        shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-hana-tenant-db-parameters.json'
       - name: 'Entitlement test in eu10 for SERVICE html5-apps-repo'
         if: ${{ always() }}
         working-directory: /home/user
@@ -403,11 +388,6 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-multichain-parameters.json'
-      - name: 'Entitlement test in eu10 for SERVICE objectstore'
-        if: ${{ always() }}
-        working-directory: /home/user
-        shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-objectstore-parameters.json'
       - name: 'Entitlement test in eu10 for SERVICE one-inbox-service'
         if: ${{ always() }}
         working-directory: /home/user
@@ -443,11 +423,6 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-print-parameters.json'
-      - name: 'Entitlement test in eu10 for SERVICE privatelink'
-        if: ${{ always() }}
-        working-directory: /home/user
-        shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/SERVICE-privatelink-parameters.json'
       - name: 'Entitlement test in eu10 for SERVICE process-automation'
         if: ${{ always() }}
         working-directory: /home/user

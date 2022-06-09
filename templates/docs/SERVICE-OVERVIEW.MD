@@ -10,7 +10,7 @@ This lists shows all SAP BTP services with a free service plan:
 {%- endfor -%}
 
 {%- for category in btpservicelist %}
-## {{ category.name }}
+## All services of category {{ category.name }}
 
 Services are listed and sorted by their technical name. The display name is added in parentheses.
 {% for service in category.list %}

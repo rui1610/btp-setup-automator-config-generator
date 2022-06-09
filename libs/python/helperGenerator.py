@@ -3,8 +3,7 @@ from libs.python.helperLog import initLogger
 from libs.python.helperJinja2 import renderTemplateWithJson
 from libs.python.helperJson import getJsonFromFile
 import logging
-import sys
-import os
+
 
 log = logging.getLogger(__name__)
 
@@ -15,6 +14,7 @@ CATEGORIES["ENVIRONMENT"] = ["ENVIRONMENT"]
 
 FOLDER_OUTPUT_USECASES = "./output/usecases/"
 FOLDER_OUTPUT_WORKFLOWS = "./.github/workflows/"
+FOLDER_OUTPUT_DOCS = "./docs/"
 FOLDER_TEMPLATES = "./templates/"
 
 
@@ -33,18 +33,6 @@ class BTPUSECASE_GEN:
         self.metadatafile = "./log/generator_metadata.json"
 
         initLogger(self)
-
-        if self.myemail is None:
-            log.error("missing email address")
-            sys.exit(os.EX_DATAERR)
-
-        if self.mypassword is None:
-            log.error("missing your BTP password")
-            sys.exit(os.EX_DATAERR)
-
-        if self.globalaccount is None:
-            log.error("missing your BTP globalaccount subdomain id")
-            sys.exit(os.EX_DATAERR)
 
     def fetchEntitledServiceList(self, mainDataJsonFile):
 
@@ -108,6 +96,21 @@ class BTPUSECASE_GEN:
         templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
         targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + region + ".yml"
         renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "usecasetestlist": listUsecaseFiles})
+
+    def createPageServiceDetails(self):
+        btpservicelist = self.entitledServices.get("btpservicelist")
+
+        # Create a detailed page for each service
+        for category in btpservicelist:
+            for service in category.get("list"):
+                targetFilename = FOLDER_OUTPUT_DOCS + "services/" + service.get("name") + ".md"
+                templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-DETAILS.MD"
+                renderTemplateWithJson(templateFilename, targetFilename, {"service": service, "category": category})
+
+        # Create the root file with links to the detailed pages
+        targetFilename = FOLDER_OUTPUT_DOCS + "index.md"
+        templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-OVERVIEW.MD"
+        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 
 def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):

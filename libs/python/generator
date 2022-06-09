@@ -19,3 +19,5 @@ generator.createBtpServiceTests("us10")
 generator.createBtpServiceTests("eu10")
 generator.createBtpServiceTests("ap10")
 generator.createBtpServiceTests("br10")
+
+generator.createPageServiceDetails()

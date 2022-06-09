@@ -3,6 +3,7 @@
 SAP HANA Service
 
 ## Additional details
+
 - [Documentation](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US)
 
 ## Service availability
@@ -24,7 +25,7 @@ SAP HANA Service
 |  64standard  |  HANA 64GB Standard edition  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |
 |  128premium  |  HANA 128GB Premium edition  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |
 
-## Sample configuration for btp-setup-automator
+## Sample configuration of **SAP HANA Service** for btp-setup-automator
 
 The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) helps you setting up your SAP BTP account for a specific use case. Each use case is defined inside a `usecase.json` file listing all the services necessary to cover that use case. You can find a list of released use cases in the [usecase folder of bpt-setup-automator](https://github.com/SAP-samples/btp-setup-automator/tree/main/usecases).
 
@@ -36,9 +37,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "512standard"
+      "plan": "512standard"
+    }
   ]
 }
 ```
@@ -49,9 +52,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "256premium"
+      "plan": "256premium"
+    }
   ]
 }
 ```
@@ -62,9 +67,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "128standard"
+      "plan": "128standard"
+    }
   ]
 }
 ```
@@ -75,9 +82,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "enterprise"
+      "plan": "enterprise"
+    }
   ]
 }
 ```
@@ -88,9 +97,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "standard"
+      "plan": "standard"
+    }
   ]
 }
 ```
@@ -101,9 +112,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "64premium"
+      "plan": "64premium"
+    }
   ]
 }
 ```
@@ -114,9 +127,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "1024standard"
+      "plan": "1024standard"
+    }
   ]
 }
 ```
@@ -127,9 +142,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "1024premium"
+      "plan": "1024premium"
+    }
   ]
 }
 ```
@@ -140,9 +157,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "2048standard"
+      "plan": "2048standard"
+    }
   ]
 }
 ```
@@ -153,9 +172,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "256standard"
+      "plan": "256standard"
+    }
   ]
 }
 ```
@@ -166,9 +187,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "512premium"
+      "plan": "512premium"
+    }
   ]
 }
 ```
@@ -179,9 +202,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "2048premium"
+      "plan": "2048premium"
+    }
   ]
 }
 ```
@@ -192,9 +217,11 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "64standard"
+      "plan": "64standard"
+    }
   ]
 }
 ```
@@ -205,13 +232,15 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan: "128premium"
+      "plan": "128premium"
+    }
   ]
 }
 ```
 
-
 ## Related categories
+
 - Extension Suite - Development Efficiency

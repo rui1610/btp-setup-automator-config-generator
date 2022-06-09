@@ -3,6 +3,7 @@
 Object Store
 
 ## Additional details
+
 - [Documentation](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US)
 - [Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/object-store)
 - [Support](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5dd739823b824b539eee47b7860a00be.html)
@@ -15,7 +16,7 @@ Object Store
 |  s3-standard  |  s3-standard  | br10 - Brazil (Sao Paulo)  |
 |  gcs-standard  |  gcs-standard  | eu30 - Europe (Frankfurt)<br> in30 - cf-in30<br> us30 - US Central (IA)  |
 
-## Sample configuration for btp-setup-automator
+## Sample configuration of **Object Store** for btp-setup-automator
 
 The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) helps you setting up your SAP BTP account for a specific use case. Each use case is defined inside a `usecase.json` file listing all the services necessary to cover that use case. You can find a list of released use cases in the [usecase folder of bpt-setup-automator](https://github.com/SAP-samples/btp-setup-automator/tree/main/usecases).
 
@@ -27,9 +28,11 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan: "azure-standard"
+      "plan": "azure-standard"
+    }
   ]
 }
 ```
@@ -40,9 +43,11 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan: "s3-standard"
+      "plan": "s3-standard"
+    }
   ]
 }
 ```
@@ -53,13 +58,15 @@ You can setup a service instance for **objectstore** by configuring your `usecas
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan: "gcs-standard"
+      "plan": "gcs-standard"
+    }
   ]
 }
 ```
 
-
 ## Related categories
+
 - Extension Suite - Development Efficiency

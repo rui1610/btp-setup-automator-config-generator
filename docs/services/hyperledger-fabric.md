@@ -3,6 +3,7 @@
 Hyperledger Fabric
 
 ## Additional details
+
 - [Documentation](https://help.sap.com/viewer/p/HYPERLEDGER_FABRIC/)
 - [Support](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5dd739823b824b539eee47b7860a00be.html)
 
@@ -17,7 +18,7 @@ Hyperledger Fabric
 |  node  |  node  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  channel  |  channel  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 
-## Sample configuration for btp-setup-automator
+## Sample configuration of **Hyperledger Fabric** for btp-setup-automator
 
 The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) helps you setting up your SAP BTP account for a specific use case. Each use case is defined inside a `usecase.json` file listing all the services necessary to cover that use case. You can find a list of released use cases in the [usecase folder of bpt-setup-automator](https://github.com/SAP-samples/btp-setup-automator/tree/main/usecases).
 
@@ -29,9 +30,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "testnet"
+      "plan": "testnet"
+    }
   ]
 }
 ```
@@ -42,9 +45,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "dev"
+      "plan": "dev"
+    }
   ]
 }
 ```
@@ -55,9 +60,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "backbone"
+      "plan": "backbone"
+    }
   ]
 }
 ```
@@ -68,9 +75,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "cyon"
+      "plan": "cyon"
+    }
   ]
 }
 ```
@@ -81,9 +90,11 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "node"
+      "plan": "node"
+    }
   ]
 }
 ```
@@ -94,13 +105,15 @@ You can setup a service instance for **hyperledger-fabric** by configuring your 
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "hyperledger-fabric",
-      "plan: "channel"
+      "plan": "channel"
+    }
   ]
 }
 ```
 
-
 ## Related categories
+
 - Integration Suite

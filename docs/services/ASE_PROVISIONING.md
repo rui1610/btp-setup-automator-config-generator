@@ -3,6 +3,7 @@
 SAP ASE Service
 
 ## Additional details
+
 - [Documentation](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US)
 - [Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ase-service)
 
@@ -16,7 +17,7 @@ SAP ASE Service
 |  XSMALL  |  ASE 40GB  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |
 |  LARGE  |  ASE 320GB  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |
 
-## Sample configuration for btp-setup-automator
+## Sample configuration of **SAP ASE Service** for btp-setup-automator
 
 The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) helps you setting up your SAP BTP account for a specific use case. Each use case is defined inside a `usecase.json` file listing all the services necessary to cover that use case. You can find a list of released use cases in the [usecase folder of bpt-setup-automator](https://github.com/SAP-samples/btp-setup-automator/tree/main/usecases).
 
@@ -28,9 +29,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan: "XLARGE"
+      "plan": "XLARGE"
+    }
   ]
 }
 ```
@@ -41,9 +44,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan: "MEDIUM"
+      "plan": "MEDIUM"
+    }
   ]
 }
 ```
@@ -54,9 +59,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan: "SMALL"
+      "plan": "SMALL"
+    }
   ]
 }
 ```
@@ -67,9 +74,11 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan: "XSMALL"
+      "plan": "XSMALL"
+    }
   ]
 }
 ```
@@ -80,13 +89,15 @@ You can setup a service instance for **ASE_PROVISIONING** by configuring your `u
 {
   "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-usecase.json",
   "services": [
+    {
       "category": "SERVICE",
       "name": "ASE_PROVISIONING",
-      "plan: "LARGE"
+      "plan": "LARGE"
+    }
   ]
 }
 ```
 
-
 ## Related categories
+
 - Extension Suite - Development Efficiency

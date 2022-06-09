@@ -49,6 +49,7 @@ WORKDIR $HOME_FOLDER
 
 ## Copy over the all necessary resources
 COPY --chown=$USERNAME:$USERNAME libs/python/generator  $HOME_FOLDER/
+COPY --chown=$USERNAME:$USERNAME docs                   $HOME_FOLDER/docs/
 COPY --chown=$USERNAME:$USERNAME templates              $HOME_FOLDER/templates/
 COPY --chown=$USERNAME:$USERNAME libs/python/helper*.py $LIBS_FOLDER/python/
 COPY --chown=$USERNAME:$USERNAME .vscode                $HOME_FOLDER/.vscode/

@@ -80,7 +80,10 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "name": "abap",
       "plan": "free",
       "parameters": {
-        {"admin_email": {"format": "email", "type": "string"}, "description": {"default": "Main development system", "type": "string"}, "sapsystemname": {"default": "H01", "description": "this is the SID for the ABAP system. Consists of one (capital) letter and two numbers like e.g. H01", "pattern": "^[A-Z][0-9][0-9]$", "title": "SID of the ABAP system", "type": "string"}}
+        
+          "admin_email" : null , 
+          "description" : "Main development system" , 
+          "sapsystemname" : "H01" 
       }
     }
   ]
@@ -98,7 +101,12 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "name": "abap",
       "plan": "standard",
       "parameters": {
-        {"abap_compute_unit": {"default": 1, "description": "Defines the size of the ABAP runtime. With one ABAP compute unit is representing 16 GB. The number of abap_compute_unit may vary between 1 and 8.", "enum": [1, 2, 3, 4, 5, 6, 7, 8], "type": "integer"}, "admin_email": {"format": "email", "type": "string"}, "description": {"default": "Main development system", "type": "string"}, "hana_compute_unit": {"default": 2, "description": "HANA memory size. With one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance (15 GB on AWS). The supported number of hana_compute_unit per HANA instance is 2, 4, 8, 16, or 32. Larger sizes can be made available upon request.", "enum": [2, 4, 8, 16, 32], "type": "integer"}, "sapsystemname": {"default": "H01", "description": "this is the SID for the ABAP system. Consists of one (capital) letter and two numbers like e.g. H01", "pattern": "^[A-Z][0-9][0-9]$", "title": "SID of the ABAP system", "type": "string"}}
+        
+          "abap_compute_unit" : 1 , 
+          "admin_email" : null , 
+          "description" : "Main development system" , 
+          "hana_compute_unit" : 2 , 
+          "sapsystemname" : "H01" 
       }
     }
   ]

@@ -99,7 +99,8 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "name": "hana-cloud",
       "plan": "hana-free",
       "parameters": {
-        {"data": {"properties": {"edition": {"default": "cloud", "type": "string"}, "memory": {"default": 30, "type": "integer"}, "serviceStopped": {"default": false, "type": "boolean"}, "storage": {"default": 120, "type": "integer"}, "systempassword": {"default": "enterYour0wnPassw0rd!", "type": "string"}, "vcpu": {"default": 0, "type": "integer"}, "versionIndicator": {"type": "string"}, "whitelistIPs": {"items": {}, "type": "array"}}, "required": ["edition", "memory", "serviceStopped", "storage", "systempassword", "vcpu", "versionIndicator", "whitelistIPs"], "type": "object"}}
+        
+          "data" : null 
       }
     }
   ]

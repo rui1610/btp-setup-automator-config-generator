@@ -1,24 +1,23 @@
-# SAPWorkZone (APPLICATION)
+# integration-suite-advanced-event-mesh (APPLICATION)
 
-SAP Work Zone
+SAP Integration Suite, advanced event mesh
 
 ## Additional details
 
-- [Documentation](https://help.sap.com/viewer/product/WZ/Cloud/en-US)
 
 ## Service availability
 
 | Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
-|  standard  |  Standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)  |
+|  default  |  Default  | eu10 - Europe (Frankfurt)  |
 
-## Sample configuration of **SAP Work Zone** for btp-setup-automator
+## Sample configuration of **SAP Integration Suite, advanced event mesh** for btp-setup-automator
 
 The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) helps you setting up your SAP BTP account for a specific use case. Each use case is defined inside a `usecase.json` file listing all the services necessary to cover that use case. You can find a list of released use cases in the [usecase folder of bpt-setup-automator](https://github.com/SAP-samples/btp-setup-automator/tree/main/usecases).
 
-You can setup a service instance for **SAPWorkZone** by configuring your `usecase.json` file.
+You can setup a service instance for **integration-suite-advanced-event-mesh** by configuring your `usecase.json` file.
 
-### Using the service plan **standard** (Standard)
+### Using the service plan **default** (Default)
 
 ```json
 {
@@ -26,13 +25,11 @@ You can setup a service instance for **SAPWorkZone** by configuring your `usecas
   "services": [
     {
       "category": "APPLICATION",
-      "name": "SAPWorkZone",
-      "plan": "standard"      
+      "name": "integration-suite-advanced-event-mesh",
+      "plan": "default"      
     }
   ]
 }
 ```
 
 ## Related categories
-
-- Extension Suite - Digital Experience

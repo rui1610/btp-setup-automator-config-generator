@@ -18,12 +18,12 @@ jobs:
       BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
       BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
     steps: 
-      - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime'
+      - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime (plan aws)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
         run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-aws-parameters.json'
-      - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime'
+      - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash

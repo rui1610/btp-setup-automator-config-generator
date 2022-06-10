@@ -91,6 +91,7 @@ class BTPUSECASE_GEN:
                             parametersParameterFile["region"] = region
                             parametersParameterFile["category"] = category.get("name")
                             parametersParameterFile["service"] = service.get("name")
+                            parametersParameterFile["plan"] = plan.get("name")
                             parametersParameterFile["parameterfile"] = urlParameterFile
                             listUsecaseFiles.append(parametersParameterFile)
 

@@ -18,7 +18,7 @@ jobs:
       BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
       BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}{% endraw %}
     steps: {% for item in usecasetestlist %}
-      - name: 'Entitlement test in {{ region }} for {{ item.category }} {{ item.service }}'
+      - name: 'Entitlement test in {{ region }} for {{ item.category }} {{ item.service }} (plan {{ item.plan }})'
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash

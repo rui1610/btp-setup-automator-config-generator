@@ -96,7 +96,7 @@ class BTPUSECASE_GEN:
 
             templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
             targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + category.get("name").lower() + "-" + region + ".yml"
-            renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "usecasetestlist": listUsecaseFiles})
+            renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
 
     def createPageServiceDetails(self):
         btpservicelist = self.entitledServices.get("btpservicelist")

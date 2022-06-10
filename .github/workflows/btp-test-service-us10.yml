@@ -1,4 +1,4 @@
-name: Entitlement test us10 
+name: Entitlement test us10 - service
 # This file represents a complete version of the "BTP Setup Automator" integration tests
 # All tests are executed in sequence on one BTP account to avoid entitlement limits
 # This is why not matrix strategy is used

@@ -81,9 +81,9 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan": "free",
       "parameters": {
         
-          "admin_email" : null , 
-          "description" : "Main development system" , 
-          "sapsystemname" : "H01" 
+          "admin_email" : "you@your.foo", 
+          "description" : "Main development system", 
+          "sapsystemname" : "H01"
       }
     }
   ]
@@ -102,11 +102,11 @@ You can setup a service instance for **abap** by configuring your `usecase.json`
       "plan": "standard",
       "parameters": {
         
-          "abap_compute_unit" : 1 , 
-          "admin_email" : null , 
-          "description" : "Main development system" , 
-          "hana_compute_unit" : 2 , 
-          "sapsystemname" : "H01" 
+          "abap_compute_unit" : 1, 
+          "admin_email" : "you@your.foo", 
+          "description" : "Main development system", 
+          "hana_compute_unit" : 2, 
+          "sapsystemname" : "H01"
       }
     }
   ]

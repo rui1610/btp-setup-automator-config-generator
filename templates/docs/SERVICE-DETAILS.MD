@@ -33,7 +33,7 @@ You can setup a service instance for **{{ service.name }}** by configuring your 
       "plan": "{{ plan.name }}"{% if plan.jsonschemaproperties is defined %},
       "parameters": {
         {% for item in plan.jsonschemaproperties.properties %}
-          "{{ item }}" : {{ plan.jsonschemaproperties.properties[item].get('default') | tojson}} {% if not loop.last %}, {% endif %}
+          "{{ item }}" : {{ plan.jsonschemaproperties.properties[item].get('default') | tojson}}{% if not loop.last %}, {% endif %}
         {%- endfor %}
       }{% endif %}
     }

@@ -100,7 +100,7 @@ You can setup a service instance for **hana-cloud** by configuring your `usecase
       "plan": "hana-free",
       "parameters": {
         
-          "data" : null 
+          "data" : null
       }
     }
   ]

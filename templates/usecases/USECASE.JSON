@@ -5,7 +5,12 @@
         {
             "category": "{{ item.category }}",
             "name": "{{ item.service }}",
-            "plan" : "{{ item.plan }}"
+            "plan" : "{{ item.plan }}"{% if item.jsonschemaproperties.properties is defined %},
+            "parameters": {
+              {%- for thisItem in item.jsonschemaproperties.properties %}
+                "{{ thisItem }}" : {{ item.jsonschemaproperties.properties[thisItem].get('default') | tojson}}{% if not loop.last %}, {% endif %}
+              {%- endfor -%}
+            }{% endif %}
         }{% if not loop.last %}, {% endif %}
         {% endfor -%}
     ]

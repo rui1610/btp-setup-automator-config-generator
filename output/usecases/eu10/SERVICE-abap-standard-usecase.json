@@ -4,7 +4,13 @@
         {
             "category": "SERVICE",
             "name": "abap",
-            "plan" : "standard"
+            "plan" : "standard",
+            "parameters": {
+                "abap_compute_unit" : 1, 
+                "admin_email" : "you@your.foo", 
+                "description" : "Main development system", 
+                "hana_compute_unit" : 2, 
+                "sapsystemname" : "H01"}
         }
         ]
 }

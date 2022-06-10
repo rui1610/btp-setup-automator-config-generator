@@ -46,6 +46,7 @@ class BTPUSECASE_GEN:
                         item["category"] = category.get("name")
                         item["service"] = service.get("name")
                         item["plan"] = plan.get("name")
+                        item["jsonschemaproperties"] = plan.get("jsonschemaproperties")
                         supportedInRegion = False
                         for datacenter in plan.get("dataCenters"):
                             thisRegion = datacenter.get("region")

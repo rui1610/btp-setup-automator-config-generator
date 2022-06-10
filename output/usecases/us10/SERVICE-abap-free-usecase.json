@@ -4,7 +4,11 @@
         {
             "category": "SERVICE",
             "name": "abap",
-            "plan" : "free"
+            "plan" : "free",
+            "parameters": {
+                "admin_email" : "you@your.foo", 
+                "description" : "Main development system", 
+                "sapsystemname" : "H01"}
         }
         ]
 }

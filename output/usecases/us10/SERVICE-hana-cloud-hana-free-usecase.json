@@ -4,7 +4,9 @@
         {
             "category": "SERVICE",
             "name": "hana-cloud",
-            "plan" : "hana-free"
+            "plan" : "hana-free",
+            "parameters": {
+                "data" : null}
         }
         ]
 }

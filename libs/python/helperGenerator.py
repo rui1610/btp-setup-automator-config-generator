@@ -50,8 +50,8 @@ class BTPUSECASE_GEN:
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
 
-        listUsecaseFiles = []
         for category in btpservicelist:
+            listUsecaseFiles = []
             if category.get("name") in serviceCategoryFilter:
                 print("CHECKING " + category.get("name"))
                 for service in category.get("list"):
@@ -94,9 +94,9 @@ class BTPUSECASE_GEN:
                         parametersParameterFile["parameterfile"] = urlParameterFile
                         listUsecaseFiles.append(parametersParameterFile)
 
-        templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
-        targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + region + ".yml"
-        renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "usecasetestlist": listUsecaseFiles})
+            templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
+            targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + category.get("name").lower() + "-" + region + ".yml"
+            renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "usecasetestlist": listUsecaseFiles})
 
     def createPageServiceDetails(self):
         btpservicelist = self.entitledServices.get("btpservicelist")

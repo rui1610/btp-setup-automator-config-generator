@@ -2,6 +2,8 @@
 
 This lists shows all SAP BTP services with a free service plan:
 
+# SERVICE
+
 - [abap](services/abap.md) (plan **free)**
 - [alert-notification](services/alert-notification.md) (plan **free)**
 - [business-entity-recognition](services/business-entity-recognition.md) (plan **free)**
@@ -25,11 +27,17 @@ This lists shows all SAP BTP services with a free service plan:
 - [sdm-repository](services/sdm-repository.md) (plan **free)**
 - [service-ticket-intelligence](services/service-ticket-intelligence.md) (plan **free)**
 - [ui5-flexibility-keyuser](services/ui5-flexibility-keyuser.md) (plan **free)**
+
+# APPLICATION
+
 - [alm-ts](services/alm-ts.md) (plan **free)**
 - [auditlog-viewer](services/auditlog-viewer.md) (plan **free)**
 - [automationpilot](services/automationpilot.md) (plan **free)**
 - [IRPA](services/IRPA.md) (plan **free)**
 - [process-automation](services/process-automation.md) (plan **free)**
 - [SAPLaunchpad](services/SAPLaunchpad.md) (plan **free)**
+
+# ENVIRONMENT
+
 - [cloudfoundry](services/cloudfoundry.md) (plan **free)**
 - [kymaruntime](services/kymaruntime.md) (plan **free)**

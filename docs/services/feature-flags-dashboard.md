@@ -26,7 +26,7 @@ You can setup a service instance for **feature-flags-dashboard** by configuring 
     {
       "category": "APPLICATION",
       "name": "feature-flags-dashboard",
-      "plan": "dashboard"      
+      "plan": "dashboard"
     }
   ]
 }

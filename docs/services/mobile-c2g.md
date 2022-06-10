@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-c2g** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "mobile-c2g",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

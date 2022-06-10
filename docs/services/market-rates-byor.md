@@ -29,7 +29,7 @@ You can setup a service instance for **market-rates-byor** by configuring your `
     {
       "category": "SERVICE",
       "name": "market-rates-byor",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **market-rates-byor** by configuring your `
     {
       "category": "SERVICE",
       "name": "market-rates-byor",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

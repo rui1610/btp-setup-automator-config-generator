@@ -33,7 +33,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "rabbitmq",
-      "plan": "virtualhost"      
+      "plan": "virtualhost"
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "rabbitmq",
-      "plan": "large"      
+      "plan": "large"
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "rabbitmq",
-      "plan": "xsmall"      
+      "plan": "xsmall"
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "rabbitmq",
-      "plan": "medium"      
+      "plan": "medium"
     }
   ]
 }
@@ -93,7 +93,7 @@ You can setup a service instance for **rabbitmq** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "rabbitmq",
-      "plan": "small"      
+      "plan": "small"
     }
   ]
 }

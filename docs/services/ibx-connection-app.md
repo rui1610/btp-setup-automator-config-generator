@@ -27,7 +27,7 @@ You can setup a service instance for **ibx-connection-app** by configuring your 
     {
       "category": "APPLICATION",
       "name": "ibx-connection-app",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

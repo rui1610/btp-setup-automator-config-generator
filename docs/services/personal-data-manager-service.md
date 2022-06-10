@@ -30,7 +30,7 @@ You can setup a service instance for **personal-data-manager-service** by config
     {
       "category": "SERVICE",
       "name": "personal-data-manager-service",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **personal-data-manager-service** by config
     {
       "category": "SERVICE",
       "name": "personal-data-manager-service",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -33,7 +33,7 @@ You can setup a service instance for **postgresql** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "postgresql",
-      "plan": "large"      
+      "plan": "large"
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **postgresql** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "postgresql",
-      "plan": "xxsmall"      
+      "plan": "xxsmall"
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **postgresql** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "postgresql",
-      "plan": "xsmall"      
+      "plan": "xsmall"
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **postgresql** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "postgresql",
-      "plan": "small"      
+      "plan": "small"
     }
   ]
 }
@@ -93,7 +93,7 @@ You can setup a service instance for **postgresql** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "postgresql",
-      "plan": "medium"      
+      "plan": "medium"
     }
   ]
 }

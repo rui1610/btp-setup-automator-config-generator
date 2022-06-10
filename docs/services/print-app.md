@@ -27,7 +27,7 @@ You can setup a service instance for **print-app** by configuring your `usecase.
     {
       "category": "APPLICATION",
       "name": "print-app",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

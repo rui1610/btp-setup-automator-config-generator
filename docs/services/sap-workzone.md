@@ -28,7 +28,7 @@ You can setup a service instance for **sap-workzone** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "sap-workzone",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

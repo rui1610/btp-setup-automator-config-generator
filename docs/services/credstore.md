@@ -32,7 +32,7 @@ You can setup a service instance for **credstore** by configuring your `usecase.
     {
       "category": "SERVICE",
       "name": "credstore",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }
@@ -47,7 +47,7 @@ You can setup a service instance for **credstore** by configuring your `usecase.
     {
       "category": "SERVICE",
       "name": "credstore",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -62,7 +62,7 @@ You can setup a service instance for **credstore** by configuring your `usecase.
     {
       "category": "SERVICE",
       "name": "credstore",
-      "plan": "proxy"      
+      "plan": "proxy"
     }
   ]
 }

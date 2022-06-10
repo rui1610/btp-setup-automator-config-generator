@@ -31,7 +31,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan": "azure-standard"      
+      "plan": "azure-standard"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan": "s3-standard"      
+      "plan": "s3-standard"
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **objectstore** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "objectstore",
-      "plan": "gcs-standard"      
+      "plan": "gcs-standard"
     }
   ]
 }

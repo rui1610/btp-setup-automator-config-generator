@@ -27,7 +27,7 @@ You can setup a service instance for **mobile-settings-exchange** by configuring
     {
       "category": "SERVICE",
       "name": "mobile-settings-exchange",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -42,7 +42,7 @@ You can setup a service instance for **mobile-settings-exchange** by configuring
     {
       "category": "SERVICE",
       "name": "mobile-settings-exchange",
-      "plan": "b2c"      
+      "plan": "b2c"
     }
   ]
 }

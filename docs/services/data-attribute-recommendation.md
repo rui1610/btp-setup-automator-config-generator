@@ -31,7 +31,7 @@ You can setup a service instance for **data-attribute-recommendation** by config
     {
       "category": "SERVICE",
       "name": "data-attribute-recommendation",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **data-attribute-recommendation** by config
     {
       "category": "SERVICE",
       "name": "data-attribute-recommendation",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

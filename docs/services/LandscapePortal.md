@@ -27,7 +27,7 @@ You can setup a service instance for **LandscapePortal** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "LandscapePortal",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

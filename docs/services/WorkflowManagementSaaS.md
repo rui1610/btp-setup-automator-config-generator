@@ -28,7 +28,7 @@ You can setup a service instance for **WorkflowManagementSaaS** by configuring y
     {
       "category": "APPLICATION",
       "name": "WorkflowManagementSaaS",
-      "plan": "saas-application"      
+      "plan": "saas-application"
     }
   ]
 }

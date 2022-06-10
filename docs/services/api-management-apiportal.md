@@ -27,7 +27,7 @@ You can setup a service instance for **api-management-apiportal** by configuring
     {
       "category": "APPLICATION",
       "name": "api-management-apiportal",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

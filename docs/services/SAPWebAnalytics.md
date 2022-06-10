@@ -29,7 +29,7 @@ You can setup a service instance for **SAPWebAnalytics** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "SAPWebAnalytics",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -27,7 +27,7 @@ You can setup a service instance for **abap-solution** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "abap-solution",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

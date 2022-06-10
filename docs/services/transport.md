@@ -29,7 +29,7 @@ You can setup a service instance for **transport** by configuring your `usecase.
     {
       "category": "SERVICE",
       "name": "transport",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

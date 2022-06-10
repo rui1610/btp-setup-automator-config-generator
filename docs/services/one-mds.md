@@ -29,7 +29,7 @@ You can setup a service instance for **one-mds** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "one-mds",
-      "plan": "sap-integration"      
+      "plan": "sap-integration"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **one-mds** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "one-mds",
-      "plan": "s4hana-onpremise"      
+      "plan": "s4hana-onpremise"
     }
   ]
 }

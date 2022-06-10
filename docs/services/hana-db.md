@@ -40,7 +40,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "512standard"      
+      "plan": "512standard"
     }
   ]
 }
@@ -55,7 +55,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "256premium"      
+      "plan": "256premium"
     }
   ]
 }
@@ -70,7 +70,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "128standard"      
+      "plan": "128standard"
     }
   ]
 }
@@ -85,7 +85,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "enterprise"      
+      "plan": "enterprise"
     }
   ]
 }
@@ -100,7 +100,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -115,7 +115,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "64premium"      
+      "plan": "64premium"
     }
   ]
 }
@@ -130,7 +130,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "1024standard"      
+      "plan": "1024standard"
     }
   ]
 }
@@ -145,7 +145,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "1024premium"      
+      "plan": "1024premium"
     }
   ]
 }
@@ -160,7 +160,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "2048standard"      
+      "plan": "2048standard"
     }
   ]
 }
@@ -175,7 +175,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "256standard"      
+      "plan": "256standard"
     }
   ]
 }
@@ -190,7 +190,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "512premium"      
+      "plan": "512premium"
     }
   ]
 }
@@ -205,7 +205,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "2048premium"      
+      "plan": "2048premium"
     }
   ]
 }
@@ -220,7 +220,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "64standard"      
+      "plan": "64standard"
     }
   ]
 }
@@ -235,7 +235,7 @@ You can setup a service instance for **hana-db** by configuring your `usecase.js
     {
       "category": "SERVICE",
       "name": "hana-db",
-      "plan": "128premium"      
+      "plan": "128premium"
     }
   ]
 }

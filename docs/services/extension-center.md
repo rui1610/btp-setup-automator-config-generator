@@ -28,7 +28,7 @@ You can setup a service instance for **extension-center** by configuring your `u
     {
       "category": "APPLICATION",
       "name": "extension-center",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

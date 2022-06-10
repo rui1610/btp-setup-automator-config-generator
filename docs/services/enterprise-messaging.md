@@ -31,7 +31,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
     {
       "category": "SERVICE",
       "name": "enterprise-messaging",
-      "plan": "event-mesh-connectivity"      
+      "plan": "event-mesh-connectivity"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
     {
       "category": "SERVICE",
       "name": "enterprise-messaging",
-      "plan": "event-mesh-connectivity-beta"      
+      "plan": "event-mesh-connectivity-beta"
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **enterprise-messaging** by configuring you
     {
       "category": "SERVICE",
       "name": "enterprise-messaging",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

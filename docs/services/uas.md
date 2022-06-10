@@ -29,7 +29,7 @@ You can setup a service instance for **uas** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "uas",
-      "plan": "reporting-ga-admin"      
+      "plan": "reporting-ga-admin"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **uas** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "uas",
-      "plan": "reporting-directory"      
+      "plan": "reporting-directory"
     }
   ]
 }

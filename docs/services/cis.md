@@ -29,7 +29,7 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "cis",
-      "plan": "local"      
+      "plan": "local"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **cis** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "cis",
-      "plan": "central"      
+      "plan": "central"
     }
   ]
 }

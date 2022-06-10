@@ -28,7 +28,7 @@ You can setup a service instance for **content-agent** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "content-agent",
-      "plan": "application"      
+      "plan": "application"
     }
   ]
 }
@@ -43,7 +43,7 @@ You can setup a service instance for **content-agent** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "content-agent",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

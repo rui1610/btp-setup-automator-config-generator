@@ -29,7 +29,7 @@ You can setup a service instance for **jobscheduler** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "jobscheduler",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **ml-foundation** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "ml-foundation",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

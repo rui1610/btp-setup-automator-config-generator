@@ -30,7 +30,12 @@ You can setup a service instance for **{{ service.name }}** by configuring your 
     {
       "category": "{{ category.name }}",
       "name": "{{ service.name }}",
-      "plan": "{{ plan.name }}"      
+      "plan": "{{ plan.name }}"{% if plan.jsonschemaproperties is defined %},
+      "parameters": {
+        {% for key, value in plan.jsonschemaproperties %}
+          {{ key }}
+        {%- endfor %}
+      }{% endif %}
     }
   ]
 }

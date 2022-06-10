@@ -27,7 +27,7 @@ You can setup a service instance for **sdm-web** by configuring your `usecase.js
     {
       "category": "APPLICATION",
       "name": "sdm-web",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

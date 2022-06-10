@@ -29,7 +29,7 @@ You can setup a service instance for **sap-graph** by configuring your `usecase.
     {
       "category": "SERVICE",
       "name": "sap-graph",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

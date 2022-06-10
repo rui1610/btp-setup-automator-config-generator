@@ -30,7 +30,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "hana",
-      "plan": "hdi-shared"      
+      "plan": "hdi-shared"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "hana",
-      "plan": "schema"      
+      "plan": "schema"
     }
   ]
 }
@@ -60,7 +60,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "hana",
-      "plan": "sbss"      
+      "plan": "sbss"
     }
   ]
 }
@@ -75,7 +75,7 @@ You can setup a service instance for **hana** by configuring your `usecase.json`
     {
       "category": "SERVICE",
       "name": "hana",
-      "plan": "securestore"      
+      "plan": "securestore"
     }
   ]
 }

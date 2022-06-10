@@ -28,7 +28,7 @@ You can setup a service instance for **business-rules** by configuring your `use
     {
       "category": "SERVICE",
       "name": "business-rules",
-      "plan": "basic"      
+      "plan": "basic"
     }
   ]
 }
@@ -43,7 +43,7 @@ You can setup a service instance for **business-rules** by configuring your `use
     {
       "category": "SERVICE",
       "name": "business-rules",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

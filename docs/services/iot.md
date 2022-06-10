@@ -28,7 +28,7 @@ You can setup a service instance for **iot** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "iot",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

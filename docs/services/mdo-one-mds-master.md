@@ -28,7 +28,7 @@ You can setup a service instance for **mdo-one-mds-master** by configuring your 
     {
       "category": "APPLICATION",
       "name": "mdo-one-mds-master",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

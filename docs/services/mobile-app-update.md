@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-app-update** by configuring your `
     {
       "category": "SERVICE",
       "name": "mobile-app-update",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -29,7 +29,7 @@ You can setup a service instance for **dataenrichment-business-partner** by conf
     {
       "category": "SERVICE",
       "name": "dataenrichment-business-partner",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

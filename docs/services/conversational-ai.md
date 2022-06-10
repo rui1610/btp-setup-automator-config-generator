@@ -31,7 +31,7 @@ You can setup a service instance for **conversational-ai** by configuring your `
     {
       "category": "SERVICE",
       "name": "conversational-ai",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

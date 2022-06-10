@@ -28,7 +28,7 @@ You can setup a service instance for **processvisibility** by configuring your `
     {
       "category": "SERVICE",
       "name": "processvisibility",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -43,7 +43,7 @@ You can setup a service instance for **processvisibility** by configuring your `
     {
       "category": "SERVICE",
       "name": "processvisibility",
-      "plan": "workflow"      
+      "plan": "workflow"
     }
   ]
 }

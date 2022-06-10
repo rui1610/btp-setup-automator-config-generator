@@ -30,7 +30,7 @@ You can setup a service instance for **data-intelligence** by configuring your `
     {
       "category": "SERVICE",
       "name": "data-intelligence",
-      "plan": "enterprise"      
+      "plan": "enterprise"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **data-intelligence** by configuring your `
     {
       "category": "SERVICE",
       "name": "data-intelligence",
-      "plan": "dedicated"      
+      "plan": "dedicated"
     }
   ]
 }
@@ -60,7 +60,7 @@ You can setup a service instance for **data-intelligence** by configuring your `
     {
       "category": "SERVICE",
       "name": "data-intelligence",
-      "plan": "tenant"      
+      "plan": "tenant"
     }
   ]
 }

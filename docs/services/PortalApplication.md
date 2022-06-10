@@ -27,7 +27,7 @@ You can setup a service instance for **PortalApplication** by configuring your `
     {
       "category": "APPLICATION",
       "name": "PortalApplication",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -31,7 +31,7 @@ You can setup a service instance for **data-privacy-integration-service** by con
     {
       "category": "SERVICE",
       "name": "data-privacy-integration-service",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **data-privacy-integration-service** by con
     {
       "category": "SERVICE",
       "name": "data-privacy-integration-service",
-      "plan": "application"      
+      "plan": "application"
     }
   ]
 }

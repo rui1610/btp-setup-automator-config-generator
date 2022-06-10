@@ -31,7 +31,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "multichain",
-      "plan": "small"      
+      "plan": "small"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "multichain",
-      "plan": "large"      
+      "plan": "large"
     }
   ]
 }
@@ -61,7 +61,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "multichain",
-      "plan": "medium"      
+      "plan": "medium"
     }
   ]
 }
@@ -76,7 +76,7 @@ You can setup a service instance for **multichain** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "multichain",
-      "plan": "cyon"      
+      "plan": "cyon"
     }
   ]
 }

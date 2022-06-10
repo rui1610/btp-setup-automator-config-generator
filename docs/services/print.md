@@ -30,7 +30,7 @@ You can setup a service instance for **print** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "print",
-      "plan": "sender"      
+      "plan": "sender"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **print** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "print",
-      "plan": "receiver"      
+      "plan": "receiver"
     }
   ]
 }

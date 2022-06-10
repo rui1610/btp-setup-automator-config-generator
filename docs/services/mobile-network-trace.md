@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-network-trace** by configuring you
     {
       "category": "SERVICE",
       "name": "mobile-network-trace",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

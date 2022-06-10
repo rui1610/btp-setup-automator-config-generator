@@ -29,7 +29,7 @@ You can setup a service instance for **autoscaler** by configuring your `usecase
     {
       "category": "SERVICE",
       "name": "autoscaler",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

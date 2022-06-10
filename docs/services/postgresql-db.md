@@ -33,7 +33,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "postgresql-db",
-      "plan": "storage_ha"      
+      "plan": "storage_ha"
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "postgresql-db",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "postgresql-db",
-      "plan": "premium"      
+      "plan": "premium"
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "postgresql-db",
-      "plan": "storage"      
+      "plan": "storage"
     }
   ]
 }
@@ -93,7 +93,7 @@ You can setup a service instance for **postgresql-db** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "postgresql-db",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

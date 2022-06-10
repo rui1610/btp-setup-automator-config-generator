@@ -28,7 +28,7 @@ You can setup a service instance for **responsibilitymanagement-service** by con
     {
       "category": "SERVICE",
       "name": "responsibilitymanagement-service",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

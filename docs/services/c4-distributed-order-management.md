@@ -28,7 +28,7 @@ You can setup a service instance for **c4-distributed-order-management** by conf
     {
       "category": "SERVICE",
       "name": "c4-distributed-order-management",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

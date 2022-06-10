@@ -27,7 +27,7 @@ You can setup a service instance for **enterprise-messaging-hub** by configuring
     {
       "category": "APPLICATION",
       "name": "enterprise-messaging-hub",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

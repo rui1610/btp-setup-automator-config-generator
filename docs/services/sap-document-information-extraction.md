@@ -30,7 +30,7 @@ You can setup a service instance for **sap-document-information-extraction** by 
     {
       "category": "SERVICE",
       "name": "sap-document-information-extraction",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **sap-document-information-extraction** by 
     {
       "category": "SERVICE",
       "name": "sap-document-information-extraction",
-      "plan": "blocks_of_100"      
+      "plan": "blocks_of_100"
     }
   ]
 }

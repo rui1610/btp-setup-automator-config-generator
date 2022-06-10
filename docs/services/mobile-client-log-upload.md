@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-client-log-upload** by configuring
     {
       "category": "SERVICE",
       "name": "mobile-client-log-upload",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

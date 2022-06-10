@@ -27,7 +27,7 @@ You can setup a service instance for **responsibility-management-service-beta** 
     {
       "category": "SERVICE",
       "name": "responsibility-management-service-beta",
-      "plan": "beta"      
+      "plan": "beta"
     }
   ]
 }

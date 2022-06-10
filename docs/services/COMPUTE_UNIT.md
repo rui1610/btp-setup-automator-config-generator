@@ -29,7 +29,7 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "COMPUTE_UNIT",
-      "plan": "PRO"      
+      "plan": "PRO"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "COMPUTE_UNIT",
-      "plan": "PREMIUM_PLUS"      
+      "plan": "PREMIUM_PLUS"
     }
   ]
 }
@@ -59,7 +59,7 @@ You can setup a service instance for **COMPUTE_UNIT** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "COMPUTE_UNIT",
-      "plan": "PREMIUM"      
+      "plan": "PREMIUM"
     }
   ]
 }

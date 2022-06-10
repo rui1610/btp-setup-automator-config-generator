@@ -28,7 +28,7 @@ You can setup a service instance for **saas-registry** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "saas-registry",
-      "plan": "application"      
+      "plan": "application"
     }
   ]
 }

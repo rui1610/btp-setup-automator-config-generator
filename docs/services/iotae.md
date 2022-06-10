@@ -28,7 +28,7 @@ You can setup a service instance for **iotae** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "iotae",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -43,7 +43,7 @@ You can setup a service instance for **iotae** by configuring your `usecase.json
     {
       "category": "SERVICE",
       "name": "iotae",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

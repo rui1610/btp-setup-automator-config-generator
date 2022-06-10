@@ -30,7 +30,7 @@ You can setup a service instance for **recommendation-systems-production** by co
     {
       "category": "SERVICE",
       "name": "recommendation-systems-production",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **recommendation-systems-production** by co
     {
       "category": "SERVICE",
       "name": "recommendation-systems-production",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

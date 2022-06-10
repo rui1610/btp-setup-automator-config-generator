@@ -29,7 +29,7 @@ You can setup a service instance for **one-inbox-service** by configuring your `
     {
       "category": "SERVICE",
       "name": "one-inbox-service",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

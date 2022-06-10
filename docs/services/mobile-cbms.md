@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-cbms** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "mobile-cbms",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **ads** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "ads",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -27,7 +27,7 @@ You can setup a service instance for **portal** by configuring your `usecase.jso
     {
       "category": "SERVICE",
       "name": "portal",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

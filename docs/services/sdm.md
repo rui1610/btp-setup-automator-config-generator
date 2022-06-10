@@ -30,7 +30,7 @@ You can setup a service instance for **sdm** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "sdm",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **sdm** by configuring your `usecase.json` 
     {
       "category": "SERVICE",
       "name": "sdm",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

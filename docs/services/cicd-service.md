@@ -29,7 +29,7 @@ You can setup a service instance for **cicd-service** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "cicd-service",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

@@ -31,7 +31,7 @@ You can setup a service instance for **dq-services** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "dq-services",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -46,7 +46,7 @@ You can setup a service instance for **dq-services** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "dq-services",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }

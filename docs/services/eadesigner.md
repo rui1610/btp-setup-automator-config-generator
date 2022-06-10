@@ -27,7 +27,7 @@ You can setup a service instance for **eadesigner** by configuring your `usecase
     {
       "category": "APPLICATION",
       "name": "eadesigner",
-      "plan": "eadesigner"      
+      "plan": "eadesigner"
     }
   ]
 }

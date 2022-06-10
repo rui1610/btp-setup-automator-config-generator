@@ -27,7 +27,7 @@ You can setup a service instance for **apimanagement-devportal** by configuring 
     {
       "category": "SERVICE",
       "name": "apimanagement-devportal",
-      "plan": "devportal-apiaccess"      
+      "plan": "devportal-apiaccess"
     }
   ]
 }

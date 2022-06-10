@@ -27,7 +27,7 @@ You can setup a service instance for **workflow** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "workflow",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

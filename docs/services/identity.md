@@ -27,7 +27,7 @@ You can setup a service instance for **identity** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "identity",
-      "plan": "application"      
+      "plan": "application"
     }
   ]
 }

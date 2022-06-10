@@ -27,7 +27,7 @@ You can setup a service instance for **process-automation-service** by configuri
     {
       "category": "SERVICE",
       "name": "process-automation-service",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

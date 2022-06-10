@@ -27,7 +27,7 @@ You can setup a service instance for **it-prod** by configuring your `usecase.js
     {
       "category": "APPLICATION",
       "name": "it-prod",
-      "plan": "enterprise"      
+      "plan": "enterprise"
     }
   ]
 }

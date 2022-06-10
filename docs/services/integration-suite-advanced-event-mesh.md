@@ -26,7 +26,7 @@ You can setup a service instance for **integration-suite-advanced-event-mesh** b
     {
       "category": "APPLICATION",
       "name": "integration-suite-advanced-event-mesh",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

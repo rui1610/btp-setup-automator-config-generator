@@ -26,7 +26,7 @@ You can setup a service instance for **hana-tenant-db** by configuring your `use
     {
       "category": "SERVICE",
       "name": "hana-tenant-db",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

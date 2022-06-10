@@ -30,7 +30,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
     {
       "category": "SERVICE",
       "name": "quorum",
-      "plan": "cyon"      
+      "plan": "cyon"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
     {
       "category": "SERVICE",
       "name": "quorum",
-      "plan": "testnet"      
+      "plan": "testnet"
     }
   ]
 }
@@ -60,7 +60,7 @@ You can setup a service instance for **quorum** by configuring your `usecase.jso
     {
       "category": "SERVICE",
       "name": "quorum",
-      "plan": "dev"      
+      "plan": "dev"
     }
   ]
 }

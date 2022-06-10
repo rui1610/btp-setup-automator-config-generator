@@ -9,6 +9,11 @@ generator = BTPUSECASE_GEN()
 generator.fetchEntitledServiceList(mainDataJsoFile)
 
 #######################################################################################
+# Generate github pages for service details
+#######################################################################################
+generator.createPageServiceDetails()
+
+#######################################################################################
 # Generate files for test workflows
 #######################################################################################
 # regions = generator.entitledServices.get("btpenums").get("regions")
@@ -16,8 +21,3 @@ generator.fetchEntitledServiceList(mainDataJsoFile)
 #     generator.createBtpServiceTests(region)
 generator.createBtpServiceTests("us10")
 generator.createBtpServiceTests("eu10")
-
-#######################################################################################
-# Generate hithub pages for service details
-#######################################################################################
-generator.createPageServiceDetails()

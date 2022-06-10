@@ -28,7 +28,7 @@ You can setup a service instance for **dqmmicroui** by configuring your `usecase
     {
       "category": "APPLICATION",
       "name": "dqmmicroui",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -27,7 +27,7 @@ You can setup a service instance for **ocnselfserviceagent** by configuring your
     {
       "category": "APPLICATION",
       "name": "ocnselfserviceagent",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

@@ -28,7 +28,7 @@ You can setup a service instance for **workcalendar** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "workcalendar",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

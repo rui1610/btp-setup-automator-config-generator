@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-proxy** by configuring your `useca
     {
       "category": "SERVICE",
       "name": "mobile-proxy",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

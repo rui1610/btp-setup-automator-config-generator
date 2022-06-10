@@ -30,7 +30,7 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
     {
       "category": "APPLICATION",
       "name": "IRPA",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
     {
       "category": "APPLICATION",
       "name": "IRPA",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }
@@ -60,7 +60,7 @@ You can setup a service instance for **IRPA** by configuring your `usecase.json`
     {
       "category": "APPLICATION",
       "name": "IRPA",
-      "plan": "concurrent"      
+      "plan": "concurrent"
     }
   ]
 }

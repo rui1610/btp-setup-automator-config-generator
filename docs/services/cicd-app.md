@@ -29,7 +29,7 @@ You can setup a service instance for **cicd-app** by configuring your `usecase.j
     {
       "category": "APPLICATION",
       "name": "cicd-app",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

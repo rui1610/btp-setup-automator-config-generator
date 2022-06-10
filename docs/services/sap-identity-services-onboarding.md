@@ -29,7 +29,7 @@ You can setup a service instance for **sap-identity-services-onboarding** by con
     {
       "category": "APPLICATION",
       "name": "sap-identity-services-onboarding",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **sap-identity-services-onboarding** by con
     {
       "category": "APPLICATION",
       "name": "sap-identity-services-onboarding",
-      "plan": "additional-tenant"      
+      "plan": "additional-tenant"
     }
   ]
 }
@@ -59,7 +59,7 @@ You can setup a service instance for **sap-identity-services-onboarding** by con
     {
       "category": "APPLICATION",
       "name": "sap-identity-services-onboarding",
-      "plan": "connectivity"      
+      "plan": "connectivity"
     }
   ]
 }

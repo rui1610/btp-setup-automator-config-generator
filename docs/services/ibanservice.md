@@ -28,7 +28,7 @@ You can setup a service instance for **ibanservice** by configuring your `usecas
     {
       "category": "SERVICE",
       "name": "ibanservice",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

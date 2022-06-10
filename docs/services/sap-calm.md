@@ -28,7 +28,7 @@ You can setup a service instance for **sap-calm** by configuring your `usecase.j
     {
       "category": "SERVICE",
       "name": "sap-calm",
-      "plan": "default"      
+      "plan": "default"
     }
   ]
 }

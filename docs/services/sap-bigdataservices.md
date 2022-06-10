@@ -26,7 +26,7 @@ You can setup a service instance for **sap-bigdataservices** by configuring your
     {
       "category": "SERVICE",
       "name": "sap-bigdataservices",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

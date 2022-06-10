@@ -30,7 +30,7 @@ You can setup a service instance for **automationpilot** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "automationpilot",
-      "plan": "free"      
+      "plan": "free"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **automationpilot** by configuring your `us
     {
       "category": "APPLICATION",
       "name": "automationpilot",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

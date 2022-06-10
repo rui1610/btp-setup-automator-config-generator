@@ -33,7 +33,7 @@ You can setup a service instance for **service-manager** by configuring your `us
     {
       "category": "SERVICE",
       "name": "service-manager",
-      "plan": "subaccount-admin"      
+      "plan": "subaccount-admin"
     }
   ]
 }
@@ -48,7 +48,7 @@ You can setup a service instance for **service-manager** by configuring your `us
     {
       "category": "SERVICE",
       "name": "service-manager",
-      "plan": "service-operator-access"      
+      "plan": "service-operator-access"
     }
   ]
 }
@@ -63,7 +63,7 @@ You can setup a service instance for **service-manager** by configuring your `us
     {
       "category": "SERVICE",
       "name": "service-manager",
-      "plan": "container"      
+      "plan": "container"
     }
   ]
 }
@@ -78,7 +78,7 @@ You can setup a service instance for **service-manager** by configuring your `us
     {
       "category": "SERVICE",
       "name": "service-manager",
-      "plan": "subaccount-audit"      
+      "plan": "subaccount-audit"
     }
   ]
 }

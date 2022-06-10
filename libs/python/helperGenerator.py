@@ -24,6 +24,10 @@ class BTPUSECASE_GEN:
 
     def fetchEntitledServiceList(self, mainDataJsonFile):
         self.entitledServices = getJsonFromFile(None, mainDataJsonFile)
+        btpservicelist = self.entitledServices.get("btpservicelist")
+        for category in btpservicelist:
+            for service in category.get("list"):
+                addJsonSchemaRefIntoServicePlan(service, self.entitledServices)
 
     def createBtpServiceTests(self, region):
         btpservicelist = self.entitledServices.get("btpservicelist")
@@ -42,7 +46,6 @@ class BTPUSECASE_GEN:
                         item["category"] = category.get("name")
                         item["service"] = service.get("name")
                         item["plan"] = plan.get("name")
-                        item["jsonschemarefs"] = getJsonSchemaForRefName(self.entitledServices, plan.get("jsonschemarefs"))
                         supportedInRegion = False
                         for datacenter in plan.get("dataCenters"):
                             thisRegion = datacenter.get("region")
@@ -105,11 +108,14 @@ class BTPUSECASE_GEN:
         renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 
-def getJsonSchemaForRefName(mainJsonData, ref):
-    if ref:
-        for paremeter in ref:
-            parameterDefName = paremeter.get("name")
-            jsonSchemaDefs = mainJsonData.get("jsonSchemaDefs")
-            for thisName in jsonSchemaDefs:
-                if thisName == parameterDefName:
-                    return jsonSchemaDefs.get(thisName)
+def addJsonSchemaRefIntoServicePlan(service, mainJsonData):
+
+    if service:
+        for plan in service.get("servicePlans"):
+            if plan.get("jsonschemarefs"):
+                for paremeter in plan.get("jsonschemarefs"):
+                    parameterDefName = paremeter.get("name")
+                    jsonSchemaDefs = mainJsonData.get("jsonSchemaDefs")
+                    for thisName in jsonSchemaDefs:
+                        if thisName == parameterDefName:
+                            plan["jsonschemaproperties"] = jsonSchemaDefs.get(thisName)

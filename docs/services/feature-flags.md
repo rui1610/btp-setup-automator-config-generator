@@ -30,7 +30,7 @@ You can setup a service instance for **feature-flags** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "feature-flags",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -45,7 +45,7 @@ You can setup a service instance for **feature-flags** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "feature-flags",
-      "plan": "lite"      
+      "plan": "lite"
     }
   ]
 }

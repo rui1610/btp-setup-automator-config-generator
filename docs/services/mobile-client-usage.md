@@ -26,7 +26,7 @@ You can setup a service instance for **mobile-client-usage** by configuring your
     {
       "category": "SERVICE",
       "name": "mobile-client-usage",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

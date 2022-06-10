@@ -29,7 +29,7 @@ You can setup a service instance for **spatialservices** by configuring your `us
     {
       "category": "SERVICE",
       "name": "spatialservices",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }
@@ -44,7 +44,7 @@ You can setup a service instance for **spatialservices** by configuring your `us
     {
       "category": "SERVICE",
       "name": "spatialservices",
-      "plan": "lite"      
+      "plan": "lite"
     }
   ]
 }

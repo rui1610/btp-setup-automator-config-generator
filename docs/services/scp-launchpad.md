@@ -27,7 +27,7 @@ You can setup a service instance for **scp-launchpad** by configuring your `usec
     {
       "category": "SERVICE",
       "name": "scp-launchpad",
-      "plan": "standard"      
+      "plan": "standard"
     }
   ]
 }

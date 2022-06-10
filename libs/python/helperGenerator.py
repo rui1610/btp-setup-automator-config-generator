@@ -1,5 +1,3 @@
-from libs.python.helperGeneric import getEnvVariableValue
-from libs.python.helperLog import initLogger
 from libs.python.helperJinja2 import renderTemplateWithJson
 from libs.python.helperJson import getJsonFromFile
 import logging
@@ -20,30 +18,12 @@ FOLDER_TEMPLATES = "./templates/"
 
 class BTPUSECASE_GEN:
     def __init__(self):
-        self.myemail = getEnvVariableValue("BTPSA_PARAM_MYEMAIL")
-        self.mypassword = getEnvVariableValue("BTPSA_PARAM_MYPASSWORD")
-        self.globalaccount = getEnvVariableValue("BTPSA_PARAM_GLOBALACCOUNT")
-        self.templatefoler = "./"
         self.btpcliapihostregion = "eu10"
-        self.loginmethod = "basicAuthentication"
-        self.logcommands = False
         self.region = "us10"
-        self.envvariables = None
         self.logfile = "./log/generator.log"
-        self.metadatafile = "./log/generator_metadata.json"
-
-        initLogger(self)
 
     def fetchEntitledServiceList(self, mainDataJsonFile):
-
-        result = fetchDataFromConfigFile(self, mainDataJsonFile)
-        self.entitledServices = result
-
-    # def applyServiceListOnTemplate(self, templateFile, targetFilename):
-
-    #     serviceList = self.entitledServices
-    #     renderTemplateWithJson(templateFile, targetFilename, serviceList)
-    #     log.success("applied SAP BTP service list on template file >" + templateFile + "< and created the target file >" + targetFilename + "<")
+        self.entitledServices = getJsonFromFile(None, mainDataJsonFile)
 
     def createBtpServiceTests(self, region):
         btpservicelist = self.entitledServices.get("btpservicelist")
@@ -62,7 +42,7 @@ class BTPUSECASE_GEN:
                         item["category"] = category.get("name")
                         item["service"] = service.get("name")
                         item["plan"] = plan.get("name")
-                        item["jsonschemarefs"] = plan.get("jsonschemarefs")
+                        item["jsonschemarefs"] = getJsonSchemaForRefName(self.entitledServices, plan.get("jsonschemarefs"))
                         supportedInRegion = False
                         for datacenter in plan.get("dataCenters"):
                             thisRegion = datacenter.get("region")
@@ -125,11 +105,11 @@ class BTPUSECASE_GEN:
         renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
 
 
-def fetchDataFromConfigFile(btpusecase_gen, mainDataJsonFile):
-
-    result = getJsonFromFile(None, mainDataJsonFile)
-    btpservicelist = result["btpservicelist"]
-    btpenums = result["btpenums"]
-
-    thisResult = {"btpservicelist": btpservicelist, "btpenums": btpenums}
-    return thisResult
+def getJsonSchemaForRefName(mainJsonData, ref):
+    if ref:
+        for paremeter in ref:
+            parameterDefName = paremeter.get("name")
+            jsonSchemaDefs = mainJsonData.get("jsonSchemaDefs")
+            for thisName in jsonSchemaDefs:
+                if thisName == parameterDefName:
+                    return jsonSchemaDefs.get(thisName)

@@ -4,5 +4,6 @@
     "loginmethod": "envVariables",
     "region": "{{ region }}",
     "pruneusecase": true,
+    "rundefaulttests": false,
     "subaccountname": "{{ subaccountname }}"
 }

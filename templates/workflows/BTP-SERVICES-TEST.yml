@@ -17,10 +17,16 @@ jobs:
       BTPSA_PARAM_MYEMAIL: ${{ secrets.BTPSA_PARAM_MYEMAIL }}
       BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
       BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}{% endraw %}
-    steps: {% for item in usecasetestlist %}
+    steps: 
+      - name: 'Preparing test environment for entitlement tests'
+        if: {% raw %}${{ always() }}{% endraw %}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -metadatafile 'inttest.json' -parameterfile 'https://github.com/SAP-samples/btp-setup-automator/blob/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
+{% for item in usecasetestlist %} 
       - name: 'Entitlement test in {{ region }} for {{ item.category }} {{ item.service }} (plan {{ item.plan }})'
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile '{{ item.parameterfile }}'
+        run: ./btpsa -parameterfile '{{ item.parameterfile }}'  -globalaccount '$(jq -r ".globalaccount" log/inttest.json)' -subdomain '$(jq -r ".subdomain" log/inttest.json)' -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)' 
  {%- endfor %}

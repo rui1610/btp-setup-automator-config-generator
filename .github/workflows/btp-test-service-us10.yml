@@ -23,7 +23,7 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -metadatafile 'inttest.json' -parameterfile 'https://github.com/SAP-samples/btp-setup-automator/blob/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
-       - name: 'Entitlement test in us10 for SERVICE destination (plan lite)'
+      - name: 'Entitlement test in us10 for SERVICE destination (plan lite)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash

@@ -27,7 +27,7 @@ jobs:
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-destination-lite-parameters.json'  -globalaccount '$(jq -r ".globalaccount" log/inttest.json)' -subdomain '$(jq -r ".subdomain" log/inttest.json)' -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)' 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-destination-lite-parameters.json'  -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)' 
       - name: 'Entitlement test in us10 for SERVICE document-translation (plan default)'
         if: ${{ always() }}
         working-directory: /home/user

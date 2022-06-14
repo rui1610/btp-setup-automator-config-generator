@@ -28,319 +28,319 @@ jobs:
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-abapcp-web-router-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-abapcp-web-router-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION ads-configui (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ads-configui-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ads-configui-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION ai-launchpad (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ai-launchpad-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ai-launchpad-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION alm-ts (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION alm-ts (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-alm-ts-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION api-management-apiportal (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-apiportal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-apiportal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION api-management-devportal (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-devportal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-api-management-devportal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION auditlog-viewer (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-auditlog-viewer-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-auditlog-viewer-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION automationpilot (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-automationpilot-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-automationpilot-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION automationpilot (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-automationpilot-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-automationpilot-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION Backend-service (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-Backend-service-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-Backend-service-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION c4-distributed-order-management-app (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-c4-distributed-order-management-app-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-c4-distributed-order-management-app-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION cias (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cias-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cias-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION cicd-app (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cicd-app-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-cicd-app-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION data-privacy-integration-application (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-data-privacy-integration-application-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-data-privacy-integration-application-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION document-information-extraction-application (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-document-information-extraction-application-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-document-information-extraction-application-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION dqmmicroui (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-dqmmicroui-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-dqmmicroui-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION eadesigner (plan eadesigner)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-eadesigner-eadesigner-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-eadesigner-eadesigner-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION edge-services (plan Enterprise)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-edge-services-Enterprise-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-edge-services-Enterprise-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION edge-services (plan Standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-edge-services-Standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-edge-services-Standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION enterprise-messaging-hub (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-enterprise-messaging-hub-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-enterprise-messaging-hub-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION extension-center (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-extension-center-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-extension-center-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION feature-flags-dashboard (plan dashboard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-feature-flags-dashboard-dashboard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-feature-flags-dashboard-dashboard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION ibx-connection-app (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ibx-connection-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ibx-connection-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION integration-suite-advanced-event-mesh (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-integration-suite-advanced-event-mesh-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-integration-suite-advanced-event-mesh-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION intelligent-situation-automation-app (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-intelligent-situation-automation-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-intelligent-situation-automation-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION intelligent-situation-automation-app (plan beta)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-intelligent-situation-automation-app-beta-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-intelligent-situation-automation-app-beta-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION iotas (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-iotas-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-iotas-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION iotas (plan oneproduct)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-iotas-oneproduct-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-iotas-oneproduct-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION IRPA (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION IRPA (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION IRPA (plan concurrent)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-concurrent-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-IRPA-concurrent-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION it-prod (plan enterprise)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-it-prod-enterprise-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-it-prod-enterprise-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION LandscapePortal (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-LandscapePortal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-LandscapePortal-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION market-rates-ux (plan mrtr)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-market-rates-ux-mrtr-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-market-rates-ux-mrtr-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION market-rates-ux (plan mror)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-market-rates-ux-mror-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-market-rates-ux-mror-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION MDMBusinessPartnerApplication (plan saas-application)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDMBusinessPartnerApplication-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDMBusinessPartnerApplication-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION mdo-one-mds-master (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-mdo-one-mds-master-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-mdo-one-mds-master-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION MDOrchestrationApplication (plan saas-application)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDOrchestrationApplication-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-MDOrchestrationApplication-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION ocnselfserviceagent (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ocnselfserviceagent-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-ocnselfserviceagent-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION PersonalDataManagerApp (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PersonalDataManagerApp-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PersonalDataManagerApp-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION PortalApplication (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PortalApplication-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-PortalApplication-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION print-app (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-print-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-print-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION process-automation (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-process-automation-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-process-automation-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION process-automation (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-process-automation-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-process-automation-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION responsibility-management-application-beta (plan beta)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibility-management-application-beta-beta-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibility-management-application-beta-beta-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION responsibilitymanagement-application (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibilitymanagement-application-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-responsibilitymanagement-application-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION retention-manager-app (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-retention-manager-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-retention-manager-app-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sap-cai-onboarding (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-cai-onboarding-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-cai-onboarding-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sap-identity-services-onboarding (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sap-identity-services-onboarding (plan additional-tenant)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-additional-tenant-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-additional-tenant-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sap-identity-services-onboarding (plan connectivity)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-connectivity-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sap-identity-services-onboarding-connectivity-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sapappgyver (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappgyver-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappgyver-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sapappstudio (plan standard-edition)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappstudio-standard-edition-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sapappstudio-standard-edition-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION SAPLaunchpad (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPLaunchpad-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPLaunchpad-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION SAPLaunchpad (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPLaunchpad-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPLaunchpad-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION SAPWebAnalytics (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWebAnalytics-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWebAnalytics-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION SAPWorkZone (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWorkZone-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-SAPWorkZone-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION sdm-web (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sdm-web-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-sdm-web-standard-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION spatialservices-app (plan professional)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-spatialservices-app-professional-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-spatialservices-app-professional-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION spatialservices-app (plan starter)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-spatialservices-app-starter-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-spatialservices-app-starter-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION tnt-onboard-dataenrichment-dcp (plan saas-application)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-tnt-onboard-dataenrichment-dcp-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-tnt-onboard-dataenrichment-dcp-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION WorkflowManagementSaaS (plan saas-application)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-WorkflowManagementSaaS-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-WorkflowManagementSaaS-saas-application-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for APPLICATION wums-c4re-beta (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-wums-c4re-beta-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/APPLICATION-wums-c4re-beta-default-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)

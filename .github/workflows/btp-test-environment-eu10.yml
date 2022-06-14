@@ -22,15 +22,15 @@ jobs:
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'inttest.json' -parameterfile 'https://github.com/SAP-samples/btp-setup-automator/blob/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
  
       - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime (plan aws)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-aws-parameters.json'  -globalaccount '$(jq -r ".globalaccount" log/inttest.json)' -subdomain '$(jq -r ".subdomain" log/inttest.json)' -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)' 
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-aws-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
       - name: 'Entitlement test in eu10 for ENVIRONMENT kymaruntime (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-free-parameters.json'  -globalaccount '$(jq -r ".globalaccount" log/inttest.json)' -subdomain '$(jq -r ".subdomain" log/inttest.json)' -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)'
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/eu10/ENVIRONMENT-kymaruntime-free-parameters.json' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)

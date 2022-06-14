@@ -28,5 +28,5 @@ jobs:
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile '{{ item.parameterfile }}' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile '{{ item.parameterfile }}' -pruneusecase true -prunesubaccount false -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
  {%- endfor %}

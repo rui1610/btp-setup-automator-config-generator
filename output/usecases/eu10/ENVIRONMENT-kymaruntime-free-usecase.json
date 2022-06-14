@@ -4,7 +4,10 @@
         {
             "category": "ENVIRONMENT",
             "name": "kymaruntime",
-            "plan" : "free"
+            "plan" : "free",
+            "parameters": {
+                "name" : "myKymaCluster", 
+                "region" : "eastus"}
         }
         ]
 }

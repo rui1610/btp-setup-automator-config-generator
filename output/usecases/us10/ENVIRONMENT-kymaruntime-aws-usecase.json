@@ -4,7 +4,13 @@
         {
             "category": "ENVIRONMENT",
             "name": "kymaruntime",
-            "plan" : "aws"
+            "plan" : "aws",
+            "parameters": {
+                "autoScalerMax" : 10, 
+                "autoScalerMin" : 2, 
+                "machineType" : "m5.2xlarge", 
+                "name" : "myKymaCluster", 
+                "region" : "us-east-1"}
         }
         ]
 }

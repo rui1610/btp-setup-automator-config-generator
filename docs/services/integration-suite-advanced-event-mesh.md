@@ -4,12 +4,13 @@ SAP Integration Suite, advanced event mesh
 
 ## Additional details
 
+- [Documentation](https://help.sap.com/docs/SAP_ADVANCED_EVENT_MESH/728c56cd25854f0fad611eb26ae17152/0d4bcd5a2be744688039160b9bb289ae.html)
 
 ## Service availability
 
 | Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
-|  default  |  Default  | eu10 - Europe (Frankfurt)  |
+|  default  |  default  | eu10 - Europe (Frankfurt)  |
 
 ## Sample configuration of **SAP Integration Suite, advanced event mesh** for btp-setup-automator
 
@@ -17,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **integration-suite-advanced-event-mesh** by configuring your `usecase.json` file.
 
-### Using the service plan **default** (Default)
+### Using the service plan **default**
 
 ```json
 {
@@ -33,3 +34,5 @@ You can setup a service instance for **integration-suite-advanced-event-mesh** b
 ```
 
 ## Related categories
+
+- Integration Suite

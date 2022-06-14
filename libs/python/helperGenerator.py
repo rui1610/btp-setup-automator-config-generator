@@ -34,10 +34,12 @@ class BTPUSECASE_GEN:
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
 
+        workflowFiles = 1
         for category in btpservicelist:
             listUsecaseFiles = []
             if category.get("name") in serviceCategoryFilter:
                 print("CHECKING " + category.get("name"))
+                counter = 0
                 for service in category.get("list"):
                     print(" - now service " + service.get("name"))
                     for plan in service.get("servicePlans"):
@@ -54,6 +56,7 @@ class BTPUSECASE_GEN:
                                 supportedInRegion = True
                         if supportedInRegion:
                             serviceList.append(item)
+                            counter += 1
 
                         if serviceList and len(serviceList) > 0:
                             filePatternName = region + "/" + category.get("name") + "-" + service.get("name") + "-" + plan.get("name")
@@ -80,6 +83,7 @@ class BTPUSECASE_GEN:
                             listUsecaseFiles.append(parametersParameterFile)
 
             templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
+
             targetFilename = FOLDER_OUTPUT_WORKFLOWS + "btp-test-" + category.get("name").lower() + "-" + region + ".yml"
             renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
 

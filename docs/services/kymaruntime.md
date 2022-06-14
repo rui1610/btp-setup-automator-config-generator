@@ -31,7 +31,15 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "azure"
+      "plan": "azure",
+      "parameters": {
+        
+          "autoScalerMax" : 10, 
+          "autoScalerMin" : 2, 
+          "machineType" : "Standard_D8_v3", 
+          "name" : "myKymaCluster", 
+          "region" : "eastus"
+      }
     }
   ]
 }
@@ -46,7 +54,15 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "aws"
+      "plan": "aws",
+      "parameters": {
+        
+          "autoScalerMax" : 10, 
+          "autoScalerMin" : 2, 
+          "machineType" : "m5.2xlarge", 
+          "name" : "myKymaCluster", 
+          "region" : "us-east-1"
+      }
     }
   ]
 }
@@ -61,7 +77,15 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "gcp"
+      "plan": "gcp",
+      "parameters": {
+        
+          "autoScalerMax" : 10, 
+          "autoScalerMin" : 2, 
+          "machineType" : "n2-standard-8", 
+          "name" : "myKymaCluster", 
+          "region" : "us-central1"
+      }
     }
   ]
 }
@@ -76,7 +100,12 @@ You can setup a service instance for **kymaruntime** by configuring your `usecas
     {
       "category": "ENVIRONMENT",
       "name": "kymaruntime",
-      "plan": "free"
+      "plan": "free",
+      "parameters": {
+        
+          "name" : "myKymaCluster", 
+          "region" : "eastus"
+      }
     }
   ]
 }

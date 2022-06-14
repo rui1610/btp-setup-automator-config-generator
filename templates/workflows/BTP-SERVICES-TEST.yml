@@ -22,11 +22,11 @@ jobs:
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -metadatafile 'inttest.json' -parameterfile 'https://github.com/SAP-samples/btp-setup-automator/blob/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
 {% for item in usecasetestlist %} 
       - name: 'Entitlement test in {{ region }} for {{ item.category }} {{ item.service }} (plan {{ item.plan }})'
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile '{{ item.parameterfile }}'  -globalaccount '$(jq -r ".globalaccount" log/inttest.json)' -subdomain '$(jq -r ".subdomain" log/inttest.json)' -subaccountid '$(jq -r ".subaccountid" log/inttest.json)'  -org '$(jq -r ".org" log/inttest.json)' -orgid '$(jq -r ".orgid" log/inttest.json)' 
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile '{{ item.parameterfile }}' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
  {%- endfor %}

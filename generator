@@ -18,6 +18,6 @@ generator.createPageServiceDetails()
 #######################################################################################
 # regions = generator.entitledServices.get("btpenums").get("regions")
 # for region in regions:
-#     generator.createBtpServiceTests(region)
+#    generator.createBtpServiceTests(region)
 generator.createBtpServiceTests("us10")
 generator.createBtpServiceTests("eu10")

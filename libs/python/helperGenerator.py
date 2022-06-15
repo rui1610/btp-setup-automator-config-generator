@@ -81,7 +81,7 @@ class BTPUSECASE_GEN:
 
             templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
 
-            targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + region + "-" + category.get("name").lower() + "s.yml"
+            targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + category.get("name").lower() + "s-" + region + ".yml"
             renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
 
     def createPageServiceDetails(self):

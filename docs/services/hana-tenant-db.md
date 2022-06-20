@@ -7,7 +7,7 @@ SAP HANA Tenant Database
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  SAP HANA Tenant Database  | ap21 - Singapore<br> eu20 - Europe (Netherlands)<br> jp20 - Japan (Tokyo)<br> us20 - US West (WA)<br> us21 - US East (VA)  |
 

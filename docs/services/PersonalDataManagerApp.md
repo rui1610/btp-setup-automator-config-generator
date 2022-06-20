@@ -9,7 +9,7 @@ Personal Data Manager
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap21 - Singapore<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)  |
 

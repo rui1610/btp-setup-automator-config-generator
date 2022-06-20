@@ -9,7 +9,7 @@ SAP Market Rates Management
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  mrtr  |  SAP Market Rates Management  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  mror  |  SAP Market Rates Management  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

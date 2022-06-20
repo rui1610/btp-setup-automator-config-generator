@@ -9,7 +9,7 @@ Blockchain Application Enablement
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  blockchain-proof-of-state  |  blockchain-proof-of-state  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  blockchain-proof-of-history  |  blockchain-proof-of-history  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

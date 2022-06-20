@@ -9,7 +9,7 @@ SAP Leonardo ML Foundation
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)<br> us30 - US Central (IA)  |
 

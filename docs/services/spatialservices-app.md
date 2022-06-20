@@ -7,7 +7,7 @@ HANA Spatial Services
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  professional  |  HANA Spatial Services  | eu10 - Europe (Frankfurt)  |
 |  starter  |  HANA Spatial Services  | eu10 - Europe (Frankfurt)  |

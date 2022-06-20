@@ -8,7 +8,7 @@ API Management
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  preview  |  Expose your data and processes as APIs for omni-channel consumption and manage the lifecycle of those APIs  | eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

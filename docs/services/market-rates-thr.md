@@ -8,7 +8,7 @@ Market Rates, Refinitiv
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  default  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

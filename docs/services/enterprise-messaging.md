@@ -10,7 +10,7 @@ Event Mesh
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  event-mesh-connectivity  |  Event Mesh Connectivity  | eu10 - Europe (Frankfurt)  |
 |  event-mesh-connectivity-beta  |  event-mesh-connectivity-beta  | eu10 - Europe (Frankfurt)<br> us20 - US West (WA)  |

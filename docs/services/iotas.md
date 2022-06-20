@@ -8,7 +8,7 @@ SAP IoT
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Leonardo IoT  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  oneproduct  |  oneproduct  | eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)<br> us10 - US East (VA)<br> us20 - US West (WA)  |

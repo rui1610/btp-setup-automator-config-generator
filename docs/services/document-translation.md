@@ -9,7 +9,7 @@ Document Translation
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  Default  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  free  |  Free  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

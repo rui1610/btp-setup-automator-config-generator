@@ -9,7 +9,7 @@ Data Quality Services UI
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Standard  | eu10 - Europe (Frankfurt)  |
 

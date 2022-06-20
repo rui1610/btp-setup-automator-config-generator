@@ -9,7 +9,7 @@ Document Classification
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  blocks_of_100  |  blocks_of_100  | eu10 - Europe (Frankfurt)  |
 |  default  |  default  | eu10 - Europe (Frankfurt)  |

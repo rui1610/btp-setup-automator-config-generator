@@ -8,7 +8,7 @@ Backend Service
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  SAP Cloud Platform Backend service  | eu10 - Europe (Frankfurt)  |
 

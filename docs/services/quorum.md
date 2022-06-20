@@ -9,7 +9,7 @@ Quorum
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  cyon  |  cyon  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  testnet  |  testnet  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

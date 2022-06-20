@@ -9,7 +9,7 @@ SAP Cloud ALM, memory extension
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  default  | eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)  |
 

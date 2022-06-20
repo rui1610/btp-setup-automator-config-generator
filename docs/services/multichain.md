@@ -9,7 +9,7 @@ MultiChain
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  small  |  small  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  large  |  large  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

@@ -7,7 +7,7 @@ SAP Edge Services
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  Enterprise  |  SAP Edge Services  | eu10 - Europe (Frankfurt)<br> us20 - US West (WA)  |
 |  Standard  |  SAP Edge Services Cloud Standard Edition  | eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)  |

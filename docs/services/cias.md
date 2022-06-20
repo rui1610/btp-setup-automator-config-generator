@@ -9,7 +9,7 @@ Cloud Integration Automation Service
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | ap10 - Australia (Sydney)<br> eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)<br> us10 - US East (VA)  |
 

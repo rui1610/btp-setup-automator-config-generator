@@ -9,7 +9,7 @@ SAP ASE Service
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  XLARGE  |  ASE 640GB  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |
 |  MEDIUM  |  ASE 160GB  | ae1 - UAE (Dubai)<br> ap1 - Australia (Sydney)<br> ap2 - Australia (Sydney DR)<br> br1 - Brazil (Sao Paulo)<br> ca1 - Canada (Toronto)<br> ca2 - Canada (Toronto DR)<br> cn1 - China (Shanghai)<br> eu1 - Europe (Rot)<br> eu2 - Europe (Frankfurt)<br> eu3 - Europe (Amsterdam)<br> jp1 - Japan (Tokyo)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)<br> us1 - US East (Ashburn)<br> us2 - US West (Chandler)<br> us3 - US East (Sterling)<br> us4 - US West (Colorado Springs)  |

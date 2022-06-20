@@ -10,7 +10,7 @@ SAP Graph
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  free  |  Free  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

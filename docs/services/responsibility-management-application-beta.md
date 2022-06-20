@@ -8,7 +8,7 @@ Responsibility Management Service
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  beta  |  Beta  | eu10 - Europe (Frankfurt)  |
 

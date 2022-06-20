@@ -9,7 +9,7 @@ Hyperledger Fabric
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  testnet  |  testnet  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  dev  |  dev  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

@@ -12,7 +12,7 @@ SAP Conversational AI
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | eu10 - Europe (Frankfurt)  |
 

@@ -8,7 +8,7 @@ Workspace Utilization
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  SAP Cloud for Real Estate Workspace Utilization Management (BETA)  | eu10 - Europe (Frankfurt)  |
 

@@ -7,7 +7,7 @@ SAP Business Partner Service
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  SAP Cloud Platform Master Data Management for business partners  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

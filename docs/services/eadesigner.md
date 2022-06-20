@@ -8,7 +8,7 @@ SAP EA Designer, cloud edition
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  eadesigner  |  SAP Enterprise Architecture Designer, cloud edition  | eu10 - Europe (Frankfurt)  |
 

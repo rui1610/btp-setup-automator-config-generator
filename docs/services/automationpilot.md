@@ -10,7 +10,7 @@ Automation Pilot
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  free  |  free  | ap10 - Australia (Sydney)<br> eu10 - Europe (Frankfurt)<br> jp20 - Japan (Tokyo)<br> us30 - US Central (IA)  |
 |  standard  |  Standard  | ap10 - Australia (Sydney)<br> eu10 - Europe (Frankfurt)<br> jp20 - Japan (Tokyo)<br> us30 - US Central (IA)  |

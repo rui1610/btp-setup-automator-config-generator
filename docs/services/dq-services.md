@@ -11,7 +11,7 @@ Data Quality Services
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | eu10 - Europe (Frankfurt)  |
 |  free  |  free  | eu10 - Europe (Frankfurt)  |

@@ -8,7 +8,7 @@ Master Data Orchestration
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  saas-application  |  Master data application that allows master data replication according to predetermined master data distribution models  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

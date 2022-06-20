@@ -10,7 +10,7 @@ Service Ticket Intelligence
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  blocks_of_100  |  blocks_of_100  | eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> us10 - US East (VA)<br> us30 - US Central (IA)  |
 |  free  |  Free  | eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> us10 - US East (VA)<br> us30 - US Central (IA)  |

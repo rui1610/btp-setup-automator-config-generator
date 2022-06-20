@@ -8,7 +8,7 @@ Data Enrichment
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  saas-application  |  Data Enrichment  | ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

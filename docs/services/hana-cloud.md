@@ -11,7 +11,7 @@ SAP HANA Cloud
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  relational-data-lake-free  |  relational-data-lake-free  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap12 - South Korea (Seoul)<br> ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> eu20 - Europe (Netherlands)<br> jp10 - Japan (Tokyo)<br> jp20 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)  |
 |  adaptive-server-enterprise-replication  |  adaptive-server-enterprise-replication  | ap20 - Australia (Sydney) Azure<br> eu20 - Europe (Netherlands)<br> us21 - US East (VA)  |

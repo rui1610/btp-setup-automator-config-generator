@@ -8,7 +8,7 @@ Java Quota
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  PRO  |  Professional Edition for VMs: 2 CPUs, 4096 MB Memory  | ae1 - UAE (Dubai)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)  |
 |  PREMIUM_PLUS  |  Premium Plus Edition for VMs: 8 CPUs, 16384 MB Memory  | ae1 - UAE (Dubai)<br> ru1 - Russia (Moscow)<br> sa1 - KSA (Riyadh)  |

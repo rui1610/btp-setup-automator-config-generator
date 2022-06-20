@@ -9,7 +9,7 @@ Master Data Integration
 
 ## Service availability
 
-| Name | Display name | Data center availability  |
+| Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  sap-integration  |  sap-integration  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 |  s4hana-onpremise  |  s4hana-onpremise  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |

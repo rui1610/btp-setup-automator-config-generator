@@ -44,8 +44,8 @@ class BTPUSECASE_GEN:
                 print("CHECKING " + category.get("name"))
                 counterServicePlanCombination = 0
                 createNewFile = False
-                counterTestBlocks = 0
                 for service in category.get("list"):
+                    counterTestBlocks = 0
                     if service.get("name") in SERVICES_TO_EXCLUDE_FROM_TEST:
                         continue
                     print(" - now service " + service.get("name"))

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "spatialservices",
-            "plan": "lite"
+            "plan": "lite",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

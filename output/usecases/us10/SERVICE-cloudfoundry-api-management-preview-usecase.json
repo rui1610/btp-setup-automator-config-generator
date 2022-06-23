@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "api-management",
-            "plan": "preview"
+            "plan": "preview",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

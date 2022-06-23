@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "blockchain-services",
-            "plan": "blockchain-hana-integration"
+            "plan": "blockchain-hana-integration",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

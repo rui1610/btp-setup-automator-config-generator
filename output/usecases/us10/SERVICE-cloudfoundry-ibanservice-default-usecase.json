@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "ibanservice",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

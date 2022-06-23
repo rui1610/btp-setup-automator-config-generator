@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "mdo-one-mds-master",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

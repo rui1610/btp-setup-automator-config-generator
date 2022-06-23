@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "process-automation",
-            "plan": "standard-user"
+            "plan": "standard-user",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

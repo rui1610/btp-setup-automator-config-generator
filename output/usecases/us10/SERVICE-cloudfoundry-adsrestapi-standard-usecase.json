@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "adsrestapi",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

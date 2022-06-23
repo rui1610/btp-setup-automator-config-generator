@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "alert-notification",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

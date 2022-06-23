@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "ui5-flexibility-keyuser",
-            "plan": "keyuser"
+            "plan": "keyuser",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

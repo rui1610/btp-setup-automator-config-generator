@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "SAPWorkZone",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

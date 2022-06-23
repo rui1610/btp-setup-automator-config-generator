@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "postgresql-db",
-            "plan": "storage"
+            "plan": "storage",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

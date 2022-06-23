@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "blockchain-services",
-            "plan": "blockchain-proof-of-state"
+            "plan": "blockchain-proof-of-state",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

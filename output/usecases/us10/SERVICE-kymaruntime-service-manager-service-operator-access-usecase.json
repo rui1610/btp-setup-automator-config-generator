@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "service-manager",
-            "plan": "service-operator-access"
+            "plan": "service-operator-access",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

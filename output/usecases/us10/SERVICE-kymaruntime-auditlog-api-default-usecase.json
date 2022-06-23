@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "auditlog-api",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

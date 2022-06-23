@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "hyperledger-fabric",
-            "plan": "channel"
+            "plan": "channel",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

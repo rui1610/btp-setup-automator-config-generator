@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "service-manager",
-            "plan": "container"
+            "plan": "container",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

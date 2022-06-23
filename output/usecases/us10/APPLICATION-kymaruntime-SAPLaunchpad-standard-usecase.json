@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "SAPLaunchpad",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

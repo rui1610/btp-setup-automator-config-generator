@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "credstore",
-            "plan": "proxy"
+            "plan": "proxy",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

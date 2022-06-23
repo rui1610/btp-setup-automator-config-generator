@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "blockchain-services",
-            "plan": "blockchain-proof-of-history"
+            "plan": "blockchain-proof-of-history",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

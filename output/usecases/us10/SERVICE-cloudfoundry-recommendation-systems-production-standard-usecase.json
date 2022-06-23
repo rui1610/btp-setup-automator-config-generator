@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "recommendation-systems-production",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

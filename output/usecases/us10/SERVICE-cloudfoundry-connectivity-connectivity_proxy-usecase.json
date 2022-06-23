@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "connectivity",
-            "plan": "connectivity_proxy"
+            "plan": "connectivity_proxy",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

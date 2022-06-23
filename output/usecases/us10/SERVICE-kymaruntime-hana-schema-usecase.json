@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "hana",
-            "plan": "schema"
+            "plan": "schema",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

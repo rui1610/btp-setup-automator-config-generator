@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "sap-identity-services-onboarding",
-            "plan": "additional-tenant"
+            "plan": "additional-tenant",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "html5-apps-repo",
-            "plan": "app-runtime"
+            "plan": "app-runtime",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

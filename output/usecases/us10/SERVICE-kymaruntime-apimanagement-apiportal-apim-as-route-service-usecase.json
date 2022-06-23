@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "apimanagement-apiportal",
-            "plan": "apim-as-route-service"
+            "plan": "apim-as-route-service",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

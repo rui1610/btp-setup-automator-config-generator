@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "connectivity",
-            "plan": "lite"
+            "plan": "lite",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

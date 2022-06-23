@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "PortalApplication",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

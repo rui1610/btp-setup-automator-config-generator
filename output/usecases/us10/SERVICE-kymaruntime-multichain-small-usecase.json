@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "multichain",
-            "plan": "small"
+            "plan": "small",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "it-prod",
-            "plan": "enterprise"
+            "plan": "enterprise",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

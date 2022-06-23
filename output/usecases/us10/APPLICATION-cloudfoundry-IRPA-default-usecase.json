@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "IRPA",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "mobile-offline",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

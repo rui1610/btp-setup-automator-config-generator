@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "processvisibility",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

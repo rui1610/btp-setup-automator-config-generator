@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "mobile-c2g",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

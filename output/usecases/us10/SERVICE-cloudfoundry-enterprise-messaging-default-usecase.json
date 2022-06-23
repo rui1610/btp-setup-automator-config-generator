@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "enterprise-messaging",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

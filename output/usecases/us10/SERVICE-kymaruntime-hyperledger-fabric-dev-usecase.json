@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "hyperledger-fabric",
-            "plan": "dev"
+            "plan": "dev",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

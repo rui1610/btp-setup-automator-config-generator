@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "apimanagement-apiportal",
-            "plan": "apiportal-apiaccess"
+            "plan": "apiportal-apiaccess",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "workflow",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

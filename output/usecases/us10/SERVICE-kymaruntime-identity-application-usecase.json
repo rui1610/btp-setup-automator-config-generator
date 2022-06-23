@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "identity",
-            "plan": "application"
+            "plan": "application",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

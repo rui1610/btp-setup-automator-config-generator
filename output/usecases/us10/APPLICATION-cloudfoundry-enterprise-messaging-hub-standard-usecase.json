@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "enterprise-messaging-hub",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

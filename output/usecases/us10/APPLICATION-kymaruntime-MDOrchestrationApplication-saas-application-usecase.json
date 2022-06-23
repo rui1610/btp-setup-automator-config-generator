@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "MDOrchestrationApplication",
-            "plan": "saas-application"
+            "plan": "saas-application",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "market-rates-thr",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

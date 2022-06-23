@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "iotas",
-            "plan": "oneproduct"
+            "plan": "oneproduct",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

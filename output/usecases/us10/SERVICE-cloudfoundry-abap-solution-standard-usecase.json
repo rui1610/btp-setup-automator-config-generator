@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "abap-solution",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

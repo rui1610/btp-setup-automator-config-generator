@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "document-translation",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

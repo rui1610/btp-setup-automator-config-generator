@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "redis-cache",
-            "plan": "premium"
+            "plan": "premium",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

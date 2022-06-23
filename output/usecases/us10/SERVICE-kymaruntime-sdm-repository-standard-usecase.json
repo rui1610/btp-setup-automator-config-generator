@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "sdm-repository",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

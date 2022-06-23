@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "sap-cai-onboarding",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

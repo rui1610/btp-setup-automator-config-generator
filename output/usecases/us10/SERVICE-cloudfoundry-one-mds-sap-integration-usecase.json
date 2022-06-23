@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "one-mds",
-            "plan": "sap-integration"
+            "plan": "sap-integration",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

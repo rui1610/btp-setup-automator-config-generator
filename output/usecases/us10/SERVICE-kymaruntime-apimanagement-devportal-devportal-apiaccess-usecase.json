@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "apimanagement-devportal",
-            "plan": "devportal-apiaccess"
+            "plan": "devportal-apiaccess",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "business-entity-recognition",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

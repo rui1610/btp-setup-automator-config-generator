@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "sapappstudio",
-            "plan": "standard-edition"
+            "plan": "standard-edition",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

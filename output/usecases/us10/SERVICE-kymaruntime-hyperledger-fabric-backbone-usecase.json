@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "hyperledger-fabric",
-            "plan": "backbone"
+            "plan": "backbone",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

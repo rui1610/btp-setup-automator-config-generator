@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "processvisibility",
-            "plan": "workflow"
+            "plan": "workflow",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

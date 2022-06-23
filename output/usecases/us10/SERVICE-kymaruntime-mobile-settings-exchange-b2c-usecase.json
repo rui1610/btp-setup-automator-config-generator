@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "mobile-settings-exchange",
-            "plan": "b2c"
+            "plan": "b2c",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

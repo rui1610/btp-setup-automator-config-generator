@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "feature-flags-dashboard",
-            "plan": "dashboard"
+            "plan": "dashboard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

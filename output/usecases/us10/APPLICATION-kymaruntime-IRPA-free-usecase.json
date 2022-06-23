@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "IRPA",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

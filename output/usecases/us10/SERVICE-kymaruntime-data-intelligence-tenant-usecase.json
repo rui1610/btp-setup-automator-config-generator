@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "data-intelligence",
-            "plan": "tenant"
+            "plan": "tenant",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

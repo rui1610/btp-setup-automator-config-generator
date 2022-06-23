@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "blockchain-services",
-            "plan": "blockchain-timestamp"
+            "plan": "blockchain-timestamp",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "market-rates-ux",
-            "plan": "mror"
+            "plan": "mror",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

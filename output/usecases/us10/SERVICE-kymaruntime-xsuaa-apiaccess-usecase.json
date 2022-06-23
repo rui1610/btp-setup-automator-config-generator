@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "xsuaa",
-            "plan": "apiaccess"
+            "plan": "apiaccess",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

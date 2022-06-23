@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "dateandtime",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

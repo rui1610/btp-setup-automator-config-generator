@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "process-automation",
-            "plan": "automation-attended"
+            "plan": "automation-attended",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

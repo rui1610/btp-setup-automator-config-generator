@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "application-logs",
-            "plan": "large"
+            "plan": "large",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

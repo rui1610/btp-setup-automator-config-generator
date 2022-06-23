@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "xsuaa",
-            "plan": "broker"
+            "plan": "broker",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

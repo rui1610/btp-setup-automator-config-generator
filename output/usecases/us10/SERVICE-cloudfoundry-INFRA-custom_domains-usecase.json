@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "INFRA",
-            "plan": "custom_domains"
+            "plan": "custom_domains",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

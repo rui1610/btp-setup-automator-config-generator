@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "irpa-service",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

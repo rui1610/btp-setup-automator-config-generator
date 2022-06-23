@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "service-manager",
-            "plan": "subaccount-admin"
+            "plan": "subaccount-admin",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

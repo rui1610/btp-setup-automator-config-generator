@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "integrationsuite",
-            "plan": "messages"
+            "plan": "messages",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

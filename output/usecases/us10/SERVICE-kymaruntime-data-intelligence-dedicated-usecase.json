@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "data-intelligence",
-            "plan": "dedicated"
+            "plan": "dedicated",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

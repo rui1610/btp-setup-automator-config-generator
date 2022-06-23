@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "business-rules",
-            "plan": "basic"
+            "plan": "basic",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

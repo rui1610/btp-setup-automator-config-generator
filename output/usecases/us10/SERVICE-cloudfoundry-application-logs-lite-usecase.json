@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "application-logs",
-            "plan": "lite"
+            "plan": "lite",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

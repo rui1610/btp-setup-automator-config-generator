@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "data-privacy-integration-application",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

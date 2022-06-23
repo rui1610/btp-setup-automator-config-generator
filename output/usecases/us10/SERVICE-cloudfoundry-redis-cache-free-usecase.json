@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "redis-cache",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

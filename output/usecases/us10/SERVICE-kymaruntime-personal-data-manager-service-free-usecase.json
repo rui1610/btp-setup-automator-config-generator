@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "personal-data-manager-service",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

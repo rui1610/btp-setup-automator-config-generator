@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "workcalendar",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

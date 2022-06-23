@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "sdm-web",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

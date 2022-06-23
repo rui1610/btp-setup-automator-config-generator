@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "document-information-extraction-application",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "service-ticket-intelligence",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

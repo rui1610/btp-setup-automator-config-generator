@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "sap-document-information-extraction",
-            "plan": "blocks_of_100"
+            "plan": "blocks_of_100",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "service-ticket-intelligence",
-            "plan": "blocks_of_100"
+            "plan": "blocks_of_100",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

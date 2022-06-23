@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "uas",
-            "plan": "reporting-ga-admin"
+            "plan": "reporting-ga-admin",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

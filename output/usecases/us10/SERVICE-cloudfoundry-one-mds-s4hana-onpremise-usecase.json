@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "one-mds",
-            "plan": "s4hana-onpremise"
+            "plan": "s4hana-onpremise",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

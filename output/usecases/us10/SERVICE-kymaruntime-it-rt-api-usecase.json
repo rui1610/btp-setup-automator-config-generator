@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "it-rt",
-            "plan": "api"
+            "plan": "api",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

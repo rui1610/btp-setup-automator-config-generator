@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "tnt-onboard-dataenrichment-dcp",
-            "plan": "saas-application"
+            "plan": "saas-application",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

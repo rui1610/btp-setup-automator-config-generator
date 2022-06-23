@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "hana",
-            "plan": "hdi-shared"
+            "plan": "hdi-shared",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "print",
-            "plan": "sender"
+            "plan": "sender",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "rabbitmq",
-            "plan": "virtualhost"
+            "plan": "virtualhost",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "mobile-proxy",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

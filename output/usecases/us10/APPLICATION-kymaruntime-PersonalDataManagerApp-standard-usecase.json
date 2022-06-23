@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "PersonalDataManagerApp",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

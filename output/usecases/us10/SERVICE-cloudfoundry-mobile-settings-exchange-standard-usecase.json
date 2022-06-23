@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "mobile-settings-exchange",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

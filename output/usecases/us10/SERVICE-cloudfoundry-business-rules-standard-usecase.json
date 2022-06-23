@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "business-rules",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

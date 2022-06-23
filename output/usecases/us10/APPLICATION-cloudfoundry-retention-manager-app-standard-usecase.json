@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "retention-manager-app",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

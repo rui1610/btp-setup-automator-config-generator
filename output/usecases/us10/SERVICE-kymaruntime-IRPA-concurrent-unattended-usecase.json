@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "IRPA",
-            "plan": "concurrent-unattended"
+            "plan": "concurrent-unattended",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

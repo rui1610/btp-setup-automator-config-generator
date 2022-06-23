@@ -69,7 +69,7 @@ class BTPUSECASE_GEN:
 
                                 usecasefile = FOLDER_OUTPUT_USECASES + filePatternName + "-usecase.json"
                                 templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
-                                renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList, "targetenvironemnt": targetenvironment})
+                                renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList, "targetenvironment": targetenvironment})
 
                                 parametersfile = FOLDER_OUTPUT_USECASES + filePatternName + "-parameters.json"
                                 templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"

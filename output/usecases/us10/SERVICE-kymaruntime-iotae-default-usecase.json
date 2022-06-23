@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "iotae",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

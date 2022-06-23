@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "alm-ts",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "SAPLaunchpad",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

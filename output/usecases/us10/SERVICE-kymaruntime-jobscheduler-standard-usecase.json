@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "jobscheduler",
-            "plan": "standard"
+            "plan": "standard",
+            "targetenvironment": "kymaruntime"
         }
         ]
 }

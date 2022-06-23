@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "quorum",
-            "plan": "cyon"
+            "plan": "cyon",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

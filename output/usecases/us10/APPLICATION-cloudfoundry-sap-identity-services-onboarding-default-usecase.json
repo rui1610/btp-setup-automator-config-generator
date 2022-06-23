@@ -4,7 +4,8 @@
         {
             "category": "APPLICATION",
             "name": "sap-identity-services-onboarding",
-            "plan": "default"
+            "plan": "default",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

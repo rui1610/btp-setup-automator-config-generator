@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "IRPA",
-            "plan": "concurrent-attended"
+            "plan": "concurrent-attended",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

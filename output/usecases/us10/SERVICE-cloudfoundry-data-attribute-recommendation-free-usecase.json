@@ -4,7 +4,8 @@
         {
             "category": "SERVICE",
             "name": "data-attribute-recommendation",
-            "plan": "free"
+            "plan": "free",
+            "targetenvironment": "cloudfoundry"
         }
         ]
 }

@@ -1,0 +1,272 @@
+name: Tests us10 - block 08
+# This file represents a complete version of the "BTP Setup Automator" integration tests
+# All tests are executed in sequence on one BTP account to avoid entitlement limits
+# This is why not matrix strategy is used
+# The steps of a job must execute in any case, so we use always()
+
+on:
+  workflow_dispatch:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sap-samples/btp-setup-automator:main
+      options: --user root
+    env:
+      BTPSA_PARAM_MYEMAIL: ${{ secrets.BTPSA_PARAM_MYEMAIL }}
+      BTPSA_PARAM_GLOBALACCOUNT: ${{ secrets.BTPSA_PARAM_GLOBALACCOUNT }}
+      BTPSA_PARAM_MYPASSWORD: ${{ secrets.BTPSA_PARAM_MYPASSWORD }}
+    steps: 
+      - name: 'Preparing test environment for entitlement tests'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
+
+ 
+      - name: 'Test 1 in us10 for APPLICATION ads-configui (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-ads-configui-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 2 in us10 for APPLICATION ads-configui (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-ads-configui-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 3 in us10 for APPLICATION ai-launchpad (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-ai-launchpad-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 4 in us10 for APPLICATION ai-launchpad (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-ai-launchpad-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 5 in us10 for APPLICATION alm-ts (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-alm-ts-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 6 in us10 for APPLICATION alm-ts (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-alm-ts-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 7 in us10 for APPLICATION alm-ts (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-alm-ts-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 8 in us10 for APPLICATION alm-ts (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-alm-ts-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 9 in us10 for APPLICATION api-management-apiportal (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-api-management-apiportal-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 10 in us10 for APPLICATION api-management-apiportal (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-api-management-apiportal-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 11 in us10 for APPLICATION api-management-devportal (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-api-management-devportal-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 12 in us10 for APPLICATION api-management-devportal (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-api-management-devportal-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 13 in us10 for APPLICATION auditlog-viewer (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-auditlog-viewer-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 14 in us10 for APPLICATION auditlog-viewer (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-auditlog-viewer-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 15 in us10 for APPLICATION cias (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-cias-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 16 in us10 for APPLICATION cias (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-cias-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 17 in us10 for APPLICATION cicd-app (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-cicd-app-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 18 in us10 for APPLICATION cicd-app (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-cicd-app-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 19 in us10 for APPLICATION data-privacy-integration-application (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-data-privacy-integration-application-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 20 in us10 for APPLICATION data-privacy-integration-application (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-data-privacy-integration-application-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 21 in us10 for APPLICATION document-information-extraction-application (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-document-information-extraction-application-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 22 in us10 for APPLICATION document-information-extraction-application (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-document-information-extraction-application-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 23 in us10 for APPLICATION enterprise-messaging-hub (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-enterprise-messaging-hub-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 24 in us10 for APPLICATION enterprise-messaging-hub (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-enterprise-messaging-hub-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 25 in us10 for APPLICATION extension-center (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-extension-center-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 26 in us10 for APPLICATION extension-center (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-extension-center-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 27 in us10 for APPLICATION feature-flags-dashboard (plan dashboard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-feature-flags-dashboard-dashboard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 28 in us10 for APPLICATION feature-flags-dashboard (plan dashboard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-feature-flags-dashboard-dashboard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 29 in us10 for APPLICATION iotas (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-iotas-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 30 in us10 for APPLICATION iotas (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-iotas-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 31 in us10 for APPLICATION iotas (plan oneproduct)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-iotas-oneproduct-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 32 in us10 for APPLICATION iotas (plan oneproduct)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-iotas-oneproduct-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 33 in us10 for APPLICATION IRPA (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-IRPA-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 34 in us10 for APPLICATION IRPA (plan default)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-IRPA-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 35 in us10 for APPLICATION IRPA (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-IRPA-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 36 in us10 for APPLICATION IRPA (plan free)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-IRPA-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 37 in us10 for APPLICATION IRPA (plan concurrent)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-IRPA-concurrent-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 38 in us10 for APPLICATION IRPA (plan concurrent)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-IRPA-concurrent-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 39 in us10 for APPLICATION it-prod (plan enterprise)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-it-prod-enterprise-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 40 in us10 for APPLICATION it-prod (plan enterprise)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-it-prod-enterprise-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 41 in us10 for APPLICATION market-rates-ux (plan mrtr)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-market-rates-ux-mrtr-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 42 in us10 for APPLICATION market-rates-ux (plan mrtr)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-market-rates-ux-mrtr-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 43 in us10 for APPLICATION market-rates-ux (plan mror)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-market-rates-ux-mror-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 44 in us10 for APPLICATION market-rates-ux (plan mror)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-market-rates-ux-mror-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 45 in us10 for APPLICATION MDMBusinessPartnerApplication (plan saas-application)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-MDMBusinessPartnerApplication-saas-application-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 46 in us10 for APPLICATION MDMBusinessPartnerApplication (plan saas-application)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-MDMBusinessPartnerApplication-saas-application-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 47 in us10 for APPLICATION mdo-one-mds-master (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-mdo-one-mds-master-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 48 in us10 for APPLICATION mdo-one-mds-master (plan standard)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-cloudfoundry-mdo-one-mds-master-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 49 in us10 for APPLICATION MDOrchestrationApplication (plan saas-application)'
+        if: ${{ always() }}
+        working-directory: /home/user
+        shell: bash
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/APPLICATION-kymaruntime-MDOrchestrationApplication-saas-application-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)

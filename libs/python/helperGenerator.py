@@ -18,6 +18,7 @@ FOLDER_TEMPLATES = "./templates/"
 MAX_NUMBER_TESTS_PER_WORKFLOW = 50
 
 SERVICES_TO_EXCLUDE_FROM_TEST = ["abap", "hana-cloud"]
+TARGETENVIRONMENTS = ["kymaruntime", "cloudfoundry"]
 
 
 class BTPUSECASE_GEN:
@@ -29,13 +30,13 @@ class BTPUSECASE_GEN:
     def fetchEntitledServiceList(self, mainDataJsonFile):
         self.entitledServices = getJsonFromFile(None, mainDataJsonFile)
         btpservicelist = self.entitledServices.get("services")
+
         for category in btpservicelist:
             for service in category.get("list"):
                 addJsonSchemaRefIntoServicePlan(service, self.entitledServices)
 
     def createBtpServiceTests(self, region):
         btpservicelist = self.entitledServices.get("services")
-
         serviceCategoryFilter = ["SERVICE", "APPLICATION"]
 
         listUsecaseFiles = []
@@ -63,28 +64,29 @@ class BTPUSECASE_GEN:
                             serviceList.append(item)
 
                         if serviceList and len(serviceList) > 0:
-                            filePatternName = region + "/" + category.get("name") + "-" + service.get("name") + "-" + plan.get("name")
+                            for targetenvironment in TARGETENVIRONMENTS:
+                                filePatternName = region + "/" + category.get("name") + "-" + targetenvironment + "-" + service.get("name") + "-" + plan.get("name")
 
-                            usecasefile = FOLDER_OUTPUT_USECASES + filePatternName + "-usecase.json"
-                            templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
-                            renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList})
+                                usecasefile = FOLDER_OUTPUT_USECASES + filePatternName + "-usecase.json"
+                                templateFilename = FOLDER_TEMPLATES + "usecases/USECASE.JSON"
+                                renderTemplateWithJson(templateFilename, usecasefile, {"serviceList": serviceList, "targetenvironemnt": targetenvironment})
 
-                            parametersfile = FOLDER_OUTPUT_USECASES + filePatternName + "-parameters.json"
-                            templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
-                            subaccountname = "BTPSA int test " + category.get("name")
-                            usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-usecase.json"
-                            thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname, "region": region}
-                            renderTemplateWithJson(templateFilename, parametersfile, thisItem)
+                                parametersfile = FOLDER_OUTPUT_USECASES + filePatternName + "-parameters.json"
+                                templateFilename = FOLDER_TEMPLATES + "usecases/PARAMETERS.JSON"
+                                subaccountname = "BTPSA int test " + category.get("name")
+                                usecasefile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-usecase.json"
+                                thisItem = {"usecasefile": usecasefile, "subaccountname": subaccountname, "region": region}
+                                renderTemplateWithJson(templateFilename, parametersfile, thisItem)
 
-                            urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-parameters.json"
-                            parametersParameterFile = {}
-                            parametersParameterFile["usecasefile"] = usecasefile
-                            parametersParameterFile["region"] = region
-                            parametersParameterFile["category"] = category.get("name")
-                            parametersParameterFile["service"] = service.get("name")
-                            parametersParameterFile["plan"] = plan.get("name")
-                            parametersParameterFile["parameterfile"] = urlParameterFile
-                            listUsecaseFiles.append(parametersParameterFile)
+                                urlParameterFile = "https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/" + filePatternName + "-parameters.json"
+                                parametersParameterFile = {}
+                                parametersParameterFile["usecasefile"] = usecasefile
+                                parametersParameterFile["region"] = region
+                                parametersParameterFile["category"] = category.get("name")
+                                parametersParameterFile["service"] = service.get("name")
+                                parametersParameterFile["plan"] = plan.get("name")
+                                parametersParameterFile["parameterfile"] = urlParameterFile
+                                listUsecaseFiles.append(parametersParameterFile)
 
         numberOfWorkflowFiles = int(len(listUsecaseFiles) / MAX_NUMBER_TESTS_PER_WORKFLOW) + (len(listUsecaseFiles) % MAX_NUMBER_TESTS_PER_WORKFLOW > 0)
 

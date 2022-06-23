@@ -29,244 +29,244 @@ jobs:
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-abap-solution-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 2 in us10 for SERVICE ads (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-abap-solution-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 2 in us10 for SERVICE abap-solution (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-ads-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 3 in us10 for SERVICE adsrestapi (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-abap-solution-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 3 in us10 for SERVICE ads (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-adsrestapi-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 4 in us10 for SERVICE aicore (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-ads-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 4 in us10 for SERVICE ads (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-aicore-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 5 in us10 for SERVICE alert-notification (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-ads-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 5 in us10 for SERVICE adsrestapi (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-alert-notification-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 6 in us10 for SERVICE alert-notification (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-adsrestapi-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 6 in us10 for SERVICE adsrestapi (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-alert-notification-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 7 in us10 for SERVICE api-management (plan preview)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-adsrestapi-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 7 in us10 for SERVICE aicore (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-api-management-preview-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 8 in us10 for SERVICE apimanagement-apiportal (plan apiportal-apiaccess)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-aicore-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 8 in us10 for SERVICE aicore (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-apimanagement-apiportal-apiportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 9 in us10 for SERVICE apimanagement-apiportal (plan on-premise-connectivity)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-aicore-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 9 in us10 for SERVICE alert-notification (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-apimanagement-apiportal-on-premise-connectivity-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 10 in us10 for SERVICE apimanagement-apiportal (plan apim-as-route-service)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-alert-notification-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 10 in us10 for SERVICE alert-notification (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-apimanagement-apiportal-apim-as-route-service-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 11 in us10 for SERVICE apimanagement-devportal (plan devportal-apiaccess)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-alert-notification-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 11 in us10 for SERVICE alert-notification (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-apimanagement-devportal-devportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 12 in us10 for SERVICE application-logs (plan large)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-alert-notification-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 12 in us10 for SERVICE alert-notification (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-application-logs-large-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 13 in us10 for SERVICE application-logs (plan lite)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-alert-notification-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 13 in us10 for SERVICE api-management (plan preview)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-application-logs-lite-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 14 in us10 for SERVICE application-logs (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-api-management-preview-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 14 in us10 for SERVICE api-management (plan preview)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-application-logs-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 15 in us10 for SERVICE auditlog-api (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-api-management-preview-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 15 in us10 for SERVICE apimanagement-apiportal (plan apiportal-apiaccess)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-auditlog-api-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 16 in us10 for SERVICE auditlog-management (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-apimanagement-apiportal-apiportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 16 in us10 for SERVICE apimanagement-apiportal (plan apiportal-apiaccess)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-auditlog-management-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 17 in us10 for SERVICE autoscaler (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-apimanagement-apiportal-apiportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 17 in us10 for SERVICE apimanagement-apiportal (plan on-premise-connectivity)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-autoscaler-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 18 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-state)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-apimanagement-apiportal-on-premise-connectivity-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 18 in us10 for SERVICE apimanagement-apiportal (plan on-premise-connectivity)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-blockchain-services-blockchain-proof-of-state-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 19 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-history)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-apimanagement-apiportal-on-premise-connectivity-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 19 in us10 for SERVICE apimanagement-apiportal (plan apim-as-route-service)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-blockchain-services-blockchain-proof-of-history-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 20 in us10 for SERVICE blockchain-services (plan blockchain-timestamp)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-apimanagement-apiportal-apim-as-route-service-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 20 in us10 for SERVICE apimanagement-apiportal (plan apim-as-route-service)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-blockchain-services-blockchain-timestamp-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 21 in us10 for SERVICE blockchain-services (plan blockchain-hana-integration)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-apimanagement-apiportal-apim-as-route-service-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 21 in us10 for SERVICE apimanagement-devportal (plan devportal-apiaccess)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-blockchain-services-blockchain-hana-integration-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 22 in us10 for SERVICE business-entity-recognition (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-apimanagement-devportal-devportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 22 in us10 for SERVICE apimanagement-devportal (plan devportal-apiaccess)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-business-entity-recognition-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 23 in us10 for SERVICE business-entity-recognition (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-apimanagement-devportal-devportal-apiaccess-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 23 in us10 for SERVICE application-logs (plan large)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-business-entity-recognition-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 24 in us10 for SERVICE business-rules (plan basic)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-application-logs-large-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 24 in us10 for SERVICE application-logs (plan large)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-business-rules-basic-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 25 in us10 for SERVICE business-rules (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-application-logs-large-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 25 in us10 for SERVICE application-logs (plan lite)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-business-rules-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 26 in us10 for SERVICE cias (plan oauth2)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-application-logs-lite-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 26 in us10 for SERVICE application-logs (plan lite)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cias-oauth2-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 27 in us10 for SERVICE cicd-service (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-application-logs-lite-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 27 in us10 for SERVICE application-logs (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cicd-service-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 28 in us10 for SERVICE cis (plan local)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-application-logs-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 28 in us10 for SERVICE application-logs (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cis-local-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 29 in us10 for SERVICE cis (plan central)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-application-logs-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 29 in us10 for SERVICE auditlog-api (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cis-central-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 30 in us10 for SERVICE connectivity (plan lite)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-auditlog-api-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 30 in us10 for SERVICE auditlog-api (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-connectivity-lite-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 31 in us10 for SERVICE connectivity (plan connectivity_proxy)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-auditlog-api-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 31 in us10 for SERVICE auditlog-management (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-connectivity-connectivity_proxy-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 32 in us10 for SERVICE content-agent (plan application)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-auditlog-management-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 32 in us10 for SERVICE auditlog-management (plan default)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-content-agent-application-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 33 in us10 for SERVICE content-agent (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-auditlog-management-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 33 in us10 for SERVICE autoscaler (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-content-agent-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 34 in us10 for SERVICE credstore (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-autoscaler-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 34 in us10 for SERVICE autoscaler (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-credstore-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 35 in us10 for SERVICE credstore (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-autoscaler-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 35 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-state)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-credstore-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 36 in us10 for SERVICE credstore (plan proxy)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-blockchain-services-blockchain-proof-of-state-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 36 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-state)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-credstore-proxy-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 37 in us10 for SERVICE data-attribute-recommendation (plan standard)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-blockchain-services-blockchain-proof-of-state-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 37 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-history)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-attribute-recommendation-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 38 in us10 for SERVICE data-attribute-recommendation (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-blockchain-services-blockchain-proof-of-history-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 38 in us10 for SERVICE blockchain-services (plan blockchain-proof-of-history)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-attribute-recommendation-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 39 in us10 for SERVICE data-intelligence (plan enterprise)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-blockchain-services-blockchain-proof-of-history-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 39 in us10 for SERVICE blockchain-services (plan blockchain-timestamp)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-intelligence-enterprise-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 40 in us10 for SERVICE data-intelligence (plan dedicated)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-blockchain-services-blockchain-timestamp-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 40 in us10 for SERVICE blockchain-services (plan blockchain-timestamp)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-intelligence-dedicated-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 41 in us10 for SERVICE data-intelligence (plan tenant)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-blockchain-services-blockchain-timestamp-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 41 in us10 for SERVICE blockchain-services (plan blockchain-hana-integration)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-intelligence-tenant-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 42 in us10 for SERVICE data-privacy-integration-service (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-blockchain-services-blockchain-hana-integration-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 42 in us10 for SERVICE blockchain-services (plan blockchain-hana-integration)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-privacy-integration-service-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 43 in us10 for SERVICE data-privacy-integration-service (plan application)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-blockchain-services-blockchain-hana-integration-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 43 in us10 for SERVICE business-entity-recognition (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-data-privacy-integration-service-application-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 44 in us10 for SERVICE dataenrichment-business-partner (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-business-entity-recognition-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 44 in us10 for SERVICE business-entity-recognition (plan free)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-dataenrichment-business-partner-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 45 in us10 for SERVICE dateandtime (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-business-entity-recognition-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 45 in us10 for SERVICE business-entity-recognition (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-dateandtime-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 46 in us10 for SERVICE destination (plan lite)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-business-entity-recognition-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 46 in us10 for SERVICE business-entity-recognition (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-destination-lite-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 47 in us10 for SERVICE document-translation (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-business-entity-recognition-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 47 in us10 for SERVICE business-rules (plan basic)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-document-translation-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 48 in us10 for SERVICE document-translation (plan free)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-business-rules-basic-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 48 in us10 for SERVICE business-rules (plan basic)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-document-translation-free-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
-      - name: 'Test 49 in us10 for SERVICE enterprise-messaging (plan default)'
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-cloudfoundry-business-rules-basic-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json) 
+      - name: 'Test 49 in us10 for SERVICE business-rules (plan standard)'
         if: ${{ always() }}
         working-directory: /home/user
         shell: bash
-        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-enterprise-messaging-default-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)
+        run: ./btpsa -parameterfile 'https://raw.githubusercontent.com/rui1610/btp-setup-automator-config-generator/main/output/usecases/us10/SERVICE-kymaruntime-business-rules-standard-parameters.json' -globalaccount $(jq -r ".globalaccount" log/inttest.json) -subdomain $(jq -r ".subdomain" log/inttest.json) -subaccountid $(jq -r ".subaccountid" log/inttest.json)  -org $(jq -r ".org" log/inttest.json) -orgid $(jq -r ".orgid" log/inttest.json)

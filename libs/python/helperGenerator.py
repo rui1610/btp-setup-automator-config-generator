@@ -38,21 +38,16 @@ class BTPUSECASE_GEN:
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION"]
 
+        listUsecaseFiles = []
         for category in btpservicelist:
-            listUsecaseFiles = []
             if category.get("name") in serviceCategoryFilter:
                 print("CHECKING " + category.get("name"))
-                counterServicePlanCombination = 0
-                createNewFile = False
                 for service in category.get("list"):
                     counterTestBlocks = 0
                     if service.get("name") in SERVICES_TO_EXCLUDE_FROM_TEST:
                         continue
                     print(" - now service " + service.get("name"))
                     for plan in service.get("servicePlans"):
-                        if counterServicePlanCombination >= MAX_NUMBER_TESTS_PER_WORKFLOW:
-                            counterServicePlanCombination = 0
-                            createNewFile = True
                         serviceList = []
                         item = {}
                         item["category"] = category.get("name")
@@ -90,15 +85,15 @@ class BTPUSECASE_GEN:
                             parametersParameterFile["plan"] = plan.get("name")
                             parametersParameterFile["parameterfile"] = urlParameterFile
                             listUsecaseFiles.append(parametersParameterFile)
-                            counterServicePlanCombination += 1
 
-                            if createNewFile is True:
-                                counterTestBlocks += 1
-                                templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
-                                targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + category.get("name").lower() + "s-" + region + "-" + str(counterTestBlocks).zfill(2) + ".yml"
-                                renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "counterTestBlocks": counterTestBlocks, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
-                                createNewFile = False
-                                listUsecaseFiles = []
+        numberOfWorkflowFiles = int(len(listUsecaseFiles) / MAX_NUMBER_TESTS_PER_WORKFLOW) + (len(listUsecaseFiles) % MAX_NUMBER_TESTS_PER_WORKFLOW > 0)
+
+        for i in range(numberOfWorkflowFiles):
+            templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
+            targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + region + "-" + str(i + 1).zfill(2) + ".yml"
+            startIndex = i * MAX_NUMBER_TESTS_PER_WORKFLOW
+            endIndex = startIndex + MAX_NUMBER_TESTS_PER_WORKFLOW - 1
+            renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "block": str(i + 1).zfill(2), "usecasetestlist": listUsecaseFiles[startIndex: endIndex]})
 
     def createPageServiceDetails(self):
         servicelist = self.entitledServices.get("services")

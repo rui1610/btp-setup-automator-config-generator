@@ -36,4 +36,4 @@ You can setup a service instance for **auditlog-management** by configuring your
 
 ## Related categories
 
-- Integration Suite
+- Extension Suite - Development Efficiency

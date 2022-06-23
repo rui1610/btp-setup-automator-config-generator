@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 from libs.python.helperGenerator import BTPUSECASE_GEN
 
-mainDataJsoFile = "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/config/btp-base/entitledServices.json"
+mainDataJsoFile = "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/update-btp-base-config/config/btp-base/btpServices.json"
 #######################################################################################
 # Initialize the tool and fetch the BTP service list
 #######################################################################################
@@ -20,4 +20,3 @@ generator.createPageServiceDetails()
 # for region in regions:
 #    generator.createBtpServiceTests(region)
 generator.createBtpServiceTests("us10")
-generator.createBtpServiceTests("eu10")

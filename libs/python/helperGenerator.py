@@ -24,13 +24,13 @@ class BTPUSECASE_GEN:
 
     def fetchEntitledServiceList(self, mainDataJsonFile):
         self.entitledServices = getJsonFromFile(None, mainDataJsonFile)
-        btpservicelist = self.entitledServices.get("btpservicelist")
+        btpservicelist = self.entitledServices.get("services")
         for category in btpservicelist:
             for service in category.get("list"):
                 addJsonSchemaRefIntoServicePlan(service, self.entitledServices)
 
     def createBtpServiceTests(self, region):
-        btpservicelist = self.entitledServices.get("btpservicelist")
+        btpservicelist = self.entitledServices.get("services")
 
         serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
 
@@ -85,10 +85,10 @@ class BTPUSECASE_GEN:
             renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
 
     def createPageServiceDetails(self):
-        btpservicelist = self.entitledServices.get("btpservicelist")
+        servicelist = self.entitledServices.get("services")
 
         # Create a detailed page for each service
-        for category in btpservicelist:
+        for category in servicelist:
             for service in category.get("list"):
                 targetFilename = FOLDER_OUTPUT_DOCS + "services/" + service.get("name") + ".md"
                 templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-DETAILS.MD"
@@ -97,17 +97,17 @@ class BTPUSECASE_GEN:
         # Create the root file with links to the detailed pages
         targetFilename = FOLDER_OUTPUT_DOCS + "free-tier.md"
         templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-FREE-TIER.MD"
-        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+        renderTemplateWithJson(templateFilename, targetFilename, {"services": servicelist})
 
         # Create the root file with links to the detailed pages
         targetFilename = FOLDER_OUTPUT_DOCS + "service-overview.md"
         templateFilename = FOLDER_TEMPLATES + "docs/SERVICE-OVERVIEW.MD"
-        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+        renderTemplateWithJson(templateFilename, targetFilename, {"services": servicelist})
 
         # Create the root file with links to the detailed pages
         targetFilename = FOLDER_OUTPUT_DOCS + "index.md"
         templateFilename = FOLDER_TEMPLATES + "docs/INDEX.MD"
-        renderTemplateWithJson(templateFilename, targetFilename, {"btpservicelist": btpservicelist})
+        renderTemplateWithJson(templateFilename, targetFilename, {"services": servicelist})
 
 
 def addJsonSchemaRefIntoServicePlan(service, mainJsonData):

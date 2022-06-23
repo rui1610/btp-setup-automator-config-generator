@@ -10,7 +10,7 @@ SAP AI Core
 
 | Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
-|  standard  |  standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
+|  standard  |  Standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 
 ## Sample configuration of **SAP AI Core** for btp-setup-automator
 
@@ -18,7 +18,7 @@ The [btp-setup-automator](https://github.com/SAP-samples/btp-setup-automator) he
 
 You can setup a service instance for **aicore** by configuring your `usecase.json` file.
 
-### Using the service plan **standard**
+### Using the service plan **standard** (Standard)
 
 ```json
 {

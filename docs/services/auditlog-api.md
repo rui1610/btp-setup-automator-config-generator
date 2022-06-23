@@ -36,4 +36,4 @@ You can setup a service instance for **auditlog-api** by configuring your `useca
 
 ## Related categories
 
-- Integration Suite
+- Extension Suite - Development Efficiency

@@ -11,7 +11,7 @@ SAP Intelligent Robotic Process Automation
 
 | Plan Name | Display name | Data center availability  |
 |------|----------------|---------------------------|
-|  standard  |  standard  | ap10 - Australia (Sydney)<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
+|  standard  |  standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 
 ## Sample configuration of **SAP Intelligent Robotic Process Automation** for btp-setup-automator
 

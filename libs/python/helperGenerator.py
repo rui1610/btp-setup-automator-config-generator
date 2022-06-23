@@ -96,7 +96,7 @@ class BTPUSECASE_GEN:
                                 counterTestBlocks += 1
                                 templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
                                 targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + category.get("name").lower() + "s-" + region + "-" + str(counterTestBlocks).zfill(2) + ".yml"
-                                renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
+                                renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "counterTestBlocks": counterTestBlocks, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
                                 createNewFile = False
                                 listUsecaseFiles = []
 

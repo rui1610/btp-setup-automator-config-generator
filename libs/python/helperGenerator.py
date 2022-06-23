@@ -15,6 +15,10 @@ FOLDER_OUTPUT_WORKFLOWS = "./.github/workflows/"
 FOLDER_OUTPUT_DOCS = "./docs/"
 FOLDER_TEMPLATES = "./templates/"
 
+MAX_NUMBER_TESTS_PER_WORKFLOW = 50
+
+SERVICES_TO_EXCLUDE_FROM_TEST = ["abap", "hana-cloud"]
+
 
 class BTPUSECASE_GEN:
     def __init__(self):
@@ -32,15 +36,23 @@ class BTPUSECASE_GEN:
     def createBtpServiceTests(self, region):
         btpservicelist = self.entitledServices.get("services")
 
-        serviceCategoryFilter = ["SERVICE", "APPLICATION", "ENVIRONMENT"]
+        serviceCategoryFilter = ["SERVICE", "APPLICATION"]
 
         for category in btpservicelist:
             listUsecaseFiles = []
             if category.get("name") in serviceCategoryFilter:
                 print("CHECKING " + category.get("name"))
+                counterServicePlanCombination = 0
+                createNewFile = False
+                counterTestBlocks = 0
                 for service in category.get("list"):
+                    if service.get("name") in SERVICES_TO_EXCLUDE_FROM_TEST:
+                        continue
                     print(" - now service " + service.get("name"))
                     for plan in service.get("servicePlans"):
+                        if counterServicePlanCombination >= MAX_NUMBER_TESTS_PER_WORKFLOW:
+                            counterServicePlanCombination = 0
+                            createNewFile = True
                         serviceList = []
                         item = {}
                         item["category"] = category.get("name")
@@ -78,11 +90,15 @@ class BTPUSECASE_GEN:
                             parametersParameterFile["plan"] = plan.get("name")
                             parametersParameterFile["parameterfile"] = urlParameterFile
                             listUsecaseFiles.append(parametersParameterFile)
+                            counterServicePlanCombination += 1
 
-            templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
-
-            targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + category.get("name").lower() + "s-" + region + ".yml"
-            renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
+                            if createNewFile is True:
+                                counterTestBlocks += 1
+                                templateFilename = FOLDER_TEMPLATES + "workflows/BTP-SERVICES-TEST.yml"
+                                targetFilename = FOLDER_OUTPUT_WORKFLOWS + "test-" + category.get("name").lower() + "s-" + region + "-" + str(counterTestBlocks).zfill(2) + ".yml"
+                                renderTemplateWithJson(templateFilename, targetFilename, {"region": region, "category": category.get("name").lower(), "usecasetestlist": listUsecaseFiles})
+                                createNewFile = False
+                                listUsecaseFiles = []
 
     def createPageServiceDetails(self):
         servicelist = self.entitledServices.get("services")

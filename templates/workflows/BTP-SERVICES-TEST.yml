@@ -23,8 +23,9 @@ jobs:
         working-directory: /home/user
         shell: bash
         run: ./btpsa -metadatafile 'log/inttest.json' -parameterfile 'https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/tests/integrationtests/parameterfiles/servicePlanIntegrationTest-prep-params.json'
-{% for item in usecasetestlist %} 
-      - name: 'Entitlement test in {{ region }} for {{ item.category }} {{ item.service }} (plan {{ item.plan }})'
+{% set count = namespace(value=0) %}
+{% for item in usecasetestlist %}{% set count.value = count.value + 1 %} 
+      - name: 'Test {{ count.value }} in {{ region }} for {{ item.category }} {{ item.service }} (plan {{ item.plan }})'
         if: {% raw %}${{ always() }}{% endraw %}
         working-directory: /home/user
         shell: bash

@@ -1,6 +1,9 @@
-# mobile-services (SERVICE)
+<img src="data:image/svg+xml;base64, PHN2ZyBpZD0ibW9iaWxlc2VydmljZXMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU2IDU2Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzA1M2I3MDt9LmNscy0ye2ZpbGw6IzBhNmVkMTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm1vYmlsZXNlcnZpY2VzPC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zNyw0YTUuNzgsNS43OCwwLDAsMSw0LjIxOSwxLjc4MUE1Ljc4LDUuNzgsMCwwLDEsNDMsMTBWNDZhNS43MjksNS43MjksMCwwLDEtMS43ODEsNC4yNjZBNS44Niw1Ljg2LDAsMCwxLDM3LDUySDE5YTUuODUxLDUuODUxLDAsMCwxLTQuMjE5LTEuNzM0QTUuNzE4LDUuNzE4LDAsMCwxLDEzLDQ2VjEwYTUuNzY4LDUuNzY4LDAsMCwxLDEuNzgxLTQuMjE5QTUuNzcsNS43NywwLDAsMSwxOSw0Wm0zLDZIMTZWNDNINDBaTTI4LDQ5YTIuMjYsMi4yNiwwLDAsMCwxLjU5NC0uNjA5LDIuMTM0LDIuMTM0LDAsMCwwLC42NTYtMS42NDEsMi4yNSwyLjI1LDAsMSwwLTQuNSwwLDIuMTIzLDIuMTIzLDAsMCwwLC42NTYsMS42NDFBMi4yNSwyLjI1LDAsMCwwLDI4LDQ5WiIvPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iMjAuNSIgeT0iMjEuMDYzIiB3aWR0aD0iMyIgaGVpZ2h0PSI2LjkzOCIvPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iMTkiIHk9IjMxIiB3aWR0aD0iMTgiIGhlaWdodD0iMS41Ii8+PHJlY3QgY2xhc3M9ImNscy0yIiB4PSIxOSIgeT0iMzguNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjEuNSIvPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iMTkiIHk9IjM0Ljc1IiB3aWR0aD0iMTgiIGhlaWdodD0iMS41Ii8+PHJlY3QgY2xhc3M9ImNscy0yIiB4PSIzMi41IiB5PSIxMy45MzgiIHdpZHRoPSIzIiBoZWlnaHQ9IjE0LjA2MyIvPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iMjYuNSIgeT0iMTcuNDA2IiB3aWR0aD0iMyIgaGVpZ2h0PSIxMC41OTQiLz48L3N2Zz4=" alt="Icon for mobile-services" width="80px" />
+# Mobile Services
 
-Mobile Services
+Technical name: **mobile-services**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
@@ -11,7 +14,7 @@ Mobile Services
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  free  |  free  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap12 - South Korea (Seoul)<br> ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> eu30 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> jp20 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)<br> us30 - US Central (IA)  |
 |  b2c  |  b2c  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap12 - South Korea (Seoul)<br> ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> eu30 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> jp20 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)<br> us30 - US Central (IA)  |

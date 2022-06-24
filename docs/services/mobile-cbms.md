@@ -1,13 +1,16 @@
-# mobile-cbms (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-cbms" width="80px" />
+# Mobile Cloud Build
 
-Mobile Cloud Build
+Technical name: **mobile-cbms**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Cloud Build enables customized builds of SAP mobile applications  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

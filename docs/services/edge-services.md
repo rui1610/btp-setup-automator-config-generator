@@ -1,13 +1,16 @@
-# edge-services (APPLICATION)
+<img src="data:;base64, None" alt="Icon for edge-services" width="80px" />
+# SAP Edge Services
 
-SAP Edge Services
+Technical name: **edge-services**
+
+Technical service category: **APPLICATION**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  Enterprise  |  SAP Edge Services  | eu10 - Europe (Frankfurt)<br> us20 - US West (WA)  |
 |  Standard  |  SAP Edge Services Cloud Standard Edition  | eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)  |

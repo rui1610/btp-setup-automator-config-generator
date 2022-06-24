@@ -1,6 +1,9 @@
-# service-ticket-intelligence (SERVICE)
+<img src="data:image/svg+xml;base64, PHN2ZyBpZD0ic2VydmljZS10aWNrZXQtaW50ZWxsaWdlbmNlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NiA1NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwNTNiNzA7fS5jbHMtMntmaWxsOiMwYTZlZDE7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5zZXJ2aWNlLXRpY2tldC1pbnRlbGxpZ2VuY2U8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEzLjAwOCwyMmExLjUsMS41LDAsMCwwLTEuNS0xLjVoLTZhMS41LDEuNSwwLDAsMCwwLDNoNi4wMDVBMS41LDEuNSwwLDAsMCwxMy4wMDgsMjJaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTQuNTA5LDE0LjUwOUg4LjVhMS41LDEuNSwwLDAsMCwwLDNoNi4wMDVhMS41LDEuNSwwLDAsMCwwLTNaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTQuNTA5LDI2LjVIMTEuNDU1YTEuNSwxLjUsMCwxLDAsMCwzaDMuMDU0YTEuNSwxLjUsMCwwLDAsMC0zWiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIzOS4zMjggMzkuNCAzNi44OCAzNi42MTQgMzUuMTkxIDM4LjMwMyAzOS4zMjggNDIuODYxIDQ3LjE3OCAzMy43NDQgNDUuNDkgMzIuMDU2IDM5LjMyOCAzOS40Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDEuNTExLDI2LjVBMTAuNDg5LDEwLjQ4OSwwLDEsMCw1MiwzNi45OSwxMC40ODgsMTAuNDg4LDAsMCwwLDQxLjUxMSwyNi41Wm0wLDE4LjcyOWE4LjI0MSw4LjI0MSwwLDEsMSw4LjI0MS04LjI0MUE4LjI1LDguMjUsMCwwLDEsNDEuNTExLDQ1LjIzMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik00OS4wMDgsOC41MjFIMjIuMDI4YTIuOTkzLDIuOTkzLDAsMCwwLTIuOTkyLDIuOTkyVjI5LjUwNkEyLjk5MywyLjk5MywwLDAsMCwyMi4wMjgsMzIuNWg2Ljg3OUExMy40NjEsMTMuNDYxLDAsMCwxLDMwLjM1OSwyOS41aC02LjNsNS42NS0zLjc2N2ExLjEyMywxLjEyMywwLDEsMC0xLjI0Ny0xLjg2N2wtNi40Myw0LjI4NywwLTE0LjgzOCwxMS4zMzgsNy41NTdhMy44NjksMy44NjksMCwwLDAsNC4zLDBMNDksMTMuMzE5bDAsMTIuNDVBMTMuNDkxLDEzLjQ5MSwwLDAsMSw1MiwyOC41NTlWMTEuNTEzQTIuOTkzLDIuOTkzLDAsMCwwLDQ5LjAwOCw4LjUyMVptLTEzLDkuODYzYS44NzYuODc2LDAsMCwxLS45NzgsMGwtMTAuMy02Ljg2Nkg0Ni4zWiIvPjwvc3ZnPg==" alt="Icon for service-ticket-intelligence" width="80px" />
+# Service Ticket Intelligence
 
-Service Ticket Intelligence
+Technical name: **service-ticket-intelligence**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
@@ -10,7 +13,7 @@ Service Ticket Intelligence
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  blocks_of_100  |  blocks_of_100  | eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> us10 - US East (VA)<br> us30 - US Central (IA)  |
 |  free  |  Free  | eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> us10 - US East (VA)<br> us30 - US Central (IA)  |

@@ -1,13 +1,16 @@
-# mobile-network-trace (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-network-trace" width="80px" />
+# Mobile Network Trace
 
-Mobile Network Trace
+Technical name: **mobile-network-trace**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Network Trace collects network trace information from mobile applications for debugging  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

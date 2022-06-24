@@ -1,13 +1,16 @@
-# mobile-discovery (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-discovery" width="80px" />
+# Mobile Discovery
 
-Mobile Discovery
+Technical name: **mobile-discovery**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Discovery service stores and facilitates retrieval of application configuration data  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

@@ -1,13 +1,16 @@
-# mobile-sample-odata-v2-espm (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-sample-odata-v2-espm" width="80px" />
+# Mobile Sample OData
 
-Mobile Sample OData
+Technical name: **mobile-sample-odata-v2-espm**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Sample OData v2 ESPM Service is a sample OData service used for development and testing  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

@@ -1,13 +1,16 @@
-# hana-tenant-db (SERVICE)
+<img src="data:;base64, None" alt="Icon for hana-tenant-db" width="80px" />
+# SAP HANA Tenant Database
 
-SAP HANA Tenant Database
+Technical name: **hana-tenant-db**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  SAP HANA Tenant Database  | ap21 - Singapore<br> eu20 - Europe (Netherlands)<br> jp20 - Japan (Tokyo)<br> us20 - US West (WA)<br> us21 - US East (VA)  |
 

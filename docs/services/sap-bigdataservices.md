@@ -1,13 +1,16 @@
-# sap-bigdataservices (SERVICE)
+<img src="data:;base64, None" alt="Icon for sap-bigdataservices" width="80px" />
+# Big Data Services
 
-Big Data Services
+Technical name: **sap-bigdataservices**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Big Data Services  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

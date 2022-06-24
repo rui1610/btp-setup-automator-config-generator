@@ -1,13 +1,16 @@
-# MDMBusinessPartnerApplication (APPLICATION)
+<img src="data:;base64, None" alt="Icon for MDMBusinessPartnerApplication" width="80px" />
+# SAP Business Partner Application
 
-SAP Business Partner Application
+Technical name: **MDMBusinessPartnerApplication**
+
+Technical service category: **APPLICATION**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  saas-application  |  SAP Cloud Platform Master Data Management for business partners  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

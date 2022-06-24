@@ -1,13 +1,16 @@
-# mobile-c2g (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-c2g" width="80px" />
+# Mobile Content
 
-Mobile Content
+Technical name: **mobile-c2g**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Content to Go Service, the back-end for the corresponding iPhone application  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

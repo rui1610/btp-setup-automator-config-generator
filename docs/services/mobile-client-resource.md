@@ -1,13 +1,16 @@
-# mobile-client-resource (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-client-resource" width="80px" />
+# Mobile Client Resource Service
 
-Mobile Client Resource Service
+Technical name: **mobile-client-resource**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Client Resource Service allows to manage resources that can be accessed from mobile applications  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

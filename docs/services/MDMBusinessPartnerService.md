@@ -1,13 +1,16 @@
-# MDMBusinessPartnerService (SERVICE)
+<img src="data:;base64, None" alt="Icon for MDMBusinessPartnerService" width="80px" />
+# SAP Business Partner Service
 
-SAP Business Partner Service
+Technical name: **MDMBusinessPartnerService**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  default  |  SAP Cloud Platform Master Data Management for business partners  | eu10 - Europe (Frankfurt)<br> us10 - US East (VA)  |
 

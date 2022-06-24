@@ -1,13 +1,16 @@
-# mobile-client-usage (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-client-usage" width="80px" />
+# Mobile Client Usage Service
 
-Mobile Client Usage Service
+Technical name: **mobile-client-usage**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Client Usage Service allows mobile application to upload client usage information and to analyze them on the server  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

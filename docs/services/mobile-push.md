@@ -1,13 +1,16 @@
-# mobile-push (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-push" width="80px" />
+# Mobile Push Notification
 
-Mobile Push Notification
+Technical name: **mobile-push**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Push Notification Service is used to send out push messages to mobile devices  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

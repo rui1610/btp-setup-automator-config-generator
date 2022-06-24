@@ -1,13 +1,16 @@
-# mobile-settings-exchange (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-settings-exchange" width="80px" />
+# Mobile Settings Exchange Service
 
-Mobile Settings Exchange Service
+Technical name: **mobile-settings-exchange**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Settings Exchange Service is used for device registrations and general access to JSON data  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 |  b2c  |  Mobile Settings Exchange Service is used for device registrations and general access to JSON data  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |

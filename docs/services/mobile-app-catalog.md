@@ -1,13 +1,16 @@
-# mobile-app-catalog (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-app-catalog" width="80px" />
+# Mobile App Catalog
 
-Mobile App Catalog
+Technical name: **mobile-app-catalog**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile App Lab Service provides access to mobile applications uploaded from Mobile Services cockpit  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

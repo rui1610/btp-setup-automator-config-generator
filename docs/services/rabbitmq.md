@@ -1,6 +1,9 @@
-# rabbitmq (SERVICE)
+<img src="data:image/svg+xml;base64, PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNlYjYwMjI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5yYWJiaXRtcTwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDYuMDgsMTkuMkgzMC43MjNBMS45MTMsMS45MTMsMCwwLDEsMjguOCwxNy4yNzdWMS45MTNBMS45MSwxLjkxLDAsMCwwLDI2Ljg3NywwSDIxLjEyM0ExLjkwOSwxLjkwOSwwLDAsMCwxOS4yLDEuOTEzVjE3LjI3N0ExLjkxNCwxLjkxNCwwLDAsMSwxNy4yNzksMTkuMkgxMS41MjJBMS45MTQsMS45MTQsMCwwLDEsOS42LDE3LjI3N1YxLjkxM0ExLjkwNywxLjkwNywwLDAsMCw3LjY4MSwwSDEuOTIyQTEuOTA4LDEuOTA4LDAsMCwwLDAsMS45MTNWNDYuMDczQTEuOTE1LDEuOTE1LDAsMCwwLDEuOTIyLDQ4SDQ2LjA4QTEuOTE1LDEuOTE1LDAsMCwwLDQ4LDQ2LjA3M1YyMS4xMThhMS45MSwxLjkxLDAsMCwwLTEuOTItMS45Mk0zOC40LDM1LjUwOWEyLjg3NywyLjg3NywwLDAsMS0yLjg4MSwyLjg4M0gzMS42NzdBMi44NzQsMi44NzQsMCwwLDEsMjguOCwzNS41MDlWMzEuNjczYTIuODc0LDIuODc0LDAsMCwxLDIuODc2LTIuODg4aDMuODQ0QTIuODc3LDIuODc3LDAsMCwxLDM4LjQsMzEuNjczWiIvPjwvc3ZnPg==" alt="Icon for rabbitmq" width="80px" />
+# RabbitMQ
 
-RabbitMQ
+Technical name: **rabbitmq**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
@@ -10,7 +13,7 @@ RabbitMQ
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  virtualhost  |  virtualhost  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> eu10 - Europe (Frankfurt)<br> eu20 - Europe (Netherlands)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us30 - US Central (IA)  |
 |  large  |  large  | ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> ch20 - cf-ch20<br> eu20 - Europe (Netherlands)<br> jp20 - Japan (Tokyo)<br> us20 - US West (WA)<br> us21 - US East (VA)  |

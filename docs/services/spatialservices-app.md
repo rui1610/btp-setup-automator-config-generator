@@ -1,13 +1,16 @@
-# spatialservices-app (APPLICATION)
+<img src="data:;base64, None" alt="Icon for spatialservices-app" width="80px" />
+# HANA Spatial Services
 
-HANA Spatial Services
+Technical name: **spatialservices-app**
+
+Technical service category: **APPLICATION**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  professional  |  HANA Spatial Services  | eu10 - Europe (Frankfurt)  |
 |  starter  |  HANA Spatial Services  | eu10 - Europe (Frankfurt)  |

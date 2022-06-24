@@ -1,6 +1,9 @@
-# {{ service.name }} ({{ category.name }})
+<img src="data:{{ service.iconFormat }};base64, {{ service.icon }}" alt="Icon for {{ service.name }}" width="80px" />
+# {{ service.displayName }}
 
-{{ service.displayName }}
+Technical name: **{{ service.name }}**
+
+Technical service category: **{{ category.name }}**
 
 ## Additional details
 {% for link in service.links %}
@@ -9,7 +12,7 @@
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 {%- for plan in service.servicePlans %}
 |  {{ plan.name }}  |  {{ plan.displayName }}  |  {%- for datacenter in plan.dataCenters %} {{ datacenter.region }} - {{ datacenter.displayName }}{% if not loop.last %}<br>{% endif %} {%- endfor %}  |

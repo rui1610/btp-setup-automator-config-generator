@@ -1,6 +1,9 @@
-# feature-flags (SERVICE)
+<img src="data:image/svg+xml;base64, PHN2ZyBpZD0iZmVhdHVyZWZsYWdzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NiA1NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwYTZlY2Y7fS5jbHMtMntmaWxsOiMwNjNiNzA7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5mZWF0dXJlZmxhZ3M8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM3LDI5LjVIMTlhOSw5LDAsMCwwLDAsMThIMzdhOSw5LDAsMCwwLDAtMThabTAsMTUuNzVIMTlhNi43NSw2Ljc1LDAsMCwxLDAtMTMuNUgzN2E2Ljc1LDYuNzUsMCwwLDEsMCwxMy41WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE5LDI2LjVIMzdhOSw5LDAsMCwwLDAtMThIMTlhOSw5LDAsMCwwLDAsMThabTE4LTE1YTYsNiwwLDEsMS02LDZBNiw2LDAsMCwxLDM3LDExLjVaIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSIzNyIgY3k9IjE3LjUiIHI9IjQuMTI1Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTksMzMuNjI1QTQuODc1LDQuODc1LDAsMSwwLDIzLjg3NSwzOC41LDQuODc1LDQuODc1LDAsMCwwLDE5LDMzLjYyNVptMCw3LjVBMi42MjUsMi42MjUsMCwxLDEsMjEuNjI1LDM4LjUsMi42MjksMi42MjksMCwwLDEsMTksNDEuMTI1WiIvPjwvc3ZnPg==" alt="Icon for feature-flags" width="80px" />
+# Feature Flags
 
-Feature Flags
+Technical name: **feature-flags**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
@@ -10,7 +13,7 @@ Feature Flags
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  standard  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap12 - South Korea (Seoul)<br> ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> ch20 - cf-ch20<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> eu30 - Europe (Frankfurt)<br> in30 - cf-in30<br> jp10 - Japan (Tokyo)<br> jp20 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)<br> us30 - US Central (IA)  |
 |  lite  |  lite  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> ap12 - South Korea (Seoul)<br> ap20 - Australia (Sydney) Azure<br> ap21 - Singapore<br> br10 - Brazil (Sao Paulo)<br> ca10 - Canada (Montreal)<br> ch20 - cf-ch20<br> eu10 - Europe (Frankfurt)<br> eu11 - Europe (Frankfurt) EU Access - AWS<br> eu20 - Europe (Netherlands)<br> eu30 - Europe (Frankfurt)<br> in30 - cf-in30<br> jp10 - Japan (Tokyo)<br> jp20 - Japan (Tokyo)<br> us10 - US East (VA)<br> us20 - US West (WA)<br> us21 - US East (VA)<br> us30 - US Central (IA)  |

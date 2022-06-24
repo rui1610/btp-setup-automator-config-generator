@@ -1,13 +1,16 @@
-# mobile-offline (SERVICE)
+<img src="data:;base64, None" alt="Icon for mobile-offline" width="80px" />
+# Mobile Offline
 
-Mobile Offline
+Technical name: **mobile-offline**
+
+Technical service category: **SERVICE**
 
 ## Additional details
 
 
 ## Service availability
 
-| Plan Name | Display name | Data center availability  |
+| Plan name | Display name | Data center availability  |
 |------|----------------|---------------------------|
 |  standard  |  Mobile Offline Service enables secure offline access to data on the mobile device  | ap10 - Australia (Sydney)<br> ap11 - Singapore<br> br10 - Brazil (Sao Paulo)<br> eu10 - Europe (Frankfurt)<br> jp10 - Japan (Tokyo)<br> us10 - US East (VA)  |
 

@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for feature-flags-dashboard" width="80px" />
-# Feature Flags (technical name: **feature-flags-dashboard**
+# **feature-flags-dashboard** (Feature Flags)
 
 Service category: **APPLICATION**
 

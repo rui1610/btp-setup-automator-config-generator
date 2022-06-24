@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-discovery" width="80px" />
-# Mobile Discovery (technical name: **mobile-discovery**
+# **mobile-discovery** (Mobile Discovery)
 
 Service category: **SERVICE**
 

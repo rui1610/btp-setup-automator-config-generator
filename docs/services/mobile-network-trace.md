@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-network-trace" width="80px" />
-# Mobile Network Trace (technical name: **mobile-network-trace**
+# **mobile-network-trace** (Mobile Network Trace)
 
 Service category: **SERVICE**
 

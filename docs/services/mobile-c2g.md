@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-c2g" width="80px" />
-# Mobile Content (technical name: **mobile-c2g**
+# **mobile-c2g** (Mobile Content)
 
 Service category: **SERVICE**
 

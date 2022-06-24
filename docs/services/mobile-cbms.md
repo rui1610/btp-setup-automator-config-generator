@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-cbms" width="80px" />
-# Mobile Cloud Build (technical name: **mobile-cbms**
+# **mobile-cbms** (Mobile Cloud Build)
 
 Service category: **SERVICE**
 

@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-app-catalog" width="80px" />
-# Mobile App Catalog (technical name: **mobile-app-catalog**
+# **mobile-app-catalog** (Mobile App Catalog)
 
 Service category: **SERVICE**
 

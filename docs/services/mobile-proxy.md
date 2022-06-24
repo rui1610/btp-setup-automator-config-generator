@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-proxy" width="80px" />
-# Mobile Connectivity Service (technical name: **mobile-proxy**
+# **mobile-proxy** (Mobile Connectivity Service)
 
 Service category: **SERVICE**
 

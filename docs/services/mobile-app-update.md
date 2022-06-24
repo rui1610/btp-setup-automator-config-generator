@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-app-update" width="80px" />
-# Mobile App Update (technical name: **mobile-app-update**
+# **mobile-app-update** (Mobile App Update)
 
 Service category: **SERVICE**
 

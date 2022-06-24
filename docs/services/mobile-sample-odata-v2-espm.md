@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-sample-odata-v2-espm" width="80px" />
-# Mobile Sample OData (technical name: **mobile-sample-odata-v2-espm**
+# **mobile-sample-odata-v2-espm** (Mobile Sample OData)
 
 Service category: **SERVICE**
 

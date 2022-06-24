@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for spatialservices-app" width="80px" />
-# HANA Spatial Services (technical name: **spatialservices-app**
+# **spatialservices-app** (HANA Spatial Services)
 
 Service category: **APPLICATION**
 

@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-offline" width="80px" />
-# Mobile Offline (technical name: **mobile-offline**
+# **mobile-offline** (Mobile Offline)
 
 Service category: **SERVICE**
 

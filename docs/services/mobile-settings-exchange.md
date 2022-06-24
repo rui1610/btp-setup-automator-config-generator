@@ -1,5 +1,5 @@
 <img src="data:;base64, None" alt="Icon for mobile-settings-exchange" width="80px" />
-# Mobile Settings Exchange Service (technical name: **mobile-settings-exchange**
+# **mobile-settings-exchange** (Mobile Settings Exchange Service)
 
 Service category: **SERVICE**
 

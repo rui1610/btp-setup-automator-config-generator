@@ -2,42 +2,42 @@
 
 This lists shows all SAP BTP services with a free service plan:
 
-# SERVICE
+## Technical service category **SERVICE**
 
-- [abap](services/abap.md) (plan **free)**
-- [alert-notification](services/alert-notification.md) (plan **free)**
-- [business-entity-recognition](services/business-entity-recognition.md) (plan **free)**
-- [credstore](services/credstore.md) (plan **free)**
-- [data-attribute-recommendation](services/data-attribute-recommendation.md) (plan **free)**
-- [data-privacy-integration-service](services/data-privacy-integration-service.md) (plan **free)**
-- [document-translation](services/document-translation.md) (plan **free)**
-- [dq-services](services/dq-services.md) (plan **free)**
-- [hana-cloud](services/hana-cloud.md) (plan **relational-data-lake-free)**
-- [hana-cloud](services/hana-cloud.md) (plan **hana-cloud-connection-free)**
-- [hana-cloud](services/hana-cloud.md) (plan **hana-free)**
-- [market-rates-byor](services/market-rates-byor.md) (plan **free)**
-- [mobile-services](services/mobile-services.md) (plan **free)**
-- [personal-data-manager-service](services/personal-data-manager-service.md) (plan **free)**
-- [postgresql-db](services/postgresql-db.md) (plan **free)**
-- [recommendation-systems-production](services/recommendation-systems-production.md) (plan **free)**
-- [redis-cache](services/redis-cache.md) (plan **free)**
-- [retention-manager](services/retention-manager.md) (plan **free)**
-- [sap-graph](services/sap-graph.md) (plan **free)**
-- [sdm](services/sdm.md) (plan **free)**
-- [sdm-repository](services/sdm-repository.md) (plan **free)**
-- [service-ticket-intelligence](services/service-ticket-intelligence.md) (plan **free)**
-- [ui5-flexibility-keyuser](services/ui5-flexibility-keyuser.md) (plan **free)**
+- [abap](services/abap.md) (ABAP environment)
+- [alert-notification](services/alert-notification.md) (Alert Notification)
+- [business-entity-recognition](services/business-entity-recognition.md) (Business Entity Recognition)
+- [credstore](services/credstore.md) (Credential Store)
+- [data-attribute-recommendation](services/data-attribute-recommendation.md) (Data Attribute Recommendation)
+- [data-privacy-integration-service](services/data-privacy-integration-service.md) (Data Privacy Integration)
+- [document-translation](services/document-translation.md) (Document Translation)
+- [dq-services](services/dq-services.md) (Data Quality Services)
+- [hana-cloud](services/hana-cloud.md) (SAP HANA Cloud)
+- [hana-cloud](services/hana-cloud.md) (SAP HANA Cloud)
+- [hana-cloud](services/hana-cloud.md) (SAP HANA Cloud)
+- [market-rates-byor](services/market-rates-byor.md) (Market Rates, Bring Your Own Rates)
+- [mobile-services](services/mobile-services.md) (Mobile Services)
+- [personal-data-manager-service](services/personal-data-manager-service.md) (Personal Data Manager)
+- [postgresql-db](services/postgresql-db.md) (PostgreSQL, hyperscaler option)
+- [recommendation-systems-production](services/recommendation-systems-production.md) (Personalized Recommendation)
+- [redis-cache](services/redis-cache.md) (Redis, hyperscaler option)
+- [retention-manager](services/retention-manager.md) (Data Retention Manager)
+- [sap-graph](services/sap-graph.md) (SAP Graph)
+- [sdm](services/sdm.md) (Document Management Service, Integration Option)
+- [sdm-repository](services/sdm-repository.md) (Document Management Service, Repository Option)
+- [service-ticket-intelligence](services/service-ticket-intelligence.md) (Service Ticket Intelligence)
+- [ui5-flexibility-keyuser](services/ui5-flexibility-keyuser.md) (UI5 flexibility for key users)
 
-# APPLICATION
+## Technical service category **APPLICATION**
 
-- [alm-ts](services/alm-ts.md) (plan **free)**
-- [auditlog-viewer](services/auditlog-viewer.md) (plan **free)**
-- [automationpilot](services/automationpilot.md) (plan **free)**
-- [IRPA](services/IRPA.md) (plan **free)**
-- [process-automation](services/process-automation.md) (plan **free)**
-- [SAPLaunchpad](services/SAPLaunchpad.md) (plan **free)**
+- [alm-ts](services/alm-ts.md) (Cloud Transport Management)
+- [auditlog-viewer](services/auditlog-viewer.md) (Audit Log Viewer Service)
+- [automationpilot](services/automationpilot.md) (Automation Pilot)
+- [IRPA](services/IRPA.md) (SAP Intelligent Robotic Process Automation)
+- [process-automation](services/process-automation.md) (SAP Process Automation)
+- [SAPLaunchpad](services/SAPLaunchpad.md) (Launchpad Service)
 
-# ENVIRONMENT
+## Technical service category **ENVIRONMENT**
 
-- [cloudfoundry](services/cloudfoundry.md) (plan **free)**
-- [kymaruntime](services/kymaruntime.md) (plan **free)**
+- [cloudfoundry](services/cloudfoundry.md) (Cloud Foundry Runtime)
+- [kymaruntime](services/kymaruntime.md) (Kyma runtime)

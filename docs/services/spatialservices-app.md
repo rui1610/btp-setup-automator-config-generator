@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for spatialservices-app" width="80px" />
+<img src="data:;base64, None" alt="Icon for spatialservices-app" width="80px"/>
 # **spatialservices-app** (HANA Spatial Services)
 
 Service category: **APPLICATION**

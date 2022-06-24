@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-client-log-upload" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-client-log-upload" width="80px"/>
 # **mobile-client-log-upload** (Mobile Client Log Upload Service)
 
 Service category: **SERVICE**

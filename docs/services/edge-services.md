@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for edge-services" width="80px" />
+<img src="data:;base64, None" alt="Icon for edge-services" width="80px"/>
 # **edge-services** (SAP Edge Services)
 
 Service category: **APPLICATION**

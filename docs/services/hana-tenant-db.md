@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for hana-tenant-db" width="80px" />
+<img src="data:;base64, None" alt="Icon for hana-tenant-db" width="80px"/>
 # **hana-tenant-db** (SAP HANA Tenant Database)
 
 Service category: **SERVICE**

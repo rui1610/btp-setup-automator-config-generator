@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-network-trace" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-network-trace" width="80px"/>
 # **mobile-network-trace** (Mobile Network Trace)
 
 Service category: **SERVICE**

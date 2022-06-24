@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for sap-bigdataservices" width="80px" />
+<img src="data:;base64, None" alt="Icon for sap-bigdataservices" width="80px"/>
 # **sap-bigdataservices** (Big Data Services)
 
 Service category: **SERVICE**

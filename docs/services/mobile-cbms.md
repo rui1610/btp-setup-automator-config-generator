@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-cbms" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-cbms" width="80px"/>
 # **mobile-cbms** (Mobile Cloud Build)
 
 Service category: **SERVICE**

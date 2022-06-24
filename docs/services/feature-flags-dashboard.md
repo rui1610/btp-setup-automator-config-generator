@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for feature-flags-dashboard" width="80px" />
+<img src="data:;base64, None" alt="Icon for feature-flags-dashboard" width="80px"/>
 # **feature-flags-dashboard** (Feature Flags)
 
 Service category: **APPLICATION**

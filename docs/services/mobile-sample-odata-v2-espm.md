@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-sample-odata-v2-espm" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-sample-odata-v2-espm" width="80px"/>
 # **mobile-sample-odata-v2-espm** (Mobile Sample OData)
 
 Service category: **SERVICE**

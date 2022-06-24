@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-app-catalog" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-app-catalog" width="80px"/>
 # **mobile-app-catalog** (Mobile App Catalog)
 
 Service category: **SERVICE**

@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-c2g" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-c2g" width="80px"/>
 # **mobile-c2g** (Mobile Content)
 
 Service category: **SERVICE**

@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-settings-exchange" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-settings-exchange" width="80px"/>
 # **mobile-settings-exchange** (Mobile Settings Exchange Service)
 
 Service category: **SERVICE**

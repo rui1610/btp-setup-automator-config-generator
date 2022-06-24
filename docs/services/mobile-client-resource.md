@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-client-resource" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-client-resource" width="80px"/>
 # **mobile-client-resource** (Mobile Client Resource Service)
 
 Service category: **SERVICE**

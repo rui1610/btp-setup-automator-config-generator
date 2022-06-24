@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for mobile-app-update" width="80px" />
+<img src="data:;base64, None" alt="Icon for mobile-app-update" width="80px"/>
 # **mobile-app-update** (Mobile App Update)
 
 Service category: **SERVICE**

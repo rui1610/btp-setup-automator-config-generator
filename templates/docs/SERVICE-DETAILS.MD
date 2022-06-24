@@ -1,4 +1,4 @@
-<img src="data:{{ service.iconFormat }};base64, {{ service.icon }}" alt="Icon for {{ service.name }}" width="80px" />
+<img src="data:{{ service.iconFormat }};base64, {{ service.icon }}" alt="Icon for {{ service.name }}" width="80px"/>
 # **{{ service.name }}** ({{ service.displayName }})
 
 Service category: **{{ category.name }}**

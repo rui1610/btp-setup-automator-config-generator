@@ -1,4 +1,4 @@
-<img src="data:;base64, None" alt="Icon for MDMBusinessPartnerService" width="80px" />
+<img src="data:;base64, None" alt="Icon for MDMBusinessPartnerService" width="80px"/>
 # **MDMBusinessPartnerService** (SAP Business Partner Service)
 
 Service category: **SERVICE**

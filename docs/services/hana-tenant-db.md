@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for hana-tenant-db" width="80px" />
-# SAP HANA Tenant Database
+# SAP HANA Tenant Database (technical name: **hana-tenant-db**
 
-Technical name: **hana-tenant-db**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

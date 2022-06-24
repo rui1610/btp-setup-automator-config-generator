@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for mobile-client-resource" width="80px" />
-# Mobile Client Resource Service
+# Mobile Client Resource Service (technical name: **mobile-client-resource**
 
-Technical name: **mobile-client-resource**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

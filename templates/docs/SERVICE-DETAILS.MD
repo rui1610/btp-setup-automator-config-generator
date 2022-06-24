@@ -1,9 +1,7 @@
 <img src="data:{{ service.iconFormat }};base64, {{ service.icon }}" alt="Icon for {{ service.name }}" width="80px" />
-# {{ service.displayName }}
+# {{ service.displayName }} (technical name: **{{ service.name }}**
 
-Technical name: **{{ service.name }}**
-
-Technical service category: **{{ category.name }}**
+Service category: **{{ category.name }}**
 
 ## Additional details
 {% for link in service.links %}

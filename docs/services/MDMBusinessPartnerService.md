@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for MDMBusinessPartnerService" width="80px" />
-# SAP Business Partner Service
+# SAP Business Partner Service (technical name: **MDMBusinessPartnerService**
 
-Technical name: **MDMBusinessPartnerService**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

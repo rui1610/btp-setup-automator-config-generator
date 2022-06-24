@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for mobile-app-catalog" width="80px" />
-# Mobile App Catalog
+# Mobile App Catalog (technical name: **mobile-app-catalog**
 
-Technical name: **mobile-app-catalog**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

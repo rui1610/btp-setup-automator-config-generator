@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for edge-services" width="80px" />
-# SAP Edge Services
+# SAP Edge Services (technical name: **edge-services**
 
-Technical name: **edge-services**
-
-Technical service category: **APPLICATION**
+Service category: **APPLICATION**
 
 ## Additional details
 

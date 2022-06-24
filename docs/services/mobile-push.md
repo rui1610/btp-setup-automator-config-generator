@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for mobile-push" width="80px" />
-# Mobile Push Notification
+# Mobile Push Notification (technical name: **mobile-push**
 
-Technical name: **mobile-push**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

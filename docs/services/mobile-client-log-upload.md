@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for mobile-client-log-upload" width="80px" />
-# Mobile Client Log Upload Service
+# Mobile Client Log Upload Service (technical name: **mobile-client-log-upload**
 
-Technical name: **mobile-client-log-upload**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

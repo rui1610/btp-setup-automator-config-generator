@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for sap-bigdataservices" width="80px" />
-# Big Data Services
+# Big Data Services (technical name: **sap-bigdataservices**
 
-Technical name: **sap-bigdataservices**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

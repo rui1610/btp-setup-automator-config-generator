@@ -1,9 +1,7 @@
 <img src="data:;base64, None" alt="Icon for mobile-client-usage" width="80px" />
-# Mobile Client Usage Service
+# Mobile Client Usage Service (technical name: **mobile-client-usage**
 
-Technical name: **mobile-client-usage**
-
-Technical service category: **SERVICE**
+Service category: **SERVICE**
 
 ## Additional details
 

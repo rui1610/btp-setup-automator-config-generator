@@ -7,5 +7,3 @@ results = getTestInputs()
 targetFilename = "./test/output/testResults.csv"
 templateFilename = "./templates/docs/TESTRESULTS.CSV"
 renderTemplateWithJson(templateFilename, targetFilename, {"results": results})
-
-

@@ -16,7 +16,7 @@ class BTPUSECASE_TESTRESULT:
         self.servicePlan = None
         self.parameterFile = None
         self.usecaseFile = None
-        self.errorMessages = None
+        self.errorMessages = []
 
         if "[error]" in content:
             message = content.split("[error]")
@@ -30,11 +30,8 @@ class BTPUSECASE_TESTRESULT:
             if searchString in line:
                 message = line.split(searchString)
                 if len(message) > 0:
-                    errorMessageRaw = message[1]
-                    if self.errorMessages is None:
-                        self.errorMessages = errorMessageRaw.strip()
-                    else:
-                        self.errorMessages = self.errorMessages + "\n" + errorMessageRaw.strip()
+                    errorMessageRaw = escape_ansi(message[1])
+                    self.errorMessages.append(errorMessageRaw.strip())
 
             searchString = "INFO "
             if searchString in line:
@@ -46,7 +43,7 @@ class BTPUSECASE_TESTRESULT:
                         self.usecaseFile = thisString
                     if len(thisMessage) > 0 and "parameterfile" in thisMessage[1]:
                         thisString = escape_ansi(thisMessage[2])
-                        self.usecaseFile = thisString
+                        self.parameterFile = thisString
 
             searchString = "Assign entitlement for"
             if searchString in line:
@@ -59,6 +56,7 @@ class BTPUSECASE_TESTRESULT:
                     matches = re.search('>(.*?)<', serviceSplitter[1])
                     if self.servicePlan is None:
                         self.servicePlan = matches.group(1)
+        message = None
 
     def __iter__(self):
         pass

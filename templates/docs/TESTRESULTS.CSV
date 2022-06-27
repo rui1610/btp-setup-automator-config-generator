@@ -1,4 +1,4 @@
-Service ; Plan ; Test
+Service ; Plan ; Test ; Parameters file ; Use case file ; Errors
 {%- for result in results %}
-{{ result.serviceName }} ; {{ result.servicePlan }}  ;  {{ result.testResult }}
+{{ result.serviceName }} ; {{ result.servicePlan }}  ;  {{ result.testResult }} ;  {{ result.parameterFile }} ; {{ result.usecaseFile }} ;  {%- for thisMessage in result.errorMessages %}{{ thisMessage }} , {%- endfor %}
 {%- endfor %}

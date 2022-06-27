@@ -1,0 +1,11 @@
+#! /usr/bin/env python3
+from libs.python.helperTestParser import getTestInputs
+from libs.python.helperJinja2 import renderTemplateWithJson
+
+results = getTestInputs()
+
+targetFilename = "./test/output/testResults.csv"
+templateFilename = "./templates/docs/TESTRESULTS.CSV"
+renderTemplateWithJson(templateFilename, targetFilename, {"results": results})
+
+

@@ -1,0 +1,4 @@
+Service ; Plan ; Test
+{%- for result in results %}
+{{ result.serviceName }} ; {{ result.servicePlan }}  ;  {{ result.testResult }}
+{%- endfor %}

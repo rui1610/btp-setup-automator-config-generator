@@ -4,6 +4,21 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "name": "Service Manager",
+            "type": "python",
+            "request": "launch",
+            "program": "getdata",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "BTPSA_SM_BINDING_URL": "foo",
+                "BTPSA_SM_CLIENT_ID": "foo",
+                "BTPSA_SM_CLIENT_SECRET": "***",
+                "BTPSA_SM_SM_URL": "***"
+            }            
+        }   ,
         {
             "name": "Generator",
             "type": "python",

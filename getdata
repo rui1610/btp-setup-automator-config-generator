@@ -1,0 +1,4 @@
+#! /usr/bin/env python3
+from libs.python.helperServiceManager import getToken
+
+test = getToken()

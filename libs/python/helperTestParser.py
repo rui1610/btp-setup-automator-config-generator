@@ -4,8 +4,8 @@ import re
 
 log = logging.getLogger(__name__)
 
-TEST_INPUTFOLDER = "./test/input"
-TEST_OUTPUTFOLDER = "./test/output"
+TEST_INPUTFOLDER = "./test/inputAll/"
+TEST_OUTPUTFOLDER = "./test/output/"
 
 
 class BTPUSECASE_TESTRESULT:

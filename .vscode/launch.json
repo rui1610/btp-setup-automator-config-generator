@@ -14,9 +14,9 @@
             "justMyCode": true,
             "env": {
                 "BTPSA_SM_BINDING_URL": "foo",
+                "BTPSA_SM_SM_URL": "***",
                 "BTPSA_SM_CLIENT_ID": "foo",
-                "BTPSA_SM_CLIENT_SECRET": "***",
-                "BTPSA_SM_SM_URL": "***"
+                "BTPSA_SM_CLIENT_SECRET": "***"
             }            
         }   ,
         {

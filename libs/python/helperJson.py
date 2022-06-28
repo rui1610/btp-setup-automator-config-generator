@@ -55,3 +55,9 @@ def getJsonFromFile(self, filename):
             print(message)
         sys.exit(os.EX_DATAERR)
     return data
+
+
+def saveJsonToFile(filename, jsonData):
+    with open(filename, 'w') as outfile:
+        json.dump(jsonData, outfile, indent=2)
+    return True

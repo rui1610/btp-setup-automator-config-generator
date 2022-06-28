@@ -1,4 +1,8 @@
 #! /usr/bin/env python3
-from libs.python.helperServiceManager import getToken
+from libs.python.helperServiceManager import getServiceData
+from libs.python.helperJson import saveJsonToFile
 
-test = getToken()
+data = getServiceData()
+
+filename = "results.json"
+saveJsonToFile(filename, data)

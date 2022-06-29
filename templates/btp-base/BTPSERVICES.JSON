@@ -1,0 +1,8 @@
+{
+  "services": [
+    {% for service in services %}
+      {{ service | tojson }}
+      {% if not loop.last %},{% endif %}
+    {% endfor %} 
+  ] 
+}

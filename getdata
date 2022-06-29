@@ -1,8 +1,18 @@
 #! /usr/bin/env python3
+from libs.python.helperJinja2 import renderTemplateWithJson
 from libs.python.helperServiceManager import getServiceData
-from libs.python.helperJson import saveJsonToFile
+from libs.python.helperJson import getJsonFromFile, saveJsonToFile
 
-data = getServiceData()
+FETCH_LIVE_DATA = True
+services = None
 
-filename = "results.json"
-saveJsonToFile(filename, data)
+if FETCH_LIVE_DATA is True:
+    services = getServiceData()
+    filename = "results.json"
+    saveJsonToFile(filename, services)
+else:
+    services = getJsonFromFile(None, "results.json")
+
+targetFilename = "./output/btp-base/btpServices.json"
+templateFilename = "./templates/btp-base/BTPSERVICES.JSON"
+renderTemplateWithJson(templateFilename, targetFilename, {"services": services})

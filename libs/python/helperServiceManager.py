@@ -12,14 +12,14 @@ def getServiceData():
     servicePlans = None
     access_token = getToken()
 
-    url = SM_SERVICE_BINDING_SM_URL + "/v1/service_offerings"
+    url = SM_SERVICE_BINDING_SM_URL + "/v1/service_offerings?max_items=10000"
     try:
         p = requests.get(url, headers={"Authorization": "bearer " + access_token})
         services = p.json()["items"]
     except:
         services = None
 
-    url = SM_SERVICE_BINDING_SM_URL + "/v1/service_plans"
+    url = SM_SERVICE_BINDING_SM_URL + "/v1/service_plans?max_items=10000"
     try:
         p = requests.get(url, headers={"Authorization": "bearer " + access_token})
         servicePlans = p.json()["items"]

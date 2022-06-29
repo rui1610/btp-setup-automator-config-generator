@@ -16,8 +16,8 @@
                 "BTPSA_SM_SM_URL": "***",
                 "BTPSA_SM_CLIENT_ID": "***",
                 "BTPSA_SM_CLIENT_SECRET": "***"
-            }            
-        }   ,
+            }
+        },
         {
             "name": "Generator",
             "type": "python",
@@ -33,6 +33,6 @@
             "program": "testparser",
             "console": "integratedTerminal",
             "justMyCode": true
-        }        
+        }
     ]
 }
